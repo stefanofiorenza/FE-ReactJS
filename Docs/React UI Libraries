@@ -1,0 +1,66 @@
+UI Library tutorial
+
+1) Create Model Windows:
+	Create
+	Edit props
+	Close
+	Collect Data
+	Share Data
+
+2) Form Page
+	
+	- Text
+	- CheckBox
+	- Radio
+	- List
+	- Buttons
+	- Message Box
+
+
+3) Display Data
+
+	- Detail Page
+	- Lists
+	- Tables:
+		- Crud
+		- Sorting
+		- Pagination
+		- Searching Offline?
+		
+4) Menu
+	Left Menu
+	Top Menu
+	Nested Items 
+	Icons
+	
+5) Tabs and Panels:
+
+	- Tabs
+	- Accordions
+	- Cards and widgets
+	
+6) UI Components:
+	
+	- Sliders
+	- Spinner
+	- Toggle
+	- ProgressBar
+	
+	
+7) Special
+	- Graphics
+	- Maps
+	- Image Map
+
+8) Example Pages:
+	
+	
+	
+Tutorial Showcase:
+
+1) Start with N Paged served as html resources from node
+2) Use Router and move page to Page components
+3) Move data to initialState and Add Redux.
+
+
+Original Page

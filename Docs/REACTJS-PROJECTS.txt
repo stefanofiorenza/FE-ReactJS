@@ -1,0 +1,30 @@
+
+TODO APP:	
+video:		https://www.youtube.com/watch?v=8QBYrKhqgFI&list=PLnHJACx3NwAe5XQDk9xLgym7FF8Q4FYW7&index=4&t=0s
+Finished:	https://github.com/john-smilga/react-todo-list
+
+
+PERSON PROJECT
+video:		https://www.youtube.com/watch?v=xuSoqDEkH90&list=PLnHJACx3NwAe5XQDk9xLgym7FF8Q4FYW7&index=1
+Starter:	https://github.com/john-smilga/setup-files-react-person-list-project
+Finished: 	https://github.com/john-smilga/react-person-list-project
+
+CITY TOURS:
+video:		https://www.youtube.com/watch?v=HfJjzmSaLuQ&list=PLnHJACx3NwAe5XQDk9xLgym7FF8Q4FYW7&index=2
+Starter:	https://github.com/john-smilga/setup-files-react-city-tours-project
+Finished: 	https://github.com/john-smilga/react-city-tours-project
+
+
+SMART PHONE E COMMERCE:
+https://www.youtube.com/watch?v=-edmQKcOW8s&list=PLnHJACx3NwAe5XQDk9xLgym7FF8Q4FYW7&index=5
+Starter:	https://github.com/john-smilga/setup-filese-react-phone-e-commerce-project
+Finished: 	https://github.com/john-smilga/react-phone-e-commerce-project
+
+
+HOTEL RESERVATION:
+https://www.youtube.com/watch?time_continue=3159&v=LXJOvkVYQqA
+Starter:	https://github.com/john-smilga/setup-files-react-beach-resort
+Finished: 	https://github.com/john-smilga/react-beach-resort-project
+
+update video: 	https://www.youtube.com/watch?v=l0JbuMVXaTs&list=PLnHJACx3NwAe5XQDk9xLgym7FF8Q4FYW7&index=7
+
