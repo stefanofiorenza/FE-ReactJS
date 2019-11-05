@@ -1,5 +1,0 @@
-
-
-
-1) Create React (template)
-https://create-react-app.dev/

@@ -1,0 +1,33 @@
+
+
+1) Run React in browser:
+	1st Commit
+	
+	https://github.com/facebook/create-react-app
+	
+	
+	
+
+2) Run React in Visual Studio with create-react-app
+
+
+	https://reactjs.org/tutorial/tutorial.html
+
+	- npm create-react-app rj-100-tic-tac-toe
+	- test with yarn start and localhost:3000
+	- delete contents of ./src dir
+	- add contents downloaded from git .zip
+	
+
+
+3) Component
+
+
+4) define properties
+
+
+5) change state (events)
+
+6) Dev Tools
+
+7) Complete implementation

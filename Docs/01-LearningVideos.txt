@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+IMMUTABILITY AND PERFORMANCES:
+
+	https://www.youtube.com/watch?v=L_aKvdZd84o
+
+
+
+
+VIRTUAL DOM:
+
+	React Virtual DOM  (complete overview of the process)
+	https://www.youtube.com/watch?v=d7pyEDqBDeE
+
+	React Virtual DOM (more into internals with performance measures) 11 minutes
+	https://www.youtube.com/watch?v=mLMfx8BEt8g
+
+	How Browser is rendering DOM: (30 mins) (Very detailed on browser internals)
+	https://www.youtube.com/watch?v=SmE4OwHztCc
+
+	Mozilla rendering video: (mentioned in previous video)
+	https://www.youtube.com/watch?v=ZTnIxIA5KGw
+
+	Future of Virtual DOM with Imba Memoized? :
+	https://www.youtube.com/watch?v=m8T-I-zcT1A
