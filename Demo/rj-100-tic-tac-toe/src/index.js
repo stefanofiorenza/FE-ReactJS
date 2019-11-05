@@ -12,8 +12,7 @@ class Square extends React.Component {
   }
 
   render() {
-    return (
-        /* 4) connect event onClick to function received as property from parent Component */
+    return (       
       <button className="square" onClick={() => this.props.onClick()} >
         {this.props.value}
       </button>
@@ -25,26 +24,27 @@ class Board extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-       /* 1) Array storing state for all Square' */
+    this.state = {    
       squares: Array(9).fill(null),
+      xIsNext: true,
     };
   }
 
-  /**2) Replace previous array with a new one, copying all elements and overriding [i] position with 'X' */
   handleClick(i) {
     const squares = this.state.squares.slice();
-    squares[i] = 'X';
-    this.setState({squares: squares});
+    squares[i] = this.state.xIsNext ? 'X' : 'O';
+    this.setState({
+      squares: squares,
+      xIsNext: !this.state.xIsNext,
+    });
   }
 
-  renderSquare(i) {
-     /** 3) Parent function handleClick is passed as a property*/
+  renderSquare(i) {    
     return <Square value={this.state.squares[i]} onClick={() => this.handleClick(i)} />;
   }
 
   render() {
-    const status = 'Next player: X';
+    const status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
 
     return (
       <div>
