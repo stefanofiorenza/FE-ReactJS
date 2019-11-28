@@ -1,0 +1,118 @@
+
+Tutorial: Template into React (AdminPlus min)
+
+	1) create react app steps:
+	
+		1.1) create react app requires Node>8.1 and npm> 5.6
+			
+		1.2) install npx 
+			> sudo npm install -g npx
+			
+		1.3) npx create-react-app <my-app>   rj-110-admin-plus-ui
+			> npx create-react-app rj-110-admin-plus-ui
+			
+	2) Inspect Files:
+		
+		/public/index.html
+		/src/App.js
+		/src/index.js
+	 
+	3) (Step1): Small Changeset
+	
+		3.1) Change App.js to 
+			display a random message using style (.default-text)
+			add a button
+	
+	4) (Step2): Create buttons with different Component style (function, class, component(index.jsx and .css) 
+		
+		Create a new Component file "Button" and import in App.js
+			
+			different ways to create component
+			different ways to style a component
+			
+			import component and its style
+			dir/index files
+			
+	5) (Step3): Create Pages
+		
+		ButtonPage
+		MessagePage
+		
+		activate/deactivate in App.js with comments
+		
+		Container and Login	
+		
+	6) (Step4:) Reusable Components (Widget, Panel, Page)
+		
+		Starter html:
+		All in one page (LoginPage, RegistrationPage)			
+		Changes:
+			class -> className
+			in line style -> (see examples)
+			remove html comments -> Jsx comments
+			html -> xml (close tags)
+		
+		Containers (FormPanel)
+				
+		Usata in:
+		1) login
+		2) registration
+		(children props)
+	
+	
+Admin Plus Lab
+	
+	1)) Merge AdminPlus min template(.zip) in react app: (Starter)
+	
+		4.1) copy assets under /public
+		4.2) Create MasterPage with all layout code:
+			(class, in line style)			
+	
+		
+	
+	
+Labs: Html pages into React Components
+	Starter: AdminPlus demos in html (starter project)
+	
+	Pages:
+		1) MasterLayout
+		2) Menus
+			TopMenu(settings) , SideMenu, MenuItem, MenuGroup
+		
+		3) Login (no MasterLayout)
+		
+		4) Details
+			PanelHead PanelBody (WidgetPanel (head,body))
+			style for Panel (size)
+			
+		5) UI Components (
+	
+			Widgets: (style by props)
+			TextBox
+			MessageBox
+			Button
+			
+			Lists (only to sketch)
+			CheckBoxList
+			RadioList
+			List
+	
+	
+MENU:
+
+	TopMenu (props: {appName,username})
+	SideMenu (props: children)
+	MenuItemGroup
+	MenuItem
+
+TROUBLE SHOOTING:
+
+1) Check path between components
+2) Verify in browser for more detailed info
+
+
+RESOURCES:
+
+Create React App:
+	https://blog.logrocket.com/getting-started-with-create-react-app-d93147444a27/
+	https://github.com/kakaly/rate-restaurants

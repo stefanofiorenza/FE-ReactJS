@@ -1,0 +1,14 @@
+
+AFU:
+	1) React as Js lib in browser
+	2) React Core api
+	3) Jsx and Babel in browser
+
+Lab: render Login Form 
+	1) React Core Component api: (no JSX)
+	2) Jsx and Babel
+
+Questions:
+
+	1) Why it is not recommended to run React in Browser with Babel in production?
+	2) What is React Virtual Dom?

@@ -1,0 +1,41 @@
+
+
+UI library
+
+https://designrevision.com/react-component-libraries/
+https://hackernoon.com/23-best-react-ui-component-libraries-and-frameworks-250a81b2ac42
+
+https://material-ui.com/
+
+
+https://github.com/sheinsight/shineout
+
+https://github.com/DesignRevision/shards-react?ref=designrevision.com
+
+
+https://github.com/nestit/react-rainbow
+
+
+1) Create basic app scaffolding
+> sudo npm install -g create-react-app
+> create-react-app <app-name>
+
+
+
+2) Merge Dependencies
+
+2.1) Merge package.json files (manual)
+
+2.2) Install depencencies
+	> npm install 
+	
+2.3) Update depencencies (where deprecated)
+	> sudo npm install npm-check --global
+	> npm-check -u 
+
+3) copy Assets (static files (.css, fonts, images))
+
+
+
+
+src/assets

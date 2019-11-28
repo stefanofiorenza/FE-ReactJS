@@ -1,0 +1,1053 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://nickdrane.com/leveraging-immutability-in-react/
+Subject: Nick Drane
+Date: Thu, 21 Nov 2019 09:08:20 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--hbBK5Ztj0CtWTrEPJsvzdgrVyjU8QWBvFeIOeJRrTH----"
+
+
+------MultipartBoundary--hbBK5Ztj0CtWTrEPJsvzdgrVyjU8QWBvFeIOeJRrTH----
+Content-Type: text/html
+Content-ID: <frame-049A4AEE7F2D34360F2911A865B6335D@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://nickdrane.com/leveraging-immutability-in-react/
+
+<!DOCTYPE html><html lang=3D"en" data-react-helmet=3D"lang"><head><meta htt=
+p-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f7d9897e-a9ae-4349-ad8c-9=
+9853c1b8624@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-214cb868-a11f-4631-90f9-a95aafd25170@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2fbb20e8-0351-433b-9514-4=
+b0fe92b66d1@mhtml.blink" /><meta http-equiv=3D"x-ua-compatible" content=3D"=
+ie=3Dedge"><meta name=3D"viewport" content=3D"width=3Ddevice-width, initial=
+-scale=3D1, shrink-to-fit=3Dno"><meta name=3D"generator" content=3D"Gatsby =
+2.13.82"><title>Nick Drane</title><meta data-react-helmet=3D"true" name=3D"=
+description" content=3D"A blog about programming and modern web development=
+, particularly Node.js and React"><meta data-react-helmet=3D"true" name=3D"=
+keywords" content=3D"react, javascript, nodejs"><meta data-react-helmet=3D"=
+true" name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1,=
+ maximum-scale=3D1"><link rel=3D"canonical" href=3D"https://nickdrane.com/l=
+everaging-immutability-in-react/" data-baseprotocol=3D"https:" data-basehos=
+t=3D"nickdrane.com"><link rel=3D"shortcut icon" href=3D"https://nickdrane.c=
+om/icons/icon-48x48.png?v=3D008654519ce705ac7bc44303a9014606"><link rel=3D"=
+manifest" href=3D"https://nickdrane.com/manifest.webmanifest"><meta name=3D=
+"theme-color" content=3D"#663399"><link rel=3D"apple-touch-icon" sizes=3D"4=
+8x48" href=3D"https://nickdrane.com/icons/icon-48x48.png?v=3D008654519ce705=
+ac7bc44303a9014606"><link rel=3D"apple-touch-icon" sizes=3D"72x72" href=3D"=
+https://nickdrane.com/icons/icon-72x72.png?v=3D008654519ce705ac7bc44303a901=
+4606"><link rel=3D"apple-touch-icon" sizes=3D"96x96" href=3D"https://nickdr=
+ane.com/icons/icon-96x96.png?v=3D008654519ce705ac7bc44303a9014606"><link re=
+l=3D"apple-touch-icon" sizes=3D"144x144" href=3D"https://nickdrane.com/icon=
+s/icon-144x144.png?v=3D008654519ce705ac7bc44303a9014606"><link rel=3D"apple=
+-touch-icon" sizes=3D"192x192" href=3D"https://nickdrane.com/icons/icon-192=
+x192.png?v=3D008654519ce705ac7bc44303a9014606"><link rel=3D"apple-touch-ico=
+n" sizes=3D"256x256" href=3D"https://nickdrane.com/icons/icon-256x256.png?v=
+=3D008654519ce705ac7bc44303a9014606"><link rel=3D"apple-touch-icon" sizes=
+=3D"384x384" href=3D"https://nickdrane.com/icons/icon-384x384.png?v=3D00865=
+4519ce705ac7bc44303a9014606"><link rel=3D"apple-touch-icon" sizes=3D"512x51=
+2" href=3D"https://nickdrane.com/icons/icon-512x512.png?v=3D008654519ce705a=
+c7bc44303a9014606"><link rel=3D"preconnect dns-prefetch" href=3D"https://ww=
+w.google-analytics.com/"><link rel=3D"sitemap" type=3D"application/xml" hre=
+f=3D"https://nickdrane.com/sitemap.xml"><link as=3D"script" rel=3D"preload"=
+ href=3D"https://nickdrane.com/webpack-runtime-3310b1bc8d4b17eee7e4.js"><li=
+nk as=3D"script" rel=3D"preload" href=3D"https://nickdrane.com/app-d60063a2=
+e95edf8a1525.js"><link as=3D"script" rel=3D"preload" href=3D"https://nickdr=
+ane.com/styles-095bdfdc367a7a8aefab.js"><link as=3D"script" rel=3D"preload"=
+ href=3D"https://nickdrane.com/1-5cd4bced7d1a4315449b.js"><link as=3D"scrip=
+t" rel=3D"preload" href=3D"https://nickdrane.com/2-ee0ba89776f770af5f0b.js"=
+><link as=3D"script" rel=3D"preload" href=3D"https://nickdrane.com/componen=
+t---src-templates-article-js-f7f61b259b7b86911aa0.js"><link as=3D"fetch" re=
+l=3D"preload" href=3D"https://nickdrane.com/page-data/leveraging-immutabili=
+ty-in-react/page-data.json" crossorigin=3D"anonymous"><link rel=3D"prefetch=
+" href=3D"https://nickdrane.com/page-data/index/page-data.json"><link rel=
+=3D"prefetch" href=3D"https://nickdrane.com/page-data/optimizing-gatsby-bui=
+ld-times-for-large-websites-using-pagecontext/page-data.json"><link rel=3D"=
+prefetch" href=3D"https://nickdrane.com/page-data/hidden-costs-of-postgresq=
+l-jsonb/page-data.json"><link rel=3D"prefetch" href=3D"https://nickdrane.co=
+m/page-data/a-performance-guide-to-gatsbyjs/page-data.json"><link rel=3D"pr=
+efetch" href=3D"https://nickdrane.com/page-data/scraping-the-web-with-puppe=
+teer-lessons-learned/page-data.json"><link rel=3D"prefetch" href=3D"https:/=
+/nickdrane.com/page-data/write-your-own-redux-connect/page-data.json"><link=
+ rel=3D"prefetch" href=3D"https://nickdrane.com/page-data/build-your-own-ne=
+sted-query-string-encoder/page-data.json"><link rel=3D"prefetch" href=3D"ht=
+tps://nickdrane.com/page-data/using-jq-to-effortlessly-ingest-newline-delim=
+ited-JSON-into-postgres/page-data.json"><link rel=3D"prefetch" href=3D"http=
+s://nickdrane.com/page-data/build-your-own-regex/page-data.json"><link rel=
+=3D"prefetch" href=3D"https://nickdrane.com/page-data/manipulating-raw-html=
+-in-node-with-the-visitor-pattern/page-data.json"><link rel=3D"prefetch" hr=
+ef=3D"https://nickdrane.com/page-data/hexo-vs-gatsbyjs-comparing-nodejs-sta=
+tic-site-generators/page-data.json"><link rel=3D"prefetch" href=3D"https://=
+nickdrane.com/page-data/about-me/page-data.json"><link rel=3D"prefetch" hre=
+f=3D"https://nickdrane.com/page-data/hire-me/page-data.json"><link rel=3D"p=
+refetch" href=3D"https://nickdrane.com/component---src-pages-index-js-c8dbc=
+c715cce6b6e8d3e.js"><link rel=3D"prefetch" href=3D"https://nickdrane.com/co=
+mponent---src-templates-static-js-9d0fe4bf0fea2e507927.js"><link rel=3D"pre=
+fetch" href=3D"https://nickdrane.com/component---src-templates-article-js-f=
+7f61b259b7b86911aa0.js"><link rel=3D"prefetch" href=3D"https://nickdrane.co=
+m/component---src-templates-article-js-f7f61b259b7b86911aa0.js"><link rel=
+=3D"prefetch" href=3D"https://nickdrane.com/component---src-templates-artic=
+le-js-f7f61b259b7b86911aa0.js"><link rel=3D"prefetch" href=3D"https://nickd=
+rane.com/component---src-templates-article-js-f7f61b259b7b86911aa0.js"><lin=
+k rel=3D"prefetch" href=3D"https://nickdrane.com/component---src-templates-=
+article-js-f7f61b259b7b86911aa0.js"><link rel=3D"prefetch" href=3D"https://=
+nickdrane.com/component---src-templates-article-js-f7f61b259b7b86911aa0.js"=
+><link rel=3D"prefetch" href=3D"https://nickdrane.com/component---src-templ=
+ates-article-js-f7f61b259b7b86911aa0.js"><link rel=3D"prefetch" href=3D"htt=
+ps://nickdrane.com/component---src-templates-article-js-f7f61b259b7b86911aa=
+0.js"><link rel=3D"prefetch" href=3D"https://nickdrane.com/component---src-=
+templates-article-js-f7f61b259b7b86911aa0.js"><link rel=3D"prefetch" href=
+=3D"https://nickdrane.com/component---src-templates-article-js-f7f61b259b7b=
+86911aa0.js"><link rel=3D"prefetch" href=3D"https://nickdrane.com/page-data=
+/categories/Architecture/page-data.json"><link rel=3D"prefetch" href=3D"htt=
+ps://nickdrane.com/page-data/categories/Build-Your-Own/page-data.json"><lin=
+k rel=3D"prefetch" href=3D"https://nickdrane.com/page-data/categories/Funct=
+ional-Programming/page-data.json"><link rel=3D"prefetch" href=3D"https://ni=
+ckdrane.com/page-data/categories/Gatsby/page-data.json"><link rel=3D"prefet=
+ch" href=3D"https://nickdrane.com/component---src-templates-category-js-d43=
+47024215d7fcdb50f.js"><link rel=3D"prefetch" href=3D"https://nickdrane.com/=
+page-data/categories/Immutability/page-data.json"><link rel=3D"prefetch" hr=
+ef=3D"https://nickdrane.com/page-data/categories/JavaScript/page-data.json"=
+><link rel=3D"prefetch" href=3D"https://nickdrane.com/page-data/categories/=
+Javascript/page-data.json"><link rel=3D"prefetch" href=3D"https://nickdrane=
+.com/page-data/categories/Postgres/page-data.json"><link rel=3D"prefetch" h=
+ref=3D"https://nickdrane.com/page-data/categories/React/page-data.json"><li=
+nk rel=3D"prefetch" href=3D"https://nickdrane.com/page-data/categories/Redu=
+x/page-data.json"><link rel=3D"prefetch" href=3D"https://nickdrane.com/page=
+-data/categories/Regular-Expressions/page-data.json"><link rel=3D"prefetch"=
+ href=3D"https://nickdrane.com/page-data/categories/Shell/page-data.json"><=
+link rel=3D"prefetch" href=3D"https://nickdrane.com/page-data/categories/So=
+ftware-Ethics/page-data.json"><link rel=3D"prefetch" href=3D"https://nickdr=
+ane.com/page-data/categories/Technical-Hiring/page-data.json"><link rel=3D"=
+prefetch" href=3D"https://nickdrane.com/page-data/categories/Testing/page-d=
+ata.json"><link rel=3D"prefetch" href=3D"https://nickdrane.com/page-data/ca=
+tegories/Web-Scraping/page-data.json"></head><body><div id=3D"___gatsby"><d=
+iv style=3D"outline:none" tabindex=3D"-1" role=3D"group" id=3D"gatsby-focus=
+-wrapper"><div><div class=3D"styles-module--headerWrapper--2tn7j"><div clas=
+s=3D"styles-module--header--3Gxg8"><h1 style=3D"border-bottom:none"><a styl=
+e=3D"color:black;text-decoration:none" href=3D"https://nickdrane.com/">Nick=
+ Drane</a></h1><div style=3D"flex-grow:1"></div><ul class=3D"styles-module-=
+-headerLinks--2TTvw"><li><a href=3D"https://nickdrane.com/hire-me">Hire Me<=
+/a></li><li><a href=3D"https://nickdrane.com/about-me">About Me</a></li></u=
+l></div></div><div class=3D"styles-module--main--1m7Ru"><div class=3D"style=
+s-module--contentWrapper--iDaC7"><section class=3D"styles-module--content--=
+3pIkX"><article class=3D"styles-module--pb2--AfFCT"><ul class=3D"styles-mod=
+ule--socialButtons--1R7Rx"><li><a style=3D"display:block;width:39px" href=
+=3D"https://www.facebook.com/sharer/sharer.php?u=3Dhttps%3A%2F%2Fnickdrane.=
+com%2Fleveraging-immutability-in-react&amp;quote=3DLeveraging%20Immutabilit=
+y%20in%20React" title=3D"Share on Facebook" target=3D"_blank" rel=3D"noopen=
+er noreferrer"><img style=3D"max-width:100%" alt=3D"Share on Facebook" src=
+=3D"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzd=
+mcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcv=
+R3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9Ikx=
+heWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj=
+0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlc=
+nZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRw=
+Oi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMjkuNzY1LDUwLjMyaDYuNzQ0VjM=
+zLjk5OGg0LjQ5OWwwLjU5Ni01LjYyNGgtNS4wOTUgIGwwLjAwNy0yLjgxNmMwLTEuNDY2LDAuMT=
+QtMi4yNTMsMi4yNDQtMi4yNTNoMi44MTJWMTcuNjhoLTQuNWMtNS40MDUsMC03LjMwNywyLjcyO=
+S03LjMwNyw3LjMxN3YzLjM3N2gtMy4zNjl2NS42MjVoMy4zNjlWNTAuMzJ6ICAgTTM0LDY0QzE3=
+LjQzMiw2NCw0LDUwLjU2OCw0LDM0QzQsMTcuNDMxLDE3LjQzMiw0LDM0LDRzMzAsMTMuNDMxLDM=
+wLDMwQzY0LDUwLjU2OCw1MC41NjgsNjQsMzQsNjR6IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZG=
+Q7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojM0E1ODlCOyIvPjwvc3ZnPg=3D=3D"></a></li><l=
+i><a style=3D"display:block;width:39px" href=3D"https://twitter.com/intent/=
+tweet?url=3Dhttps%3A%2F%2Fnickdrane.com%2Fleveraging-immutability-in-react&=
+amp;text=3DLeveraging%20Immutability%20in%20React" target=3D"_blank" title=
+=3D"Tweet" rel=3D"noopener noreferrer"><img style=3D"max-width:100%" alt=3D=
+"Tweet" src=3D"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE=
+9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3d=
+y53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdw=
+eCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyI=
+gdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2=
+U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsa=
+W5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMzguMTY3LDIyLjI4=
+M2MtMi42MTksMC45NTMtNC4yNzQsMy40MTEtNC4wODYsNi4xMDEgIGwwLjA2MywxLjAzOGwtMS4=
+wNDgtMC4xMjdjLTMuODEzLTAuNDg3LTcuMTQ1LTIuMTM5LTkuOTc0LTQuOTE1bC0xLjM4My0xLj=
+M3N2wtMC4zNTYsMS4wMTdjLTAuNzU0LDIuMjY3LTAuMjcyLDQuNjYxLDEuMjk5LDYuMjcxICBjM=
+C44MzgsMC44OSwwLjY0OSwxLjAxNy0wLjc5NiwwLjQ4N2MtMC41MDMtMC4xNjktMC45NDMtMC4y=
+OTYtMC45ODUtMC4yMzNjLTAuMTQ2LDAuMTQ5LDAuMzU2LDIuMDc2LDAuNzU0LDIuODM5ICBjMC4=
+1NDUsMS4wNiwxLjY1NSwyLjA5NywyLjg3MSwyLjcxMmwxLjAyNywwLjQ4N2wtMS4yMTUsMC4wMj=
+FjLTEuMTczLDAtMS4yMTUsMC4wMjEtMS4wODksMC40NjcgIGMwLjQxOSwxLjM3NywyLjA3NCwyL=
+jgzOSwzLjkxOCwzLjQ3NWwxLjI5OSwwLjQ0NGwtMS4xMzEsMC42NzhjLTEuNjc2LDAuOTc2LTMu=
+NjQ2LDEuNTI2LTUuNjE2LDEuNTY3ICBDMjAuNzc1LDQzLjI1NiwyMCw0My4zNDEsMjAsNDMuNDA=
+1YzAsMC4yMTEsMi41NTcsMS4zOTcsNC4wNDQsMS44NjRjNC40NjMsMS4zNzcsOS43NjUsMC43OD=
+MsMTMuNzQ2LTEuNTY4ICBjMi44MjktMS42NzQsNS42NTctNSw2Ljk3OC04LjIyMWMwLjcxMy0xL=
+jcxNSwxLjQyNS00Ljg1MSwxLjQyNS02LjM1NGMwLTAuOTc1LDAuMDYzLTEuMTAyLDEuMjM2LTIu=
+MjY3ICBjMC42OTItMC42NzgsMS4zNDEtMS40MTksMS40NjctMS42MzFjMC4yMS0wLjQwMywwLjE=
+4OC0wLjQwMy0wLjg4LTAuMDQzYy0xLjc4MSwwLjYzNi0yLjAzMywwLjU1MS0xLjE1Mi0wLjQwMi=
+AgYzAuNjQ5LTAuNjc4LDEuNDI1LTEuOTA3LDEuNDI1LTIuMjY3YzAtMC4wNjMtMC4zMTQsMC4wN=
+DItMC42NzEsMC4yMzNjLTAuMzc3LDAuMjEyLTEuMjE1LDAuNTMtMS44NDQsMC43MmwtMS4xMzEs=
+MC4zNjFsLTEuMDI3LTAuNyAgYy0wLjU2Ni0wLjM4MS0xLjM2MS0wLjgwNS0xLjc4MS0wLjkzMkM=
+0MC43NjYsMjEuOTAyLDM5LjEzMSwyMS45NDQsMzguMTY3LDIyLjI4M3ogTTM0LDY0QzE3LjQzMi=
+w2NCw0LDUwLjU2OCw0LDM0ICBDNCwxNy40MzEsMTcuNDMyLDQsMzQsNHMzMCwxMy40MzEsMzAsM=
+zBDNjQsNTAuNTY4LDUwLjU2OCw2NCwzNCw2NHoiIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtj=
+bGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiM1OThEQ0E7Ii8+PC9zdmc+"></a></li><li><a style=
+=3D"display:block;width:39px" href=3D"https://www.linkedin.com/shareArticle=
+?mini=3Dtrue&amp;url=3Dmini=3Dtrue&amp;url=3Dhttps%3A%2F%2Fnickdrane.com%2F=
+leveraging-immutability-in-react&amp;title=3DLeveraging%20Immutability%20in=
+%20React" target=3D"_blank" title=3D"Share on LinkedIn" rel=3D"noopener nor=
+eferrer"><img style=3D"max-width:100%" alt=3D"Share on LinkedIn" src=3D"dat=
+a:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBV=
+QkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGh=
+pY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXz=
+EiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xI=
+iB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4=
+bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d=
+3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNTAuODM3LDQ4LjEzN1YzNi40MjVjMC02Lj=
+I3NS0zLjM1LTkuMTk1LTcuODE2LTkuMTk1ICBjLTMuNjA0LDAtNS4yMTksMS45ODMtNi4xMTksM=
+y4zNzRWMjcuNzFoLTYuNzljMC4wOSwxLjkxNywwLDIwLjQyNywwLDIwLjQyN2g2Ljc5VjM2Ljcy=
+OWMwLTAuNjA5LDAuMDQ0LTEuMjE5LDAuMjI0LTEuNjU1ICBjMC40OS0xLjIyLDEuNjA3LTIuNDg=
+zLDMuNDgyLTIuNDgzYzIuNDU4LDAsMy40NCwxLjg3MywzLjQ0LDQuNjE4djEwLjkyOUg1MC44Mz=
+d6IE0yMi45NTksMjQuOTIyYzIuMzY3LDAsMy44NDItMS41NywzLjg0Mi0zLjUzMSAgYy0wLjA0N=
+C0yLjAwMy0xLjQ3NS0zLjUyOC0zLjc5Ny0zLjUyOHMtMy44NDEsMS41MjQtMy44NDEsMy41Mjhj=
+MCwxLjk2MSwxLjQ3NCwzLjUzMSwzLjc1MywzLjUzMUgyMi45NTl6IE0zNCw2NCAgQzE3LjQzMiw=
+2NCw0LDUwLjU2OCw0LDM0QzQsMTcuNDMxLDE3LjQzMiw0LDM0LDRzMzAsMTMuNDMxLDMwLDMwQz=
+Y0LDUwLjU2OCw1MC41NjgsNjQsMzQsNjR6IE0yNi4zNTQsNDguMTM3VjI3LjcxaC02Ljc4OXYyM=
+C40MjcgIEgyNi4zNTR6IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5v=
+ZGQ7ZmlsbDojMDA3QUI5OyIvPjwvc3ZnPg=3D=3D"></a></li><li><a style=3D"display:=
+flex;align-items:center;justify-content:center;width:37px;height:39px;margi=
+n-left:2px" href=3D"mailto:?subject=3DLeveraging%20Immutability%20in%20Reac=
+t&amp;body=3DCheck%20this%20out:%20https://nickdrane.com/leveraging-immutab=
+ility-in-react" target=3D"_blank" title=3D"Send email" rel=3D"noopener nore=
+ferrer"><img style=3D"max-width:36px" alt=3D"Share via Email" src=3D"data:i=
+mage/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI2MHB4IiB=
+2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA2MCA2MCIgd2lkdGg9IjYwcHgiIHhtbG5zPSJodH=
+RwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVta=
+WFuY29kaW5nLmNvbS9za2V0Y2gvbnMiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8x=
+OTk5L3hsaW5rIj48dGl0bGUvPjxkZWZzLz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5=
+vZGQiIGlkPSJmbGF0IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSI+PGcgaWQ9Im1haW=
+wiPjxwYXRoIGQ9Ik0zMCw2MCBDNDYuNTY4NTQzMyw2MCA2MCw0Ni41Njg1NDMzIDYwLDMwIEM2M=
+CwxMy40MzE0NTY3IDQ2LjU2ODU0MzMsMCAzMCwwIEMxMy40MzE0NTY3LDAgMCwxMy40MzE0NTY3=
+IDAsMzAgQzAsNDYuNTY4NTQzMyAxMy40MzE0NTY3LDYwIDMwLDYwIFoiIGZpbGw9IiMzNDk4REI=
+iLz48cGF0aCBkPSJNMzAsMzMuNDYxNTM4NSBMNDcuMzA3NjkyMywxOC40NjE1Mzg1IEwxMi42OT=
+IzMDc3LDE4LjQ2MTUzODUgTDMwLDMzLjQ2MTUzODUgWiBNMjUuMzI1MTc2NSwzMS44MDEwNTM2I=
+EwzMCwzNS42MzgyMzk5IEwzNC42MDE1ODEzLDMxLjgwMTA1MzYgTDQ3LjMwNzY5MjMsNDIuNjky=
+MzA3NyBMMTIuNjkyMzA3Nyw0Mi42OTIzMDc3IEwyNS4zMjUxNzY1LDMxLjgwMTA1MzYgWiBNMTE=
+uNTM4NDYxNSw0MS41Mzg0NjE1IEwxMS41Mzg0NjE1LDE5LjYxNTM4NDYgTDI0LjIzMDc2OTIsMz=
+AuNTc2OTIzMSBMMTEuNTM4NDYxNSw0MS41Mzg0NjE1IFogTTQ4LjQ2MTUzODUsNDEuNTM4NDYxN=
+SBMNDguNDYxNTM4NSwxOS42MTUzODQ2IEwzNS43NjkyMzA4LDMwLjU3NjkyMzEgTDQ4LjQ2MTUz=
+ODUsNDEuNTM4NDYxNSBaIiBmaWxsPSIjRkZGRkZGIi8+PC9nPjwvZz48L3N2Zz4=3D"></a></l=
+i></ul><time class=3D"styles-module--publishDate--ykcEK">Wed Sep 27 2017</t=
+ime><h1 class=3D"styles-module--articleTitle--PGngd">Leveraging Immutabilit=
+y in React</h1><div><p>React has taken the web development community by a s=
+torm, and with it functional programming concepts have embedded themselves =
+in the mainstream. One common statement you will often read is that all sta=
+te in React should be immutable, and this practice is justified as necessar=
+y for performance reasons. This statement is entirely true, but it only tel=
+ls half the truth. Immutability alone will not yield any performance gains =
+in React (it'll actually make things slower).</p>
+
+<h2>The Quick Answer</h2>
+<p>You can reap the gains from immutable state in React if you inherit from=
+ <a href=3D"https://reactjs.org/docs/react-api.html#reactpurecomponent">Rea=
+ct.PureComponent</a> instead of <code class=3D"language-text">React.Compone=
+nt</code></p>
+<div class=3D"gatsby-highlight" data-language=3D"js"><pre class=3D"language=
+-js"><code class=3D"language-js"><span class=3D"token keyword">class</span>=
+ <span class=3D"token class-name">MyComponent</span> <span class=3D"token k=
+eyword">extends</span> <span class=3D"token class-name">PureComponent</span=
+> <span class=3D"token punctuation">{</span><span class=3D"token operator">=
+...</span><span class=3D"token punctuation">}</span></code></pre></div>
+<h2>A Broader Perspective</h2>
+<p>So why does the above code work? That requires a little bit of knowledge=
+ about the rendering process.</p>
+<h2>Virtual DOM</h2>
+<p>A component's <code class=3D"language-text">render</code> function retur=
+ns a tree of React elements, also known as the virtual DOM. This data struc=
+ture is a representation of the browser's DOM that React can manipulate in =
+a performant way. In essence, it's a 1-1 mapping to the browser DOM.</p>
+<p>Whenever state or props change, instead of updating the browser DOM dire=
+ctly, React will call the <code class=3D"language-text">render</code> funct=
+ion of the updated component, getting its new virtual DOM, and it will comp=
+are that virtual DOM to the previous render tree (aka the old virtual DOM).=
+ This comparison process (known as reconciliation) allows it to identify th=
+e minimum set of changes that need to be made to the browser DOM, allowing =
+for for massive performance gains. If the two trees are identical, then no =
+changes need to be made to the UI.</p>
+<h2>Should a Component Re-render</h2>
+<p>When <code class=3D"language-text">setState</code> is called on a compon=
+ent, that component (and all of the components it renders) go through a two=
+ step process for React determine if the UI should update.</p>
+<p>Before the virtual DOM is rendered, React first runs a component's <a hr=
+ef=3D"https://reactjs.org/docs/react-component.html#shouldcomponentupdate">=
+shouldComponentUpdate</a> lifecycle method</p>
+<h2>shouldComponentUpdate</h2>
+<p>It is your choice to implement this method. It takes as parameters the n=
+ew state and props and should return a boolean indicating whether the compo=
+nent should re-render. React will only proceed with re-rendering if you ret=
+urn <code class=3D"language-text">true</code> from this function. By defaul=
+t, <code class=3D"language-text">shouldComponentUpdate</code> always return=
+s <code class=3D"language-text">true</code>.</p>
+<p>Let's look at a simple example</p>
+<div class=3D"gatsby-highlight" data-language=3D"js"><pre class=3D"language=
+-js"><code class=3D"language-js"><span class=3D"token keyword">class</span>=
+ <span class=3D"token class-name">Counter</span> <span class=3D"token keywo=
+rd">extends</span> <span class=3D"token class-name">React<span class=3D"tok=
+en punctuation">.</span>Component</span><span class=3D"token punctuation">(=
+</span><span class=3D"token punctuation">)</span> <span class=3D"token punc=
+tuation">{</span>
+  <span class=3D"token function">constructor</span><span class=3D"token pun=
+ctuation">(</span><span class=3D"token punctuation">)</span> <span class=3D=
+"token punctuation">{</span>
+    <span class=3D"token keyword">this</span><span class=3D"token punctuati=
+on">.</span>state <span class=3D"token operator">=3D</span> <span class=3D"=
+token punctuation">{</span>
+      counter<span class=3D"token punctuation">:</span> <span class=3D"toke=
+n number">0</span>
+    <span class=3D"token punctuation">}</span><span class=3D"token punctuat=
+ion">;</span>
+  <span class=3D"token punctuation">}</span>
+
+  <span class=3D"token function">shouldComponentUpdate</span><span class=3D=
+"token punctuation">(</span><span class=3D"token parameter">nextProps<span =
+class=3D"token punctuation">,</span> nextState</span><span class=3D"token p=
+unctuation">)</span> <span class=3D"token punctuation">{</span>
+    <span class=3D"token comment">// We are comparing the state before setS=
+tate</span>
+    <span class=3D"token comment">// is called to the state after it is cal=
+led.</span>
+    <span class=3D"token comment">// This component will only re-render if<=
+/span>
+    <span class=3D"token comment">// state.counter changes</span>
+    <span class=3D"token keyword">return</span> <span class=3D"token keywor=
+d">this</span><span class=3D"token punctuation">.</span>state<span class=3D=
+"token punctuation">.</span>counter <span class=3D"token operator">!=3D=3D<=
+/span> nextState<span class=3D"token punctuation">.</span>counter<span clas=
+s=3D"token punctuation">;</span>
+  <span class=3D"token punctuation">}</span>
+
+  <span class=3D"token function">render</span><span class=3D"token punctuat=
+ion">(</span><span class=3D"token punctuation">)</span> <span class=3D"toke=
+n punctuation">{</span>
+    <span class=3D"token keyword">return</span> <span class=3D"token operat=
+or">&lt;</span>span<span class=3D"token operator">&gt;</span><span class=3D=
+"token punctuation">{</span><span class=3D"token keyword">this</span><span =
+class=3D"token punctuation">.</span>state<span class=3D"token punctuation">=
+.</span>counter<span class=3D"token punctuation">}</span><span class=3D"tok=
+en operator">&lt;</span><span class=3D"token operator">/</span>span<span cl=
+ass=3D"token operator">&gt;</span><span class=3D"token punctuation">;</span=
+>
+  <span class=3D"token punctuation">}</span>
+<span class=3D"token punctuation">}</span></code></pre></div>
+<p>Currently <code class=3D"language-text">Counter</code> will only re-rend=
+er if <code class=3D"language-text">state.counter</code> changes. Suppose w=
+e remove the <code class=3D"language-text">shouldComponentUpdate</code> abo=
+ve, is there another circumstance where <code class=3D"language-text">Count=
+er</code>' re-renders? It would re-render if a component that renders <code=
+ class=3D"language-text">Counter</code> re-renders! It does not matter that=
+ <code class=3D"language-text">Counter</code>'s render function does not de=
+pend on props!</p>
+<p>So, when <code class=3D"language-text">shouldComponentUpdate</code> retu=
+rns <code class=3D"language-text">true</code>, React begins the second part=
+ of the re-render process, the part where it invokes the render function, g=
+enerating its virtual DOM. It will then compare that render tree to the old=
+ virtual DOM. In the scenario above, these two trees will always be identic=
+al (after all, the component doesn't even have a way to change state), and =
+the entire operation will a be waste CPU cycles.</p>
+<p>If <code class=3D"language-text">shouldComponentUpdate</code> returns <c=
+ode class=3D"language-text">false</code>, we inform React that a re-render =
+will not be necessary, sparing it an unnecessary to call a component's rend=
+er function and the comparison of the render trees.</p>
+<h2>React.pureComponent</h2>
+<p>Writing <code class=3D"language-text">shouldComponentUpdate</code> is so=
+metimes a tedious task, and React supplies a helper to handle a very common=
+ <code class=3D"language-text">shouldComponentUpdate</code> scenario. I men=
+tioned <code class=3D"language-text">React.pureComponent</code> above.</p>
+<div class=3D"gatsby-highlight" data-language=3D"js"><pre class=3D"language=
+-js"><code class=3D"language-js"><span class=3D"token keyword">class</span>=
+ <span class=3D"token class-name">MyComponent</span> <span class=3D"token k=
+eyword">extends</span> <span class=3D"token class-name">PureComponent</span=
+> <span class=3D"token punctuation">{</span><span class=3D"token operator">=
+...</span><span class=3D"token punctuation">}</span></code></pre></div>
+<p><code class=3D"language-text">React.pureComponent</code> is a handy clas=
+s that we can inherit from that implements <code class=3D"language-text">sh=
+ouldComponentUpdate</code> as a shallow comparison across the old props and=
+ new props (or the old state and new state). If there are no <em>shallow</e=
+m> differences between these objects, then <code class=3D"language-text">sh=
+ouldComponentUpdate</code> will return false, and the virtual DOM's re-rend=
+ering process can be skipped entirely, resulting in potentially enormous pe=
+rformance savings.</p>
+<h2>Why Does Immutability Matter?</h2>
+<p>Immutability matters because <code class=3D"language-text">React.pureCom=
+ponent</code> is going to do shallow comparisons against the prop and state=
+ objects. And, as you hopefully know, a shallow comparison's referential eq=
+uality checks will only yield the expected results if immutability is respe=
+cted.</p>
+<p>If you are not properly respecting immutability, then you are going to r=
+un into scenarios where your components fail to re-render when they actuall=
+y should. A failure to respect immutability will cause a shallow comparison=
+ to return false (meaning <code class=3D"language-text">shouldComponentUpda=
+te</code> returns false) because the old props and new props (or the old st=
+ate and new state) reference the same object in memory, despite the fact th=
+at props/state changed.</p>
+<p>When used carefully however, <code class=3D"language-text">React.pureCom=
+ponent</code> can yield enormous performance improvements at almost no cost=
+. All you need to do is inherit your components from <code class=3D"languag=
+e-text">React.pureComponent</code> instead of <code class=3D"language-text"=
+>React.Component</code> and respect immutability when changing state.</p>
+<p><em>If you have React performance problems, I do <a href=3D"https://nick=
+drane.com/hire-me">consulting</a> work and am currently looking for new cli=
+ents. Please <a href=3D"mailto:nick@nickdrane.com">contact me</a> for more =
+details.</em></p></div><ul class=3D"styles-module--socialButtons--1R7Rx"><l=
+i><a style=3D"display:block;width:39px" href=3D"https://www.facebook.com/sh=
+arer/sharer.php?u=3Dhttps%3A%2F%2Fnickdrane.com%2Fleveraging-immutability-i=
+n-react&amp;quote=3DLeveraging%20Immutability%20in%20React" title=3D"Share =
+on Facebook" target=3D"_blank" rel=3D"noopener noreferrer"><img style=3D"ma=
+x-width:100%" alt=3D"Share on Facebook" src=3D"data:image/svg+xml;base64,PD=
+94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU=
+1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3Zn=
+MTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmF=
+ja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNj=
+ciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53M=
+y5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5r=
+Ij48cGF0aCBkPSJNMjkuNzY1LDUwLjMyaDYuNzQ0VjMzLjk5OGg0LjQ5OWwwLjU5Ni01LjYyNGg=
+tNS4wOTUgIGwwLjAwNy0yLjgxNmMwLTEuNDY2LDAuMTQtMi4yNTMsMi4yNDQtMi4yNTNoMi44MT=
+JWMTcuNjhoLTQuNWMtNS40MDUsMC03LjMwNywyLjcyOS03LjMwNyw3LjMxN3YzLjM3N2gtMy4zN=
+jl2NS42MjVoMy4zNjlWNTAuMzJ6ICAgTTM0LDY0QzE3LjQzMiw2NCw0LDUwLjU2OCw0LDM0QzQs=
+MTcuNDMxLDE3LjQzMiw0LDM0LDRzMzAsMTMuNDMxLDMwLDMwQzY0LDUwLjU2OCw1MC41NjgsNjQ=
+sMzQsNjR6IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbD=
+ojM0E1ODlCOyIvPjwvc3ZnPg=3D=3D"></a></li><li><a style=3D"display:block;widt=
+h:39px" href=3D"https://twitter.com/intent/tweet?url=3Dhttps%3A%2F%2Fnickdr=
+ane.com%2Fleveraging-immutability-in-react&amp;text=3DLeveraging%20Immutabi=
+lity%20in%20React" target=3D"_blank" title=3D"Tweet" rel=3D"noopener norefe=
+rrer"><img style=3D"max-width:100%" alt=3D"Tweet" src=3D"data:image/svg+xml=
+;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzN=
+DLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS=
+9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlb=
+mFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIw=
+IDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDo=
+vL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOT=
+k5L3hsaW5rIj48cGF0aCBkPSJNMzguMTY3LDIyLjI4M2MtMi42MTksMC45NTMtNC4yNzQsMy40M=
+TEtNC4wODYsNi4xMDEgIGwwLjA2MywxLjAzOGwtMS4wNDgtMC4xMjdjLTMuODEzLTAuNDg3LTcu=
+MTQ1LTIuMTM5LTkuOTc0LTQuOTE1bC0xLjM4My0xLjM3N2wtMC4zNTYsMS4wMTdjLTAuNzU0LDI=
+uMjY3LTAuMjcyLDQuNjYxLDEuMjk5LDYuMjcxICBjMC44MzgsMC44OSwwLjY0OSwxLjAxNy0wLj=
+c5NiwwLjQ4N2MtMC41MDMtMC4xNjktMC45NDMtMC4yOTYtMC45ODUtMC4yMzNjLTAuMTQ2LDAuM=
+TQ5LDAuMzU2LDIuMDc2LDAuNzU0LDIuODM5ICBjMC41NDUsMS4wNiwxLjY1NSwyLjA5NywyLjg3=
+MSwyLjcxMmwxLjAyNywwLjQ4N2wtMS4yMTUsMC4wMjFjLTEuMTczLDAtMS4yMTUsMC4wMjEtMS4=
+wODksMC40NjcgIGMwLjQxOSwxLjM3NywyLjA3NCwyLjgzOSwzLjkxOCwzLjQ3NWwxLjI5OSwwLj=
+Q0NGwtMS4xMzEsMC42NzhjLTEuNjc2LDAuOTc2LTMuNjQ2LDEuNTI2LTUuNjE2LDEuNTY3ICBDM=
+jAuNzc1LDQzLjI1NiwyMCw0My4zNDEsMjAsNDMuNDA1YzAsMC4yMTEsMi41NTcsMS4zOTcsNC4w=
+NDQsMS44NjRjNC40NjMsMS4zNzcsOS43NjUsMC43ODMsMTMuNzQ2LTEuNTY4ICBjMi44MjktMS4=
+2NzQsNS42NTctNSw2Ljk3OC04LjIyMWMwLjcxMy0xLjcxNSwxLjQyNS00Ljg1MSwxLjQyNS02Lj=
+M1NGMwLTAuOTc1LDAuMDYzLTEuMTAyLDEuMjM2LTIuMjY3ICBjMC42OTItMC42NzgsMS4zNDEtM=
+S40MTksMS40NjctMS42MzFjMC4yMS0wLjQwMywwLjE4OC0wLjQwMy0wLjg4LTAuMDQzYy0xLjc4=
+MSwwLjYzNi0yLjAzMywwLjU1MS0xLjE1Mi0wLjQwMiAgYzAuNjQ5LTAuNjc4LDEuNDI1LTEuOTA=
+3LDEuNDI1LTIuMjY3YzAtMC4wNjMtMC4zMTQsMC4wNDItMC42NzEsMC4yMzNjLTAuMzc3LDAuMj=
+EyLTEuMjE1LDAuNTMtMS44NDQsMC43MmwtMS4xMzEsMC4zNjFsLTEuMDI3LTAuNyAgYy0wLjU2N=
+i0wLjM4MS0xLjM2MS0wLjgwNS0xLjc4MS0wLjkzMkM0MC43NjYsMjEuOTAyLDM5LjEzMSwyMS45=
+NDQsMzguMTY3LDIyLjI4M3ogTTM0LDY0QzE3LjQzMiw2NCw0LDUwLjU2OCw0LDM0ICBDNCwxNy4=
+0MzEsMTcuNDMyLDQsMzQsNHMzMCwxMy40MzEsMzAsMzBDNjQsNTAuNTY4LDUwLjU2OCw2NCwzNC=
+w2NHoiIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiM1O=
+ThEQ0E7Ii8+PC9zdmc+"></a></li><li><a style=3D"display:block;width:39px" hre=
+f=3D"https://www.linkedin.com/shareArticle?mini=3Dtrue&amp;url=3Dmini=3Dtru=
+e&amp;url=3Dhttps%3A%2F%2Fnickdrane.com%2Fleveraging-immutability-in-react&=
+amp;title=3DLeveraging%20Immutability%20in%20React" target=3D"_blank" title=
+=3D"Share on LinkedIn" rel=3D"noopener noreferrer"><img style=3D"max-width:=
+100%" alt=3D"Share on LinkedIn" src=3D"data:image/svg+xml;base64,PD94bWwgdm=
+Vyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuM=
+S8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRk=
+Jz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3V=
+uZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZH=
+RoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvM=
+jAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0=
+aCBkPSJNNTAuODM3LDQ4LjEzN1YzNi40MjVjMC02LjI3NS0zLjM1LTkuMTk1LTcuODE2LTkuMTk=
+1ICBjLTMuNjA0LDAtNS4yMTksMS45ODMtNi4xMTksMy4zNzRWMjcuNzFoLTYuNzljMC4wOSwxLj=
+kxNywwLDIwLjQyNywwLDIwLjQyN2g2Ljc5VjM2LjcyOWMwLTAuNjA5LDAuMDQ0LTEuMjE5LDAuM=
+jI0LTEuNjU1ICBjMC40OS0xLjIyLDEuNjA3LTIuNDgzLDMuNDgyLTIuNDgzYzIuNDU4LDAsMy40=
+NCwxLjg3MywzLjQ0LDQuNjE4djEwLjkyOUg1MC44Mzd6IE0yMi45NTksMjQuOTIyYzIuMzY3LDA=
+sMy44NDItMS41NywzLjg0Mi0zLjUzMSAgYy0wLjA0NC0yLjAwMy0xLjQ3NS0zLjUyOC0zLjc5Ny=
+0zLjUyOHMtMy44NDEsMS41MjQtMy44NDEsMy41MjhjMCwxLjk2MSwxLjQ3NCwzLjUzMSwzLjc1M=
+ywzLjUzMUgyMi45NTl6IE0zNCw2NCAgQzE3LjQzMiw2NCw0LDUwLjU2OCw0LDM0QzQsMTcuNDMx=
+LDE3LjQzMiw0LDM0LDRzMzAsMTMuNDMxLDMwLDMwQzY0LDUwLjU2OCw1MC41NjgsNjQsMzQsNjR=
+6IE0yNi4zNTQsNDguMTM3VjI3LjcxaC02Ljc4OXYyMC40MjcgIEgyNi4zNTR6IiBzdHlsZT0iZm=
+lsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojMDA3QUI5OyIvPjwvc3ZnP=
+g=3D=3D"></a></li><li><a style=3D"display:flex;align-items:center;justify-c=
+ontent:center;width:37px;height:39px;margin-left:2px" href=3D"mailto:?subje=
+ct=3DLeveraging%20Immutability%20in%20React&amp;body=3DCheck%20this%20out:%=
+20https://nickdrane.com/leveraging-immutability-in-react" target=3D"_blank"=
+ title=3D"Send email" rel=3D"noopener noreferrer"><img style=3D"max-width:3=
+6px" alt=3D"Share via Email" src=3D"data:image/svg+xml;base64,PD94bWwgdmVyc=
+2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI2MHB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAg=
+MCA2MCA2MCIgd2lkdGg9IjYwcHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI=
+geG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiIH=
+htbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZWZzL=
+z48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGlkPSJmbGF0IiBzdHJva2U9Im5v=
+bmUiIHN0cm9rZS13aWR0aD0iMSI+PGcgaWQ9Im1haWwiPjxwYXRoIGQ9Ik0zMCw2MCBDNDYuNTY=
+4NTQzMyw2MCA2MCw0Ni41Njg1NDMzIDYwLDMwIEM2MCwxMy40MzE0NTY3IDQ2LjU2ODU0MzMsMC=
+AzMCwwIEMxMy40MzE0NTY3LDAgMCwxMy40MzE0NTY3IDAsMzAgQzAsNDYuNTY4NTQzMyAxMy40M=
+zE0NTY3LDYwIDMwLDYwIFoiIGZpbGw9IiMzNDk4REIiLz48cGF0aCBkPSJNMzAsMzMuNDYxNTM4=
+NSBMNDcuMzA3NjkyMywxOC40NjE1Mzg1IEwxMi42OTIzMDc3LDE4LjQ2MTUzODUgTDMwLDMzLjQ=
+2MTUzODUgWiBNMjUuMzI1MTc2NSwzMS44MDEwNTM2IEwzMCwzNS42MzgyMzk5IEwzNC42MDE1OD=
+EzLDMxLjgwMTA1MzYgTDQ3LjMwNzY5MjMsNDIuNjkyMzA3NyBMMTIuNjkyMzA3Nyw0Mi42OTIzM=
+Dc3IEwyNS4zMjUxNzY1LDMxLjgwMTA1MzYgWiBNMTEuNTM4NDYxNSw0MS41Mzg0NjE1IEwxMS41=
+Mzg0NjE1LDE5LjYxNTM4NDYgTDI0LjIzMDc2OTIsMzAuNTc2OTIzMSBMMTEuNTM4NDYxNSw0MS4=
+1Mzg0NjE1IFogTTQ4LjQ2MTUzODUsNDEuNTM4NDYxNSBMNDguNDYxNTM4NSwxOS42MTUzODQ2IE=
+wzNS43NjkyMzA4LDMwLjU3NjkyMzEgTDQ4LjQ2MTUzODUsNDEuNTM4NDYxNSBaIiBmaWxsPSIjR=
+kZGRkZGIi8+PC9nPjwvZz48L3N2Zz4=3D"></a></li></ul><div class=3D"styles-modul=
+e--border--O42kg"></div><div><span class=3D"styles-module--mcHeader--OsuQO"=
+>Want to be notified when I release a new article? Subscirbe to my mailing =
+list.</span><form><div class=3D"styles-module--flexForm--4P7yQ"><label clas=
+s=3D"styles-module--emailLabel--xb2_N" for=3D"mc-email">Your email address<=
+/label><input type=3D"email" value=3D"" name=3D"email" id=3D"mc-email" plac=
+eholder=3D"Your email address"><button type=3D"submit">Subscribe</button></=
+div></form></div></article></section><aside class=3D"styles-module--sidebar=
+--WpqGz"><div class=3D"styles-module--sideBarSection--kbYhv"><h2 class=3D"s=
+tyles-module--sideBarLabel--1Yp9y">Most Popular Posts</h2><ul style=3D"marg=
+in-left:0"><li class=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"col=
+or:inherit" href=3D"https://nickdrane.com/scraping-the-web-with-puppeteer-l=
+essons-learned">Scraping the Web with Puppeteer: Lessons Learned</a></li><l=
+i class=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" h=
+ref=3D"https://nickdrane.com/build-your-own-nested-query-string-encoder">Bu=
+ild Your Own Nested Query String Encoder/Decoder</a></li><li class=3D"style=
+s-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"https://n=
+ickdrane.com/build-your-own-regex">Build Your Own Regex in Less Than 40 Lin=
+es of Code</a></li><li class=3D"styles-module--sideBarEntry--yZZc9"><a styl=
+e=3D"color:inherit" href=3D"https://nickdrane.com/write-your-own-redux-conn=
+ect">Write Your Own React-Redux Connect</a></li><li class=3D"styles-module-=
+-sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"https://nickdrane.=
+com/hidden-costs-of-postgresql-jsonb">The Hidden Costs of PostgreSQL's JSON=
+B Datatype</a></li></ul></div><div class=3D"styles-module--sideBarSection--=
+kbYhv"><h2 class=3D"styles-module--sideBarLabel--1Yp9y">Most Recent Posts</=
+h2><ul style=3D"margin-left:0"><li class=3D"styles-module--sideBarEntry--yZ=
+Zc9"><a style=3D"color:inherit" href=3D"https://nickdrane.com/manipulating-=
+raw-html-in-node-with-the-visitor-pattern">Manipulating Raw HTML in Node wi=
+th the Visitor Pattern</a></li><li class=3D"styles-module--sideBarEntry--yZ=
+Zc9"><a style=3D"color:inherit" href=3D"https://nickdrane.com/optimizing-ga=
+tsby-build-times-for-large-websites-using-pagecontext">Optimizing Gatsby Bu=
+ild Times for Large Websites Using pageContext</a></li><li class=3D"styles-=
+module--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"https://nic=
+kdrane.com/a-performance-guide-to-gatsbyjs">One Simple Performance Tip to O=
+ptimize GatsbyJS Static Sites</a></li><li class=3D"styles-module--sideBarEn=
+try--yZZc9"><a style=3D"color:inherit" href=3D"https://nickdrane.com/hexo-v=
+s-gatsbyjs-comparing-nodejs-static-site-generators">A Deep Dive into JavaSc=
+ript Static Site Generators: Gatsby vs. Hexo</a></li><li class=3D"styles-mo=
+dule--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"https://nickd=
+rane.com/using-jq-to-effortlessly-ingest-newline-delimited-JSON-into-postgr=
+es">Using Shell Commands to Effortlessly Ingest Line-Delimited JSON into Po=
+stgreSQL</a></li></ul></div><div class=3D"styles-module--sideBarSection--kb=
+Yhv"><h2 class=3D"styles-module--sideBarLabel--1Yp9y">categories</h2><ul st=
+yle=3D"margin-left:0"><li class=3D"styles-module--sideBarEntry--yZZc9"><a s=
+tyle=3D"color:inherit" href=3D"https://nickdrane.com/categories/Architectur=
+e">Architecture (1)</a></li><li class=3D"styles-module--sideBarEntry--yZZc9=
+"><a style=3D"color:inherit" href=3D"https://nickdrane.com/categories/Build=
+-Your-Own">Build Your Own (3)</a></li><li class=3D"styles-module--sideBarEn=
+try--yZZc9"><a style=3D"color:inherit" href=3D"https://nickdrane.com/catego=
+ries/Functional-Programming">Functional Programming (1)</a></li><li class=
+=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"=
+https://nickdrane.com/categories/Gatsby">Gatsby (3)</a></li><li class=3D"st=
+yles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"https:=
+//nickdrane.com/categories/Immutability">Immutability (1)</a></li><li class=
+=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"=
+https://nickdrane.com/categories/JavaScript">JavaScript (3)</a></li><li cla=
+ss=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=
+=3D"https://nickdrane.com/categories/Javascript">Javascript (2)</a></li><li=
+ class=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" hr=
+ef=3D"https://nickdrane.com/categories/Postgres">Postgres (2)</a></li><li c=
+lass=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=
+=3D"https://nickdrane.com/categories/React">React (2)</a></li><li class=3D"=
+styles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"http=
+s://nickdrane.com/categories/Redux">Redux (1)</a></li><li class=3D"styles-m=
+odule--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"https://nick=
+drane.com/categories/Regular-Expressions">Regular Expressions (2)</a></li><=
+li class=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" =
+href=3D"https://nickdrane.com/categories/Shell">Shell (1)</a></li><li class=
+=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"color:inherit" href=3D"=
+https://nickdrane.com/categories/Software-Ethics">Software Ethics (1)</a></=
+li><li class=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"color:inher=
+it" href=3D"https://nickdrane.com/categories/Technical-Hiring">Technical Hi=
+ring (1)</a></li><li class=3D"styles-module--sideBarEntry--yZZc9"><a style=
+=3D"color:inherit" href=3D"https://nickdrane.com/categories/Testing">Testin=
+g (1)</a></li><li class=3D"styles-module--sideBarEntry--yZZc9"><a style=3D"=
+color:inherit" href=3D"https://nickdrane.com/categories/Web-Scraping">Web S=
+craping (1)</a></li></ul></div></aside></div></div></div></div></div></body=
+></html>
+------MultipartBoundary--hbBK5Ztj0CtWTrEPJsvzdgrVyjU8QWBvFeIOeJRrTH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f7d9897e-a9ae-4349-ad8c-99853c1b8624@mhtml.blink
+
+@charset "utf-8";
+
+html { font-family: sans-serif; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+article, aside, details, figcaption, figure, footer, header, main, menu, na=
+v, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; }
+
+audio:not([controls]) { display: none; height: 0px; }
+
+progress { vertical-align: baseline; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline-width: 0px; }
+
+abbr[title] { border-bottom: none; text-decoration: underline dotted; }
+
+b, strong { font-weight: bolder; }
+
+dfn { font-style: italic; }
+
+h1 { font-size: 2em; margin: 0.67em 0px; }
+
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sub { bottom: -0.25em; }
+
+sup { top: -0.5em; }
+
+img { border-style: none; }
+
+svg:not(:root) { overflow: hidden; }
+
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+figure { margin: 1em 40px; }
+
+hr { box-sizing: content-box; height: 0px; overflow: visible; }
+
+button, input, optgroup, select, textarea { font: inherit; margin: 0px; }
+
+optgroup { font-weight: 700; }
+
+button, input { overflow: visible; }
+
+button, select { text-transform: none; }
+
+[type=3D"reset"], [type=3D"submit"], button, html [type=3D"button"] { -webk=
+it-appearance: button; }
+
+fieldset { border: 1px solid silver; margin: 0px 2px; padding: 0.35em 0.625=
+em 0.75em; }
+
+legend { box-sizing: border-box; color: inherit; display: table; max-width:=
+ 100%; padding: 0px; white-space: normal; }
+
+textarea { overflow: auto; }
+
+[type=3D"checkbox"], [type=3D"radio"] { box-sizing: border-box; padding: 0p=
+x; }
+
+[type=3D"number"]::-webkit-inner-spin-button, [type=3D"number"]::-webkit-ou=
+ter-spin-button { height: auto; }
+
+[type=3D"search"] { -webkit-appearance: textfield; outline-offset: -2px; }
+
+[type=3D"search"]::-webkit-search-cancel-button, [type=3D"search"]::-webkit=
+-search-decoration { -webkit-appearance: none; }
+
+::-webkit-input-placeholder { color: inherit; opacity: 0.54; }
+
+::-webkit-file-upload-button { -webkit-appearance: button; font: inherit; }
+
+html { font: 100%/1.625 -apple-system, BlinkMacSystemFont, "Segoe UI", Robo=
+to, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "S=
+egoe UI Symbol"; box-sizing: border-box; overflow-y: scroll; }
+
+* { box-sizing: inherit; }
+
+::before { box-sizing: inherit; }
+
+::after { box-sizing: inherit; }
+
+body { color: rgba(0, 0, 0, 0.8); font-family: -apple-system, BlinkMacSyste=
+mFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji=
+", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: normal; overflow-wrap:=
+ break-word; font-kerning: normal; font-feature-settings: "kern", "liga", "=
+clig", "calt"; }
+
+img { max-width: 100%; margin: 0px 0px 0.8125rem; padding: 0px; }
+
+h1 { margin: 2.4375rem 0px 1.21875rem; padding: 0px 0px calc(0.40625rem - 1=
+px); color: inherit; font-family: -apple-system, BlinkMacSystemFont, "Segoe=
+ UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI =
+Emoji", "Segoe UI Symbol"; font-weight: 600; text-rendering: optimizelegibi=
+lity; font-size: 2rem; line-height: 1.1; border-bottom: 1px solid rgba(0, 0=
+, 0, 0.07); }
+
+h2 { margin: 1.625rem 0px 0.40625rem; padding: 0px 0px calc(0.40625rem - 1p=
+x); color: inherit; font-family: -apple-system, BlinkMacSystemFont, "Segoe =
+UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI E=
+moji", "Segoe UI Symbol"; font-weight: 600; text-rendering: optimizelegibil=
+ity; font-size: 1.51572rem; line-height: 1.1; border-bottom: 1px solid rgba=
+(0, 0, 0, 0.07); }
+
+h3 { margin: 0px 0px 0.8125rem; padding: 0px; color: inherit; font-family: =
+-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sa=
+ns-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-we=
+ight: 600; text-rendering: optimizelegibility; font-size: 1.31951rem; line-=
+height: 1.1; }
+
+h4 { margin: 0px 0px 0.8125rem; padding: 0px; color: inherit; font-family: =
+-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sa=
+ns-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-we=
+ight: 600; text-rendering: optimizelegibility; font-size: 1rem; line-height=
+: 1.1; }
+
+h5 { margin: 0px 0px 0.8125rem; padding: 0px; color: inherit; font-family: =
+-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sa=
+ns-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-we=
+ight: 600; text-rendering: optimizelegibility; font-size: 0.87055rem; line-=
+height: 1.1; }
+
+h6 { margin: 0px 0px 0.8125rem; padding: 0px; color: rgba(0, 0, 0, 0.53); f=
+ont-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetic=
+a, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symb=
+ol"; font-weight: 600; text-rendering: optimizelegibility; font-size: 0.812=
+25rem; line-height: 1.1; }
+
+hgroup { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+ul { margin: 0px 0px 0.8125rem 1.625rem; padding: 0px; list-style-position:=
+ outside; list-style-image: none; }
+
+ol { margin: 0px 0px 0.8125rem 1.625rem; padding: 0px; list-style-position:=
+ outside; list-style-image: none; }
+
+dl { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+dd { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+p { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+figure { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+pre { margin: 0px 0px 0.8125rem; padding: 0px; font-size: 0.85rem; line-hei=
+ght: 1.625rem; }
+
+table { margin: 0px 0px 0.8125rem; padding: 0px; font-size: 1rem; line-heig=
+ht: 1.625rem; border-collapse: collapse; width: 100%; }
+
+fieldset { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+blockquote { margin: 0px 0px 0.8125rem; padding: 0px 0px 0px calc(0.8125rem=
+ - 1px); border-left: 4px solid rgba(0, 0, 0, 0.13); color: rgba(0, 0, 0, 0=
+.53); }
+
+form { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+noscript { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+iframe { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+hr { margin: 0px 0px calc(0.8125rem - 1px); padding: 0px; background: rgba(=
+0, 0, 0, 0.2); border: none; height: 1px; }
+
+address { margin: 0px 0px 0.8125rem; padding: 0px; }
+
+b { font-weight: 600; }
+
+strong { font-weight: 600; }
+
+dt { font-weight: 600; }
+
+th { font-weight: 600; }
+
+li { margin-bottom: calc(0.40625rem); }
+
+ol li { padding-left: 0px; }
+
+ul li { padding-left: 0px; }
+
+li > ol { margin-left: 1.625rem; margin-bottom: calc(0.40625rem); margin-to=
+p: calc(0.40625rem); }
+
+li > ul { margin-left: 1.625rem; margin-bottom: calc(0.40625rem); margin-to=
+p: calc(0.40625rem); }
+
+blockquote :last-child { margin-bottom: 0px; }
+
+li :last-child { margin-bottom: 0px; }
+
+p :last-child { margin-bottom: 0px; }
+
+li > p { margin-bottom: calc(0.40625rem); }
+
+code { font-size: 0.85rem; line-height: 1.625rem; }
+
+kbd { font-size: 0.85rem; line-height: 1.625rem; }
+
+samp { font-size: 0.85rem; line-height: 1.625rem; }
+
+abbr { border-bottom: 1px dotted rgba(0, 0, 0, 0.5); cursor: help; }
+
+acronym { border-bottom: 1px dotted rgba(0, 0, 0, 0.5); cursor: help; }
+
+abbr[title] { border-bottom: 1px dotted rgba(0, 0, 0, 0.5); cursor: help; t=
+ext-decoration: none; }
+
+thead { text-align: left; }
+
+td, th { text-align: left; border-bottom: 1px solid rgba(0, 0, 0, 0.12); fo=
+nt-feature-settings: "tnum"; padding: 0.8125rem 1.08333rem calc(0.8125rem -=
+ 1px); }
+
+th:first-child, td:first-child { padding-left: 0px; }
+
+th:last-child, td:last-child { padding-right: 0px; }
+
+h3, h4, h5, h6 { margin-bottom: 0.8125rem; margin-top: 1.625rem; }
+
+ol, ul { margin-left: 2.03125rem; }
+
+li > ol, li > ul { margin-left: 2.03125rem; }
+
+a { color: rgb(64, 120, 192); text-decoration: none; }
+
+a:hover, a:active { text-decoration: underline; }
+------MultipartBoundary--hbBK5Ztj0CtWTrEPJsvzdgrVyjU8QWBvFeIOeJRrTH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-214cb868-a11f-4631-90f9-a95aafd25170@mhtml.blink
+
+@charset "utf-8";
+
+code[class*=3D"language-"], pre[class*=3D"language-"] { color: rgb(0, 0, 0)=
+; background: none; font-family: Consolas, Monaco, "Andale Mono", "Ubuntu M=
+ono", monospace; font-size: 1em; text-align: left; white-space: pre; word-s=
+pacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5=
+; tab-size: 4; hyphens: none; }
+
+pre[class*=3D"language-"] { position: relative; margin: 0.5em 0px; overflow=
+: visible; padding: 0px; }
+
+pre[class*=3D"language-"] > code { position: relative; border-left: 10px so=
+lid rgb(53, 140, 203); box-shadow: rgb(53, 140, 203) -1px 0px 0px 0px, rgb(=
+223, 223, 223) 0px 0px 0px 1px; background-color: rgb(253, 253, 253); backg=
+round-image: linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 0px)=
+; background-size: 3em 3em; background-origin: content-box; background-atta=
+chment: local; }
+
+code[class*=3D"language"] { max-height: inherit; height: inherit; padding: =
+0px 1em; display: block; overflow: auto; }
+
+:not(pre) > code[class*=3D"language-"], pre[class*=3D"language-"] { backgro=
+und-color: rgb(253, 253, 253); box-sizing: border-box; margin-bottom: 1em; =
+}
+
+:not(pre) > code[class*=3D"language-"] { position: relative; padding: 0.2em=
+; border-radius: 0.3em; color: rgb(201, 44, 44); border: 1px solid rgba(0, =
+0, 0, 0.1); display: inline; white-space: normal; }
+
+pre[class*=3D"language-"]::after, pre[class*=3D"language-"]::before { conte=
+nt: ""; z-index: -2; display: block; position: absolute; bottom: 0.75em; le=
+ft: 0.18em; width: 40%; height: 20%; max-height: 13em; box-shadow: rgb(151,=
+ 151, 151) 0px 13px 8px; transform: rotate(-2deg); }
+
+:not(pre) > code[class*=3D"language-"]::after, pre[class*=3D"language-"]::a=
+fter { right: 0.75em; left: auto; transform: rotate(2deg); }
+
+.token.block-comment, .token.cdata, .token.comment, .token.doctype, .token.=
+prolog { color: rgb(125, 139, 153); }
+
+.token.punctuation { color: rgb(95, 99, 100); }
+
+.token.boolean, .token.constant, .token.deleted, .token.function-name, .tok=
+en.number, .token.property, .token.symbol, .token.tag { color: rgb(201, 44,=
+ 44); }
+
+.token.attr-name, .token.builtin, .token.char, .token.function, .token.inse=
+rted, .token.selector, .token.string { color: rgb(47, 156, 10); }
+
+.token.entity, .token.operator, .token.url, .token.variable { color: rgb(16=
+6, 127, 89); background: rgba(255, 255, 255, 0.5); }
+
+.token.atrule, .token.attr-value, .token.class-name, .token.keyword { color=
+: rgb(25, 144, 184); }
+
+.token.important, .token.regex { color: rgb(238, 153, 0); }
+
+.language-css .token.string, .style .token.string { color: rgb(166, 127, 89=
+); background: rgba(255, 255, 255, 0.5); }
+
+.token.important { font-weight: 400; }
+
+.token.bold { font-weight: 700; }
+
+.token.italic { font-style: italic; }
+
+.token.entity { cursor: help; }
+
+.namespace { opacity: 0.7; }
+
+@media screen and (max-width: 767px) {
+  pre[class*=3D"language-"]::after, pre[class*=3D"language-"]::before { bot=
+tom: 14px; box-shadow: none; }
+}
+
+.token.cr::before, .token.lf::before, .token.tab:not(:empty)::before { colo=
+r: rgb(224, 215, 209); }
+
+pre[class*=3D"language-"].line-numbers.line-numbers { padding-left: 0px; }
+
+pre[class*=3D"language-"].line-numbers.line-numbers code { padding-left: 3.=
+8em; }
+
+pre[class*=3D"language-"].line-numbers.line-numbers .line-numbers-rows { le=
+ft: 0px; }
+
+pre[class*=3D"language-"][data-line] { padding-top: 0px; padding-bottom: 0p=
+x; padding-left: 0px; }
+
+pre[data-line] code { position: relative; padding-left: 4em; }
+
+pre .line-highlight { margin-top: 0px; }
+
+.styles-module--headerWrapper--2tn7j { background-color: rgb(250, 250, 250)=
+; height: 100px; display: flex; justify-content: center; align-items: cente=
+r; white-space: nowrap; }
+
+.styles-module--header--3Gxg8 { display: flex; justify-content: start; alig=
+n-items: flex-end; width: 100%; max-width: 960px; margin: 0px 0px 0px 10px;=
+ }
+
+.styles-module--header--3Gxg8 h1 { padding-bottom: 0px; }
+
+.styles-module--header--3Gxg8 h1:hover { opacity: 0.7; }
+
+.styles-module--headerLinks--2TTvw { border-bottom: none; list-style-type: =
+none; display: flex; }
+
+.styles-module--headerLinks--2TTvw li a { color: rgba(0, 0, 0, 0.8); font-s=
+ize: 18px; font-weight: 300; padding: 0px 10px; margin-bottom: 0px; }
+
+@media only screen and (max-width: 992px) {
+  .styles-module--headerLinks--2TTvw li a { font-size: 16px; padding: 0px 8=
+px; }
+  .styles-module--header--3Gxg8 { max-width: 680px; margin: 0px 10px; }
+}
+
+@media only screen and (max-width: 768px) {
+  .styles-module--headerLinks--2TTvw { margin-left: 0px; line-height: 1.3re=
+m; }
+  .styles-module--headerLinks--2TTvw li a { font-size: 14px; padding: 0px 6=
+px; }
+  .styles-module--headerWrapper--2tn7j { height: 75px; }
+  .styles-module--header--3Gxg8 h1 { font-size: 20px; }
+}
+
+.styles-module--sideBarSection--kbYhv { display: flex; flex-direction: colu=
+mn; }
+
+.styles-module--sideBarLabel--1Yp9y { padding-top: 0px; font-weight: 600; f=
+ont-size: 14px; text-transform: uppercase; white-space: nowrap; }
+
+.styles-module--sideBarEntry--yZZc9 { padding-top: 0px; box-sizing: border-=
+box; color: rgb(51, 51, 51); font-size: 14px; font-weight: 400; line-height=
+: 22.4px; list-style-type: none; }
+
+pre[class^=3D"language-"]::before { box-shadow: none; }
+
+pre[class^=3D"language-"] > code { box-shadow: none; border-left: none; bac=
+kground-color: rgb(239, 239, 239); background-image: none; padding: 10px; }
+
+pre[class^=3D"language-"]::after { box-shadow: none; }
+
+.styles-module--main--1m7Ru { display: flex; justify-content: center; min-w=
+idth: 0px; }
+
+.styles-module--contentWrapper--iDaC7 { display: flex; max-width: 960px; mi=
+n-width: 0px; }
+
+.styles-module--content--3pIkX { max-width: 680px; padding-top: 0px; margin=
+: 26px 50px 15px 10px; min-width: 300px; }
+
+@media only screen and (max-width: 992px) {
+  .styles-module--content--3pIkX { margin: 26px 10px; }
+}
+
+.styles-module--sidebar--WpqGz { margin-top: 5px; max-width: 220px; }
+
+@media only screen and (max-width: 992px) {
+  .styles-module--sidebar--WpqGz { display: none; }
+}
+
+sup a { color: rgb(0, 0, 0); }
+
+h2 { clear: both; font-size: 22px; margin-bottom: 16.5px; overflow-wrap: br=
+eak-word; padding-right: 0px; padding-top: 24px; font-weight: 400; line-hei=
+ght: 30.8px; }
+
+@media only screen and (max-width: 992px) {
+  h2 { font-size: 20px; margin-bottom: 14.5px; padding-top: 6px; }
+}
+
+h3 { font-size: 18px; overflow-wrap: break-word; font-weight: 300; line-hei=
+ght: 30.8px; color: rgb(118, 118, 118); }
+
+@media only screen and (max-width: 992px) {
+  h3 { font-size: 18px; margin-bottom: 14.5px; padding-top: 6px; margin-top=
+: 14px; }
+}
+
+.styles-module--pb2--AfFCT { margin-bottom: 50px; }
+
+.styles-module--publishDate--ykcEK { color: rgb(118, 118, 118); font-size: =
+0.6875rem; font-weight: 800; letter-spacing: 0.1818em; text-transform: uppe=
+rcase; }
+
+.styles-module--articleTitle--PGngd { color: rgb(51, 51, 51); font-size: 26=
+px; font-weight: 300; line-height: 36.4px; margin-top: 0px; margin-bottom: =
+14px; overflow-wrap: break-word; }
+
+@media only screen and (max-width: 992px) {
+  .styles-module--articleTitle--PGngd { font-size: 22px; }
+}
+
+.styles-module--socialButtons--1R7Rx { display: flex; justify-content: spac=
+e-between; list-style-type: none; margin: 0px; width: 150px; }
+
+.styles-module--socialButtons--1R7Rx a { cursor: pointer; }
+
+.styles-module--border--O42kg { margin-top: 25px; border-top: 1px solid rgb=
+a(0, 0, 0, 0.25); margin-bottom: 25px; }
+
+.styles-module--mcHeader--OsuQO { display: block; margin-bottom: 10px; }
+
+.styles-module--emailLabel--xb2_N { display: none; }
+
+.styles-module--flexForm--4P7yQ { display: flex; width: 100%; box-shadow: r=
+gba(0, 0, 0, 0.3) 1px 2px 4px; }
+
+.styles-module--flexForm--4P7yQ * { border: 0px; padding: 0px 0px 0px 10px;=
+ background: rgb(255, 255, 255); line-height: 45px; font-size: 1rem; border=
+-radius: 0px; outline: 0px; }
+
+.styles-module--flexForm--4P7yQ input[type=3D"email"] { width: 75%; }
+
+.styles-module--flexForm--4P7yQ button[type=3D"submit"] { background: rgb(2=
+39, 63, 90); border: 1px solid rgb(239, 63, 90); color: rgb(255, 255, 255);=
+ padding: 0px 30px; cursor: pointer; white-space: nowrap; width: 25%; min-w=
+idth: 150px; }
+
+.styles-module--flexForm--4P7yQ button[type=3D"submit"]:hover { background:=
+ rgb(215, 56, 81); border: 1px solid rgb(215, 56, 81); }
+
+@media only screen and (max-width: 768px) {
+  .styles-module--flexForm--4P7yQ * { line-height: 35px; font-size: 0.75rem=
+; }
+  .styles-module--flexForm--4P7yQ button[type=3D"submit"] { padding: 0px 10=
+px; width: 25%; min-width: 0px; }
+}
+------MultipartBoundary--hbBK5Ztj0CtWTrEPJsvzdgrVyjU8QWBvFeIOeJRrTH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2fbb20e8-0351-433b-9514-4b0fe92b66d1@mhtml.blink
+
+@charset "utf-8";
+
+.gatsby-resp-image-image { width: 100%; height: 100%; margin: 0px; vertical=
+-align: middle; position: absolute; top: 0px; left: 0px; color: transparent=
+; }
+------MultipartBoundary--hbBK5Ztj0CtWTrEPJsvzdgrVyjU8QWBvFeIOeJRrTH------

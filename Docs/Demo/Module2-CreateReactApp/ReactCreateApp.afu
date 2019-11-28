@@ -1,0 +1,13 @@
+
+AFU:
+	1) create react app steps
+	2) Translate html template into React Components
+
+Labs: Html pages into React Components
+	Starter: AdminPlus demos in html (starter project)
+	- Login
+	- Main Layout
+	- PageLogin
+	- PageDetails
+	- PageUIComponents
+	

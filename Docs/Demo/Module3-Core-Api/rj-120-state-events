@@ -1,0 +1,94 @@
+
+
+npx create-react-app rj-220-state-events
+
+target:
+
+
+1) change state
+	basic (ticker-> state)	
+	
+	
+2) Euroconverter:
+	merged state fields	
+	event handlers:
+		events listener (dom -> react)
+		inline (onChange)
+		link to method and binding
+		
+			
+3) rendering according to state:
+
+	3.1) UserGreeting or GuestGreeting
+	props from App.js
+	state if changeable in D03
+	
+	3.2) LoginControls
+	props from parent
+	state 
+	passing event handler as properties
+	
+	3.3) MailBox 
+	 in line evaluation
+	 ternary operator
+	
+	3.4) Dynamic style (Button type)
+		choose style of components (var = style to apply on jsx/html frags)
+		
+4) working with components as list
+	
+	list components and keys
+	where to keep key
+	map function and dynamic component creation
+
+	
+6) Scaffolding and architecture project
+
+	component/componentName (.jsx, .css)
+	service.method
+	
+
+
+Lab tabs
+
+
+	
+
+
+	
+5) More on events:	
+	
+	event.preventDefault
+	pass parameters to event handlers
+
+
+6) Working with forms:
+	Controlled components:
+		input
+		textarea
+		select
+	Uncontrolled components
+
+7) Advanced:
+	possible asynch update
+	immutability & shouldComponentUpdate
+	component lifecycle functions (forceUpdate, shouldUpdate)
+
+
+8) Design
+	(Upper components (page) manage state, then they applied to children as properties)
+	state -> children.props 	
+
+Lab:
+
+Labs:
+1) Links according to props.user.role (in App.js)
+2) Page displayed according to link clicked (main)
+3) FormValidation
+4) Airports
+
+
+timer
+service (mock data)
+> Register user
+> 

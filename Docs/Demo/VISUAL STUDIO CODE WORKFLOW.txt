@@ -1,0 +1,16 @@
+
+
+create react
+
+
+TRAINING MODULE ROUTINE:
+
+	1) create react app 
+	(keep module)
+
+	2) save everything else as original.zip file and then delete it
+
+	3) unzip <lab.zip> in project root
+
+	4) Deploy: lab.zip without modules
+
