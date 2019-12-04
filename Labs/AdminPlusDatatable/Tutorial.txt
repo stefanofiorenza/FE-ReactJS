@@ -1,0 +1,8 @@
+1) Follow tutorial here:
+
+Basic
+https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/getting-started.html
+https://react-bootstrap-table.github.io/react-bootstrap-table2/storybook
+
+Addon (Toolkit)
+https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/toolkits-getting-started.html
