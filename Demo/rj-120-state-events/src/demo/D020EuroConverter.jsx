@@ -1,5 +1,6 @@
 import React from 'react';
 
+/**See https://reactjs.org/docs/forms.html for controlled elements in form */
 const euro2DollarChangeRate=1.1041;
 
 export default class EuroConverter extends React.Component {

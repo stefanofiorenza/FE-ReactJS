@@ -1,0 +1,42 @@
+Learning Path:
+
+1) React Components:
+Think in components.
+CRA and components.
+Lab: Break a template in components. (MasterLayout and 3 Pages)
+
+2) React State Events:
+Components lifecycle.
+Rendering according to props.
+Rendering according to state.
+Manipulate state through events.
+Form elements and state.
+
+3) React Router:
+React Router core demo.
+Authentication and Redirect.
+Triggering new link programmatically.
+
+Labs: Links management from AdminPlus:
+	Detail
+	Table
+	UI Components
+	
+Labs: Authentication and Menu Bars 
+
+4) React Table:
+(setup and sandbox) -> demos
+
+5) Advanced UI:
+Select
+Date Selector
+
+
+6) Redux
+Redux core api (Maximilian Demos - Video)
+Advanced code with Tim. (Setup sandbox)
+
+Labs: 
+AdminPlus
+1) Crud User: share store data between pages.
+2) Middleware: Logger, Promise, Thunk.

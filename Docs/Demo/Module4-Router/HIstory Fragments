@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+		formatContactDetailButtonCell(cell, row){
+				let clickHandler=this.contactDetails;
+				var emptyContent = React.createElement('i',{id:cell,onClick:clickHandler});			
+				var aBtn = React.createElement('a',{id:cell,className:"btnNtfcdDetails btn-action glyphicons eye_open btn-success", onClick:clickHandler}, emptyContent);
+				return aBtn;	
+		}
+
+
+		contactDetails(e){
+			var { id} = e.target;
+	  		hashHistory.push('/contacts/details/'+id);
+		}

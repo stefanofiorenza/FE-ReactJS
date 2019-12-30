@@ -1,0 +1,13 @@
+
+Scenario:
+N Pages share the state:
+
+1) how would you solve it?
+
+2) Redux all in one (demo)
+role of components
+
+3) Redux and components:
+Shared array of Objects between Pages 
+
+4) with middleware:

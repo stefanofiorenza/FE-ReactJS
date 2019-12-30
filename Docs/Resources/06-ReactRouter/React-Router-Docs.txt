@@ -1,0 +1,15 @@
+Introduction:
+https://www.freecodecamp.org/news/react-router-in-5-minutes/
+
+Intermediate:
+https://blog.pshrmn.com/simple-react-router-v4-tutorial/
+
+History and Redirect:
+https://tylermcginnis.com/react-router-programmatically-navigate/
+
+Quite complete:
+https://www.freecodecamp.org/news/hitchhikers-guide-to-react-router-v4-4b12e369d10/
+
+
+Code Reference tutorial:
+https://reacttraining.com/react-router/web/example/url-params
