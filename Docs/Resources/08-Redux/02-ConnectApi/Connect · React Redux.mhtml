@@ -1,0 +1,3373 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://react-redux.js.org/api/connect
+Subject: =?utf-8?Q?Connect=20=C2=B7=20React=20Redux?=
+Date: Mon, 30 Dec 2019 19:05:10 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Nr2a9KVj8UPju18t6ws35kUxwaRjHGoWsSU0tDdEgx----"
+
+
+------MultipartBoundary--Nr2a9KVj8UPju18t6ws35kUxwaRjHGoWsSU0tDdEgx----
+Content-Type: text/html
+Content-ID: <frame-D93FA1625EFEEE696AA64DBD0F7199EF@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://react-redux.js.org/api/connect
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><meta http-equiv=3D"X-UA-Compatible" c=
+ontent=3D"IE=3Dedge"><title>Connect =C2=B7 React Redux</title><meta name=3D=
+"viewport" content=3D"width=3Ddevice-width"><meta name=3D"generator" conten=
+t=3D"Docusaurus"><meta name=3D"description" content=3D"<h1><a class=3D&quot=
+;anchor&quot; aria-hidden=3D&quot;true&quot; id=3D&quot;connect&quot;></a><=
+a href=3D&quot;#connect&quot; aria-hidden=3D&quot;true&quot; class=3D&quot;=
+hash-link&quot;><svg class=3D&quot;hash-link-icon&quot; aria-hidden=3D&quot=
+;true&quot; height=3D&quot;16&quot; version=3D&quot;1.1&quot; viewBox=3D&qu=
+ot;0 0 16 16&quot; width=3D&quot;16&quot;><path fill-rule=3D&quot;evenodd&q=
+uot; d=3D&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 =
+3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c=
+-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-=
+.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31=
+ 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;></path></svg></a><co=
+de>connect()</code></h1>
+"><meta name=3D"docsearch:version" content=3D"7.1"><meta name=3D"docsearch:=
+language" content=3D"en"><meta property=3D"og:title" content=3D"Connect =C2=
+=B7 React Redux"><meta property=3D"og:type" content=3D"website"><meta prope=
+rty=3D"og:url" content=3D"https://react-redux.js.org/index.html"><meta prop=
+erty=3D"og:description" content=3D"<h1><a class=3D&quot;anchor&quot; aria-h=
+idden=3D&quot;true&quot; id=3D&quot;connect&quot;></a><a href=3D&quot;#conn=
+ect&quot; aria-hidden=3D&quot;true&quot; class=3D&quot;hash-link&quot;><svg=
+ class=3D&quot;hash-link-icon&quot; aria-hidden=3D&quot;true&quot; height=
+=3D&quot;16&quot; version=3D&quot;1.1&quot; viewBox=3D&quot;0 0 16 16&quot;=
+ width=3D&quot;16&quot;><path fill-rule=3D&quot;evenodd&quot; d=3D&quot;M4 =
+9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.7=
+2-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.=
+5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5=
+ 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.=
+45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;></path></svg></a><code>connect()</code=
+></h1>
+"><meta property=3D"og:image" content=3D"https://react-redux.js.org/img/red=
+ux-logo-landscape.png"><meta name=3D"twitter:card" content=3D"summary"><met=
+a name=3D"twitter:image" content=3D"https://react-redux.js.org/img/redux-lo=
+go-twitter.png"><link rel=3D"shortcut icon" href=3D"https://react-redux.js.=
+org/img/favicon/favicon.ico"><link rel=3D"stylesheet" href=3D"https://cdn.j=
+sdelivr.net/docsearch.js/1/docsearch.min.css"><link rel=3D"stylesheet" href=
+=3D"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monok=
+ai.min.css"><link rel=3D"stylesheet" href=3D"https://react-redux.js.org/css=
+/main.css"></head><body class=3D"sideNavVisible separateOnPageNav"><div cla=
+ss=3D"fixedHeaderContainer"><div class=3D"headerWrapper wrapper"><header><a=
+ href=3D"https://react-redux.js.org/"><img class=3D"logo" src=3D"https://re=
+act-redux.js.org/img/redux_white.svg" alt=3D"React Redux"><h2 class=3D"head=
+erTitleWithLogo">React Redux</h2></a><a href=3D"https://react-redux.js.org/=
+versions"><h3>7.1</h3></a><div class=3D"navigationWrapper navigationSlider"=
+><nav class=3D"slidingNav"><ul class=3D"nav-site nav-site-internal"><li cla=
+ss=3D"siteNavGroupActive"><a href=3D"https://react-redux.js.org/introductio=
+n/quick-start" target=3D"_self">Quick Start</a></li><li class=3D"siteNavGro=
+upActive"><a href=3D"https://react-redux.js.org/using-react-redux/connect-m=
+apstate" target=3D"_self">Using React Redux</a></li><li class=3D"siteNavGro=
+upActive siteNavItemActive"><a href=3D"https://react-redux.js.org/api/conne=
+ct" target=3D"_self">API</a></li><li class=3D""><a href=3D"https://www.gith=
+ub.com/reduxjs/react-redux" target=3D"_self">Github</a></li><li class=3D"">=
+<a href=3D"https://react-redux.js.org/introduction/quick-start#help-and-dis=
+cussion" target=3D"_self">Need help?</a></li><li class=3D"navSearchWrapper =
+reactNavSearchWrapper"><span class=3D"algolia-autocomplete" style=3D"positi=
+on: relative; display: inline-block; direction: ltr;"><input type=3D"text" =
+id=3D"search_input_react" placeholder=3D"Search" title=3D"Search" class=3D"=
+aa-input" autocomplete=3D"off" spellcheck=3D"false" role=3D"combobox" aria-=
+autocomplete=3D"list" aria-expanded=3D"false" aria-labelledby=3D"search_inp=
+ut_react" aria-owns=3D"algolia-autocomplete-listbox-0" dir=3D"auto" style=
+=3D"position: relative; vertical-align: top;"><pre aria-hidden=3D"true" sty=
+le=3D"position: absolute; visibility: hidden; white-space: pre; font-family=
+: Arial; font-size: 14px; font-style: normal; font-variant: normal; font-we=
+ight: 300; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; tex=
+t-rendering: auto; text-transform: none;"></pre><span class=3D"aa-dropdown-=
+menu" role=3D"listbox" id=3D"algolia-autocomplete-listbox-0" style=3D"posit=
+ion: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: au=
+to;"><div class=3D"aa-dataset-1"></div></span></span></li></ul></nav></div>=
+</header></div></div><div class=3D"navPusher"><div class=3D"docMainWrapper =
+wrapper"><div class=3D"container docsNavContainer" id=3D"docsNav"><nav clas=
+s=3D"toc"><div class=3D"toggleNav"><section class=3D"navWrapper wrapper"><d=
+iv class=3D"navBreadcrumb wrapper"><div class=3D"navToggle" id=3D"navToggle=
+r"><i></i></div><h2><i>=E2=80=BA</i><span>API Reference</span></h2><div cla=
+ss=3D"tocToggler" id=3D"tocToggler"><i class=3D"icon-toc"></i></div></div><=
+div class=3D"navGroups"><div class=3D"navGroup"><h3 class=3D"navGroupCatego=
+ryTitle">Introduction</h3><ul><li class=3D"navListItem"><a class=3D"navItem=
+" href=3D"https://react-redux.js.org/introduction/quick-start">Quick Start<=
+/a></li><li class=3D"navListItem"><a class=3D"navItem" href=3D"https://reac=
+t-redux.js.org/introduction/basic-tutorial">Basic Tutorial</a></li><li clas=
+s=3D"navListItem"><a class=3D"navItem" href=3D"https://react-redux.js.org/i=
+ntroduction/why-use-react-redux">Why Use React Redux?</a></li></ul></div><d=
+iv class=3D"navGroup"><h3 class=3D"navGroupCategoryTitle">Using React Redux=
+</h3><ul><li class=3D"navListItem"><a class=3D"navItem" href=3D"https://rea=
+ct-redux.js.org/using-react-redux/connect-mapstate">Connect: Extracting Dat=
+a with mapStateToProps</a></li><li class=3D"navListItem"><a class=3D"navIte=
+m" href=3D"https://react-redux.js.org/using-react-redux/connect-mapdispatch=
+">Connect: Dispatching Actions with mapDispatchToProps</a></li><li class=3D=
+"navListItem"><a class=3D"navItem" href=3D"https://react-redux.js.org/using=
+-react-redux/accessing-store">Accessing the Store</a></li><li class=3D"navL=
+istItem"><a class=3D"navItem" href=3D"https://react-redux.js.org/using-reac=
+t-redux/static-typing">Static Typing</a></li></ul></div><div class=3D"navGr=
+oup"><h3 class=3D"navGroupCategoryTitle">API Reference</h3><ul><li class=3D=
+"navListItem navListItemActive"><a class=3D"navItem" href=3D"https://react-=
+redux.js.org/api/connect">connect()</a></li><li class=3D"navListItem"><a cl=
+ass=3D"navItem" href=3D"https://react-redux.js.org/api/provider">Provider</=
+a></li><li class=3D"navListItem"><a class=3D"navItem" href=3D"https://react=
+-redux.js.org/api/connect-advanced">connectAdvanced()</a></li><li class=3D"=
+navListItem"><a class=3D"navItem" href=3D"https://react-redux.js.org/api/ba=
+tch">batch()</a></li><li class=3D"navListItem"><a class=3D"navItem" href=3D=
+"https://react-redux.js.org/api/hooks">Hooks</a></li></ul></div><div class=
+=3D"navGroup"><h3 class=3D"navGroupCategoryTitle">Guides</h3><ul><li class=
+=3D"navListItem"><a class=3D"navItem" href=3D"https://react-redux.js.org/tr=
+oubleshooting">Troubleshooting</a></li></ul></div></div></section></div></n=
+av></div><div class=3D"container mainContainer"><div class=3D"wrapper"><div=
+ class=3D"post"><header class=3D"postHeader"></header><article><div><span><=
+h1><a class=3D"anchor" aria-hidden=3D"true" id=3D"connect"></a><a href=3D"h=
+ttps://react-redux.js.org/api/connect#connect" aria-hidden=3D"true" class=
+=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" height=3D=
+"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=3D"=
+evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3=
+.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-=
+.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.=
+98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 =
+7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>con=
+nect()</code></h1>
+<h2><a class=3D"anchor" aria-hidden=3D"true" id=3D"overview"></a><a href=3D=
+"https://react-redux.js.org/api/connect#overview" aria-hidden=3D"true" clas=
+s=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" height=
+=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=
+=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69=
+ 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4=
+H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H=
+9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11=
+.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overv=
+iew</h2>
+<p>The <code>connect()</code> function connects a React component to a Redu=
+x store.</p>
+<p>It provides its connected component with the pieces of the data it needs=
+ from the store, and the functions it can use to dispatch actions to the st=
+ore.</p>
+<p>It does not modify the component class passed to it; instead, it returns=
+ a new, connected component class that wraps the component you passed in.</=
+p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-function"><sp=
+an class=3D"hljs-keyword">function</span> <span class=3D"hljs-title">connec=
+t</span>(<span class=3D"hljs-params">mapStateToProps?, mapDispatchToProps?,=
+ mergeProps?, options?</span>)
+</span></code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-l=
+abel=3D"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"=
+12" height=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000=
+/svg"><path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.98=
+7h-5v.998h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5=
+-.997H342v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.0=
+16.28-.11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v=
+-10.976c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.=
+996h3c.547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-=
+.544-.453-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547=
+ 0-1 .452-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rul=
+e=3D"evenodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></=
+div></button></pre>
+<p>The <code>mapStateToProps</code> and <code>mapDispatchToProps</code> dea=
+ls with your Redux store=E2=80=99s <code>state</code> and <code>dispatch</c=
+ode>, respectively. <code>state</code> and <code>dispatch</code> will be su=
+pplied to your <code>mapStateToProps</code> or <code>mapDispatchToProps</co=
+de> functions as the first argument.</p>
+<p>The returns of <code>mapStateToProps</code> and <code>mapDispatchToProps=
+</code> are referred to internally as <code>stateProps</code> and <code>dis=
+patchProps</code>, respectively. They will be supplied to <code>mergeProps<=
+/code>, if defined, as the first and the second argument, where the third a=
+rgument will be <code>ownProps</code>. The combined result, commonly referr=
+ed to as <code>mergedProps</code>, will then be supplied to your connected =
+component.</p>
+<h2><a class=3D"anchor" aria-hidden=3D"true" id=3D"connect-parameters"></a>=
+<a href=3D"https://react-redux.js.org/api/connect#connect-parameters" aria-=
+hidden=3D"true" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidd=
+en=3D"true" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16=
+"><path fill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 =
+3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C1=
+0 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.=
+5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2=
+ 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></pat=
+h></svg></a><code>connect()</code> Parameters</h2>
+<p><code>connect</code> accepts four different parameters, all optional. By=
+ convention, they are called:</p>
+<ol>
+<li><code>mapStateToProps?: Function</code></li>
+<li><code>mapDispatchToProps?: Function | Object</code></li>
+<li><code>mergeProps?: Function</code></li>
+<li><code>options?: Object</code></li>
+</ol>
+<h3><a class=3D"anchor" aria-hidden=3D"true" id=3D"mapstatetoprops-state-ow=
+nprops-object"></a><a href=3D"https://react-redux.js.org/api/connect#mapsta=
+tetoprops-state-ownprops-object" aria-hidden=3D"true" class=3D"hash-link"><=
+svg class=3D"hash-link-icon" aria-hidden=3D"true" height=3D"16" version=3D"=
+1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=3D"evenodd" d=3D"M4=
+ 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.=
+72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2=
+.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.=
+5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1=
+.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>mapStateToProps?: (=
+state, ownProps?) =3D&gt; Object</code></h3>
+<p>If a <code>mapStateToProps</code> function is specified, the new wrapper=
+ component will subscribe to Redux store updates. This means that any time =
+the store is updated, <code>mapStateToProps</code> will be called. The resu=
+lts of <code>mapStateToProps</code> must be a plain object, which will be m=
+erged into the wrapped component=E2=80=99s props. If you don't want to subs=
+cribe to store updates, pass <code>null</code> or <code>undefined</code> in=
+ place of <code>mapStateToProps</code>.</p>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"parameters"></a><a href=
+=3D"https://react-redux.js.org/api/connect#parameters" aria-hidden=3D"true"=
+ class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" hei=
+ght=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-ru=
+le=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.=
+69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8=
+ 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 1=
+2H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 =
+11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Par=
+ameters</h4>
+<ol>
+<li><code>state: Object</code></li>
+<li><code>ownProps?: Object</code></li>
+</ol>
+<p>A <code>mapStateToProps</code> function takes a maximum of two parameter=
+s. The number of declared function parameters (a.k.a. arity) affects when i=
+t will be called. This also determines whether the function will receive ow=
+nProps. See notes <a href=3D"https://react-redux.js.org/api/connect#the-ari=
+ty-of-maptoprops-functions">here</a>.</p>
+<h5><a class=3D"anchor" aria-hidden=3D"true" id=3D"state"></a><a href=3D"ht=
+tps://react-redux.js.org/api/connect#state" aria-hidden=3D"true" class=3D"h=
+ash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" height=3D"16" =
+version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=3D"eveno=
+dd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 =
+1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0=
+-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-=
+2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 =
+13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>state</c=
+ode></h5>
+<p>If your <code>mapStateToProps</code> function is declared as taking one =
+parameter, it will be called whenever the store state changes, and given th=
+e store state as the only parameter.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">cons=
+t</span> mapStateToProps =3D <span class=3D"hljs-function"><span class=3D"h=
+ljs-params">state</span> =3D&gt;</span> ({ <span class=3D"hljs-attr">todos<=
+/span>: state.todos })
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<h5><a class=3D"anchor" aria-hidden=3D"true" id=3D"ownprops"></a><a href=3D=
+"https://react-redux.js.org/api/connect#ownprops" aria-hidden=3D"true" clas=
+s=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" height=
+=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=
+=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69=
+ 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4=
+H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H=
+9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11=
+.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code=
+>ownProps</code></h5>
+<p>If your <code>mapStateToProps</code> function is declared as taking two =
+parameters, it will be called whenever the store state changes <em>or</em> =
+when the wrapper component receives new props (based on shallow equality co=
+mparisons). It will be given the store state as the first parameter, and th=
+e wrapper component's props as the second parameter.</p>
+<p>The second parameter is normally referred to as <code>ownProps</code> by=
+ convention.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">cons=
+t</span> mapStateToProps =3D <span class=3D"hljs-function">(<span class=3D"=
+hljs-params">state, ownProps</span>) =3D&gt;</span> ({
+  <span class=3D"hljs-attr">todo</span>: state.todos[ownProps.id]
+})
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"returns"></a><a href=3D"=
+https://react-redux.js.org/api/connect#returns" aria-hidden=3D"true" class=
+=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" height=3D=
+"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=3D"=
+evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3=
+.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-=
+.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.=
+98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 =
+7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Returns</=
+h4>
+<p>Your <code>mapStateToProps</code> functions are expected to return an ob=
+ject. This object, normally referred to as <code>stateProps</code>, will be=
+ merged as props to your connected component. If you define <code>mergeProp=
+s</code>, it will be supplied as the first parameter to <code>mergeProps</c=
+ode>.</p>
+<p>The return of the <code>mapStateToProps</code> determine whether the con=
+nected component will re-render (details <a href=3D"https://react-redux.js.=
+org/using-react-redux/connect-mapstate#return-values-determine-if-your-comp=
+onent-re-renders">here</a>).</p>
+<p>For more details on recommended usage of <code>mapStateToProps</code>, p=
+lease refer to <a href=3D"https://react-redux.js.org/using-react-redux/conn=
+ect-mapstate">our guide on using <code>mapStateToProps</code></a>.</p>
+<blockquote>
+<p>You may define <code>mapStateToProps</code> and <code>mapDispatchToProps=
+</code> as a factory function, i.e., you return a function instead of an ob=
+ject. In this case your returned function will be treated as the real <code=
+>mapStateToProps</code> or <code>mapDispatchToProps</code>, and be called i=
+n subsequent calls. You may see notes on <a href=3D"https://react-redux.js.=
+org/api/connect#factory-functions">Factory Functions</a> or our guide on pe=
+rformance optimizations.</p>
+</blockquote>
+<h3><a class=3D"anchor" aria-hidden=3D"true" id=3D"mapdispatchtoprops-objec=
+t-dispatch-ownprops-object"></a><a href=3D"https://react-redux.js.org/api/c=
+onnect#mapdispatchtoprops-object-dispatch-ownprops-object" aria-hidden=3D"t=
+rue" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true"=
+ height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fil=
+l-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 =
+3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98=
+ 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 =
+13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.2=
+5C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a=
+><code>mapDispatchToProps?: Object | (dispatch, ownProps?) =3D&gt; Object</=
+code></h3>
+<p>Conventionally called <code>mapDispatchToProps</code>, this second param=
+eter to <code>connect()</code> may either be an object, a function, or not =
+supplied.</p>
+<p>Your component will receive <code>dispatch</code> by default, i.e., when=
+ you do not supply a second parameter to <code>connect()</code>:</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-comment">// d=
+o not pass `mapDispatchToProps`</span>
+connect()(MyComponent)
+connect(mapState)(MyComponent)
+connect(
+  mapState,
+  <span class=3D"hljs-literal">null</span>,
+  mergeProps,
+  options
+)(MyComponent)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<p>If you define a <code>mapDispatchToProps</code> as a function, it will b=
+e called with a maximum of two parameters.</p>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"parameters-1"></a><a hre=
+f=3D"https://react-redux.js.org/api/connect#parameters-1" aria-hidden=3D"tr=
+ue" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" =
+height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill=
+-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3=
+ 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 =
+4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 1=
+3 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25=
+C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>=
+Parameters</h4>
+<ol>
+<li><code>dispatch: Function</code></li>
+<li><code>ownProps?: Object</code></li>
+</ol>
+<h5><a class=3D"anchor" aria-hidden=3D"true" id=3D"dispatch"></a><a href=3D=
+"https://react-redux.js.org/api/connect#dispatch" aria-hidden=3D"true" clas=
+s=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" height=
+=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=
+=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69=
+ 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4=
+H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H=
+9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11=
+.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code=
+>dispatch</code></h5>
+<p>If your <code>mapDispatchToProps</code> is declared as a function taking=
+ one parameter, it will be given the <code>dispatch</code> of your <code>st=
+ore</code>.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">cons=
+t</span> mapDispatchToProps =3D <span class=3D"hljs-function"><span class=
+=3D"hljs-params">dispatch</span> =3D&gt;</span> {
+  <span class=3D"hljs-keyword">return</span> {
+    <span class=3D"hljs-comment">// dispatching plain actions</span>
+    increment: <span class=3D"hljs-function"><span class=3D"hljs-params">()=
+</span> =3D&gt;</span> dispatch({ <span class=3D"hljs-attr">type</span>: <s=
+pan class=3D"hljs-string">'INCREMENT'</span> }),
+    <span class=3D"hljs-attr">decrement</span>: <span class=3D"hljs-functio=
+n"><span class=3D"hljs-params">()</span> =3D&gt;</span> dispatch({ <span cl=
+ass=3D"hljs-attr">type</span>: <span class=3D"hljs-string">'DECREMENT'</spa=
+n> }),
+    <span class=3D"hljs-attr">reset</span>: <span class=3D"hljs-function"><=
+span class=3D"hljs-params">()</span> =3D&gt;</span> dispatch({ <span class=
+=3D"hljs-attr">type</span>: <span class=3D"hljs-string">'RESET'</span> })
+  }
+}
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<h5><a class=3D"anchor" aria-hidden=3D"true" id=3D"ownprops-1"></a><a href=
+=3D"https://react-redux.js.org/api/connect#ownprops-1" aria-hidden=3D"true"=
+ class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" hei=
+ght=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-ru=
+le=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.=
+69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8=
+ 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 1=
+2H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 =
+11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><co=
+de>ownProps</code></h5>
+<p>If your <code>mapDispatchToProps</code> function is declared as taking t=
+wo parameters, it will be called with <code>dispatch</code> as the first pa=
+rameter and the props passed to the wrapper component as the second paramet=
+er, and will be re-invoked whenever the connected component receives new pr=
+ops.</p>
+<p>The second parameter is normally referred to as <code>ownProps</code> by=
+ convention.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-comment">// b=
+inds on component re-rendering</span>
+;<span class=3D"xml"><span class=3D"hljs-tag">&lt;<span class=3D"hljs-name"=
+>button</span> <span class=3D"hljs-attr">onClick</span>=3D<span class=3D"hl=
+js-string">{()</span> =3D&gt;</span> this.props.toggleTodo(this.props.todoI=
+d)} /&gt;
+
+// binds on `props` change
+const mapDispatchToProps =3D (dispatch, ownProps) =3D&gt; {
+  toggleTodo: () =3D&gt; dispatch(toggleTodo(ownProps.todoId))
+}
+</span></code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-l=
+abel=3D"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"=
+12" height=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000=
+/svg"><path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.98=
+7h-5v.998h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5=
+-.997H342v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.0=
+16.28-.11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v=
+-10.976c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.=
+996h3c.547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-=
+.544-.453-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547=
+ 0-1 .452-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rul=
+e=3D"evenodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></=
+div></button></pre>
+<p>The number of declared function parameters of <code>mapDispatchToProps</=
+code> determines whether they receive ownProps. See notes <a href=3D"https:=
+//react-redux.js.org/api/connect#the-arity-of-maptoprops-functions">here</a=
+>.</p>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"returns-1"></a><a href=
+=3D"https://react-redux.js.org/api/connect#returns-1" aria-hidden=3D"true" =
+class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" heig=
+ht=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rul=
+e=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.6=
+9 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 =
+4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12=
+H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 1=
+1.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Retu=
+rns</h4>
+<p>Your <code>mapDispatchToProps</code> functions are expected to return an=
+ object. Each fields of the object should be a function, calling which is e=
+xpected to dispatch an action to the store.</p>
+<p>The return of your <code>mapDispatchToProps</code> functions are regarde=
+d as <code>dispatchProps</code>. It will be merged as props to your connect=
+ed component. If you define <code>mergeProps</code>, it will be supplied as=
+ the second parameter to <code>mergeProps</code>.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">cons=
+t</span> createMyAction =3D <span class=3D"hljs-function"><span class=3D"hl=
+js-params">()</span> =3D&gt;</span> ({ <span class=3D"hljs-attr">type</span=
+>: <span class=3D"hljs-string">'MY_ACTION'</span> })
+<span class=3D"hljs-keyword">const</span> mapDispatchToProps =3D <span clas=
+s=3D"hljs-function">(<span class=3D"hljs-params">dispatch, ownProps</span>)=
+ =3D&gt;</span> {
+  <span class=3D"hljs-keyword">const</span> boundActions =3D bindActionCrea=
+tors({ createMyAction }, dispatch)
+  <span class=3D"hljs-keyword">return</span> {
+    <span class=3D"hljs-attr">dispatchPlainObject</span>: <span class=3D"hl=
+js-function"><span class=3D"hljs-params">()</span> =3D&gt;</span> dispatch(=
+{ <span class=3D"hljs-attr">type</span>: <span class=3D"hljs-string">'MY_AC=
+TION'</span> }),
+    <span class=3D"hljs-attr">dispatchActionCreatedByActionCreator</span>: =
+<span class=3D"hljs-function"><span class=3D"hljs-params">()</span> =3D&gt;=
+</span> dispatch(createMyAction()),
+    ...boundActions,
+    <span class=3D"hljs-comment">// you may return dispatch here</span>
+    dispatch
+  }
+}
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<p>For more details on recommended usage, please refer to <a href=3D"https:=
+//react-redux.js.org/using-react-redux/connect-mapdispatch">our guide on us=
+ing <code>mapDispatchToProps</code></a>.</p>
+<blockquote>
+<p>You may define <code>mapStateToProps</code> and <code>mapDispatchToProps=
+</code> as a factory function, i.e., you return a function instead of an ob=
+ject. In this case your returned function will be treated as the real <code=
+>mapStateToProps</code> or <code>mapDispatchToProps</code>, and be called i=
+n subsequent calls. You may see notes on <a href=3D"https://react-redux.js.=
+org/api/connect#factory-functions">Factory Functions</a> or our guide on pe=
+rformance optimizations.</p>
+</blockquote>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"object-shorthand-form"><=
+/a><a href=3D"https://react-redux.js.org/api/connect#object-shorthand-form"=
+ aria-hidden=3D"true" class=3D"hash-link"><svg class=3D"hash-link-icon" ari=
+a-hidden=3D"true" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=
+=3D"16"><path fill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.5=
+5 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-=
+2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.2=
+2 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.0=
+9.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"=
+></path></svg></a>Object Shorthand Form</h4>
+<p><code>mapDispatchToProps</code> may be an object where each field is an =
+<a href=3D"https://redux.js.org/glossary#action-creator">action creator</a>=
+.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> { addTodo, deleteTodo, toggleTodo } <span class=3D"hljs-keyword">=
+from</span> <span class=3D"hljs-string">'./actionCreators'</span>
+
+<span class=3D"hljs-keyword">const</span> mapDispatchToProps =3D {
+  addTodo,
+  deleteTodo,
+  toggleTodo
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  <span class=3D"hljs-literal">null</span>,
+  mapDispatchToProps
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<p>In this case, React-Redux binds the <code>dispatch</code> of your store =
+to each of the action creators using <code>bindActionCreators</code>. The r=
+esult will be regarded as <code>dispatchProps</code>, which will be either =
+directly merged to your connected components, or supplied to <code>mergePro=
+ps</code> as the second argument.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-comment">// i=
+nternally, React-Redux calls bindActionCreators</span>
+<span class=3D"hljs-comment">// to bind the action creators to the dispatch=
+ of your store</span>
+bindActionCreators(mapDispatchToProps, dispatch)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<p>We also have a section in our <code>mapDispatchToProps</code> guide on t=
+he usage of object shorthand form <a href=3D"https://react-redux.js.org/usi=
+ng-react-redux/connect-mapdispatch#defining-mapdispatchtoprops-as-an-object=
+">here</a>.</p>
+<h3><a class=3D"anchor" aria-hidden=3D"true" id=3D"mergeprops-stateprops-di=
+spatchprops-ownprops-object"></a><a href=3D"https://react-redux.js.org/api/=
+connect#mergeprops-stateprops-dispatchprops-ownprops-object" aria-hidden=3D=
+"true" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"tru=
+e" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path f=
+ill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 =
+0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.=
+98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 1=
+2 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3=
+.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg><=
+/a><code>mergeProps?: (stateProps, dispatchProps, ownProps) =3D&gt; Object<=
+/code></h3>
+<p>If specified, defines how the final props for your own wrapped component=
+ are determined. If you do not provide <code>mergeProps</code>, your wrappe=
+d component receives <code>{ ...ownProps, ...stateProps, ...dispatchProps }=
+</code> by default.</p>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"parameters-2"></a><a hre=
+f=3D"https://react-redux.js.org/api/connect#parameters-2" aria-hidden=3D"tr=
+ue" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" =
+height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill=
+-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3=
+ 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 =
+4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 1=
+3 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25=
+C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>=
+Parameters</h4>
+<p><code>mergeProps</code> should be specified with maximum of three parame=
+ters. They are the result of <code>mapStateToProps()</code>, <code>mapDispa=
+tchToProps()</code>, and the wrapper component's <code>props</code>, respec=
+tively:</p>
+<ol>
+<li><code>stateProps</code></li>
+<li><code>dispatchProps</code></li>
+<li><code>ownProps</code></li>
+</ol>
+<p>The fields in the plain object you return from it will be used as the pr=
+ops for the wrapped component. You may specify this function to select a sl=
+ice of the state based on props, or to bind action creators to a particular=
+ variable from props.</p>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"returns-2"></a><a href=
+=3D"https://react-redux.js.org/api/connect#returns-2" aria-hidden=3D"true" =
+class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" heig=
+ht=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rul=
+e=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.6=
+9 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 =
+4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12=
+H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 1=
+1.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Retu=
+rns</h4>
+<p>The return value of <code>mergeProps</code> is referred to as <code>merg=
+edProps</code> and the fields will be used as the props for the wrapped com=
+ponent.</p>
+<h3><a class=3D"anchor" aria-hidden=3D"true" id=3D"options-object"></a><a h=
+ref=3D"https://react-redux.js.org/api/connect#options-object" aria-hidden=
+=3D"true" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"=
+true" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><pat=
+h fill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.=
+45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22=
+ 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.9=
+8 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-=
+2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></sv=
+g></a><code>options?: Object</code></h3>
+<pre><code class=3D"hljs css language-js">{
+  context?: <span class=3D"hljs-built_in">Object</span>,
+  pure?: boolean,
+  areStatesEqual?: <span class=3D"hljs-built_in">Function</span>,
+  areOwnPropsEqual?: <span class=3D"hljs-built_in">Function</span>,
+  areStatePropsEqual?: <span class=3D"hljs-built_in">Function</span>,
+  areMergedPropsEqual?: <span class=3D"hljs-built_in">Function</span>,
+  forwardRef?: boolean,
+}
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"context-object"></a><a h=
+ref=3D"https://react-redux.js.org/api/connect#context-object" aria-hidden=
+=3D"true" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"=
+true" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><pat=
+h fill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.=
+45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22=
+ 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.9=
+8 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-=
+2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></sv=
+g></a><code>context: Object</code></h4>
+<blockquote>
+<p>Note: This parameter is supported in &gt;=3D v6.0 only</p>
+</blockquote>
+<p>React-Redux v6 allows you to supply a custom context instance to be used=
+ by React-Redux.
+You need to pass the instance of your context to both <code>&lt;Provider /&=
+gt;</code> and your connected component.
+You may pass the context to your connected component either by passing it h=
+ere as a field of option, or as a prop to your connected component in rende=
+ring.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-comment">// c=
+onst MyContext =3D React.createContext();</span>
+connect(
+  mapStateToProps,
+  mapDispatchToProps,
+  <span class=3D"hljs-literal">null</span>,
+  { <span class=3D"hljs-attr">context</span>: MyContext }
+)(MyComponent)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"pure-boolean"></a><a hre=
+f=3D"https://react-redux.js.org/api/connect#pure-boolean" aria-hidden=3D"tr=
+ue" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" =
+height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill=
+-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3=
+ 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 =
+4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 1=
+3 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25=
+C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>=
+<code>pure: boolean</code></h4>
+<ul>
+<li>default value: <code>true</code></li>
+</ul>
+<p>Assumes that the wrapped component is a =E2=80=9Cpure=E2=80=9D component=
+ and does not rely on any input or state other than its props and the selec=
+ted Redux store=E2=80=99s state.</p>
+<p>When <code>options.pure</code> is true, <code>connect</code> performs se=
+veral equality checks that are used to avoid unnecessary calls to <code>map=
+StateToProps</code>, <code>mapDispatchToProps</code>, <code>mergeProps</cod=
+e>, and ultimately to <code>render</code>. These include <code>areStatesEqu=
+al</code>, <code>areOwnPropsEqual</code>, <code>areStatePropsEqual</code>, =
+and <code>areMergedPropsEqual</code>. While the defaults are probably appro=
+priate 99% of the time, you may wish to override them with custom implement=
+ations for performance or other reasons.</p>
+<p>We provide a few examples in the following sections.</p>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"arestatesequal-next-obje=
+ct-prev-object-boolean"></a><a href=3D"https://react-redux.js.org/api/conne=
+ct#arestatesequal-next-object-prev-object-boolean" aria-hidden=3D"true" cla=
+ss=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" height=
+=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=
+=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69=
+ 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4=
+H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H=
+9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11=
+.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code=
+>areStatesEqual: (next: Object, prev: Object) =3D&gt; boolean</code></h4>
+<ul>
+<li>default value: <code>strictEqual: (next, prev) =3D&gt; prev =3D=3D=3D n=
+ext</code></li>
+</ul>
+<p>When pure, compares incoming store state to its previous value.</p>
+<p><em>Example 1</em></p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">cons=
+t</span> areStatesEqual =3D <span class=3D"hljs-function">(<span class=3D"h=
+ljs-params">next, prev</span>) =3D&gt;</span>
+  prev.entities.todos =3D=3D=3D next.entities.todos
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<p>You may wish to override <code>areStatesEqual</code> if your <code>mapSt=
+ateToProps</code> function is computationally expensive and is also only co=
+ncerned with a small slice of your state. The example above will effectivel=
+y ignore state changes for everything but that slice of state.</p>
+<p><em>Example 2</em></p>
+<p>If you have impure reducers that mutate your store state, you may wish t=
+o override <code>areStatesEqual</code> to always return false:</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">cons=
+t</span> areStatesEqual =3D <span class=3D"hljs-function"><span class=3D"hl=
+js-params">()</span> =3D&gt;</span> <span class=3D"hljs-literal">false</spa=
+n>
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<p>This would likely impact the other equality checks as well, depending on=
+ your <code>mapStateToProps</code> function.</p>
+<p><code>areOwnPropsEqual: (next: Object, prev: Object) =3D&gt; boolean</co=
+de></p>
+<ul>
+<li>default value: <code>shallowEqual: (objA, objB) =3D&gt; boolean</code>
+( returns <code>true</code> when each field of the objects is equal )</li>
+</ul>
+<p>When pure, compares incoming props to its previous value.</p>
+<p>You may wish to override <code>areOwnPropsEqual</code> as a way to white=
+list incoming props. You'd also have to implement <code>mapStateToProps</co=
+de>, <code>mapDispatchToProps</code> and <code>mergeProps</code> to also wh=
+itelist props. (It may be simpler to achieve this other ways, for example b=
+y using <a href=3D"https://github.com/acdlite/recompose/blob/master/docs/AP=
+I.md#mapprops">recompose's mapProps</a>.)</p>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"arestatepropsequal-next-=
+object-prev-object-boolean"></a><a href=3D"https://react-redux.js.org/api/c=
+onnect#arestatepropsequal-next-object-prev-object-boolean" aria-hidden=3D"t=
+rue" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true"=
+ height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fil=
+l-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 =
+3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98=
+ 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 =
+13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.2=
+5C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a=
+><code>areStatePropsEqual: (next: Object, prev: Object) =3D&gt; boolean</co=
+de></h4>
+<ul>
+<li>type: <code>function</code></li>
+<li>default value: <code>shallowEqual</code></li>
+</ul>
+<p>When pure, compares the result of <code>mapStateToProps</code> to its pr=
+evious value.</p>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"aremergedpropsequal-next=
+-object-prev-object-boolean"></a><a href=3D"https://react-redux.js.org/api/=
+connect#aremergedpropsequal-next-object-prev-object-boolean" aria-hidden=3D=
+"true" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"tru=
+e" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path f=
+ill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 =
+0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.=
+98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 1=
+2 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3=
+.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg><=
+/a><code>areMergedPropsEqual: (next: Object, prev: Object) =3D&gt; boolean<=
+/code></h4>
+<ul>
+<li>default value: <code>shallowEqual</code></li>
+</ul>
+<p>When pure, compares the result of <code>mergeProps</code> to its previou=
+s value.</p>
+<p>You may wish to override <code>areStatePropsEqual</code> to use <code>st=
+rictEqual</code> if your <code>mapStateToProps</code> uses a memoized selec=
+tor that will only return a new object if a relevant prop has changed. This=
+ would be a very slight performance improvement, since would avoid extra eq=
+uality checks on individual props each time <code>mapStateToProps</code> is=
+ called.</p>
+<p>You may wish to override <code>areMergedPropsEqual</code> to implement a=
+ <code>deepEqual</code> if your selectors produce complex props. ex: nested=
+ objects, new arrays, etc. (The deep equal check may be faster than just re=
+-rendering.)</p>
+<h4><a class=3D"anchor" aria-hidden=3D"true" id=3D"forwardref-boolean"></a>=
+<a href=3D"https://react-redux.js.org/api/connect#forwardref-boolean" aria-=
+hidden=3D"true" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidd=
+en=3D"true" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16=
+"><path fill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 =
+3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C1=
+0 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.=
+5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2=
+ 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></pat=
+h></svg></a><code>forwardRef: boolean</code></h4>
+<blockquote>
+<p>Note: This parameter is supported in &gt;=3D v6.0 only</p>
+</blockquote>
+<p>If <code>{forwardRef : true}</code> has been passed to <code>connect</co=
+de>, adding a ref to the connected wrapper component will actually return t=
+he instance of the wrapped component.</p>
+<h2><a class=3D"anchor" aria-hidden=3D"true" id=3D"connect-returns"></a><a =
+href=3D"https://react-redux.js.org/api/connect#connect-returns" aria-hidden=
+=3D"true" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"=
+true" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><pat=
+h fill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.=
+45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22=
+ 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.9=
+8 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-=
+2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></sv=
+g></a><code>connect()</code> Returns</h2>
+<p>The return of <code>connect()</code> is a wrapper function that takes yo=
+ur component and returns a wrapper component with the additional props it i=
+njects.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> { login, logout } <span class=3D"hljs-keyword">from</span> <span =
+class=3D"hljs-string">'./actionCreators'</span>
+
+<span class=3D"hljs-keyword">const</span> mapState =3D <span class=3D"hljs-=
+function"><span class=3D"hljs-params">state</span> =3D&gt;</span> state.use=
+r
+<span class=3D"hljs-keyword">const</span> mapDispatch =3D { login, logout }
+
+<span class=3D"hljs-comment">// first call: returns a hoc that you can use =
+to wrap any component</span>
+<span class=3D"hljs-keyword">const</span> connectUser =3D connect(
+  mapState,
+  mapDispatch
+)
+
+<span class=3D"hljs-comment">// second call: returns the wrapper component =
+with mergedProps</span>
+<span class=3D"hljs-comment">// you may use the hoc to enable different com=
+ponents to get the same behavior</span>
+<span class=3D"hljs-keyword">const</span> ConnectedUserLogin =3D connectUse=
+r(Login)
+<span class=3D"hljs-keyword">const</span> ConnectedUserProfile =3D connectU=
+ser(Profile)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<p>In most cases, the wrapper function will be called right away, without b=
+eing saved in a temporary variable:</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> { login, logout } <span class=3D"hljs-keyword">from</span> <span =
+class=3D"hljs-string">'./actionCreators'</span>
+
+<span class=3D"hljs-keyword">const</span> mapState =3D <span class=3D"hljs-=
+function"><span class=3D"hljs-params">state</span> =3D&gt;</span> state.use=
+r
+<span class=3D"hljs-keyword">const</span> mapDispatch =3D { login, logout }
+
+<span class=3D"hljs-comment">// call connect to generate the wrapper functi=
+on, and immediately call</span>
+<span class=3D"hljs-comment">// the wrapper function to generate the final =
+wrapper component.</span>
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  mapState,
+  mapDispatch
+)(Login)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<h2><a class=3D"anchor" aria-hidden=3D"true" id=3D"example-usage"></a><a hr=
+ef=3D"https://react-redux.js.org/api/connect#example-usage" aria-hidden=3D"=
+true" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true=
+" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fi=
+ll-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0=
+ 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.9=
+8 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12=
+ 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.=
+25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></=
+a>Example Usage</h2>
+<p>Because <code>connect</code> is so flexible, it may help to see some add=
+itional examples of how it can be called:</p>
+<ul>
+<li>Inject just <code>dispatch</code> and don't listen to store</li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">expo=
+rt</span> <span class=3D"hljs-keyword">default</span> connect()(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject all action creators (<code>addTodo</code>, <code>completeTodo</c=
+ode>, ...) without subscribing to the store</li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> * <span class=3D"hljs-keyword">as</span> actionCreators <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'./actionCreato=
+rs'</span>
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  <span class=3D"hljs-literal">null</span>,
+  actionCreators
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>dispatch</code> and every field in the global state</li>
+</ul>
+<blockquote>
+<p>Don=E2=80=99t do this! It kills any performance optimizations because <c=
+ode>TodoApp</code> will rerender after every state change.
+It=E2=80=99s better to have more granular <code>connect()</code> on several=
+ components in your view hierarchy that each only listen to a relevant slic=
+e of the state.</p>
+</blockquote>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-comment">// d=
+on't do this!</span>
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(<span class=3D"hljs-function"><span class=3D"hljs-param=
+s">state</span> =3D&gt;</span> state)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>dispatch</code> and <code>todos</code></li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-function"><sp=
+an class=3D"hljs-keyword">function</span> <span class=3D"hljs-title">mapSta=
+teToProps</span>(<span class=3D"hljs-params">state</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos }
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(mapStateToProps)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>todos</code> and all action creators</li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> * <span class=3D"hljs-keyword">as</span> actionCreators <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'./actionCreato=
+rs'</span>
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s">state</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos }
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  mapStateToProps,
+  actionCreators
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>todos</code> and all action creators (<code>addTodo</code>=
+, <code>completeTodo</code>, ...) as <code>actions</code></li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> * <span class=3D"hljs-keyword">as</span> actionCreators <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'./actionCreato=
+rs'</span>
+<span class=3D"hljs-keyword">import</span> { bindActionCreators } <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'redux'</span>
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s">state</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos }
+}
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapDispatchToProps</span>(<span class=3D"hljs-pa=
+rams">dispatch</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">ac=
+tions</span>: bindActionCreators(actionCreators, dispatch) }
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>todos</code> and a specific action creator (<code>addTodo<=
+/code>)</li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> { addTodo } <span class=3D"hljs-keyword">from</span> <span class=
+=3D"hljs-string">'./actionCreators'</span>
+<span class=3D"hljs-keyword">import</span> { bindActionCreators } <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'redux'</span>
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s">state</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos }
+}
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapDispatchToProps</span>(<span class=3D"hljs-pa=
+rams">dispatch</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> bindActionCreators({ addTodo }=
+, dispatch)
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>todos</code> and specific action creators (<code>addTodo</=
+code> and <code>deleteTodo</code>) with shorthand syntax</li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> { addTodo, deleteTodo } <span class=3D"hljs-keyword">from</span> =
+<span class=3D"hljs-string">'./actionCreators'</span>
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s">state</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos }
+}
+
+<span class=3D"hljs-keyword">const</span> mapDispatchToProps =3D {
+  addTodo,
+  deleteTodo
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>todos</code>, <code>todoActionCreators</code> as <code>tod=
+oActions</code>, and <code>counterActionCreators</code> as <code>counterAct=
+ions</code></li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> * <span class=3D"hljs-keyword">as</span> todoActionCreators <span=
+ class=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'./todoActi=
+onCreators'</span>
+<span class=3D"hljs-keyword">import</span> * <span class=3D"hljs-keyword">a=
+s</span> counterActionCreators <span class=3D"hljs-keyword">from</span> <sp=
+an class=3D"hljs-string">'./counterActionCreators'</span>
+<span class=3D"hljs-keyword">import</span> { bindActionCreators } <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'redux'</span>
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s">state</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos }
+}
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapDispatchToProps</span>(<span class=3D"hljs-pa=
+rams">dispatch</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> {
+    <span class=3D"hljs-attr">todoActions</span>: bindActionCreators(todoAc=
+tionCreators, dispatch),
+    <span class=3D"hljs-attr">counterActions</span>: bindActionCreators(cou=
+nterActionCreators, dispatch)
+  }
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>todos</code>, and todoActionCreators and counterActionCrea=
+tors together as <code>actions</code></li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> * <span class=3D"hljs-keyword">as</span> todoActionCreators <span=
+ class=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'./todoActi=
+onCreators'</span>
+<span class=3D"hljs-keyword">import</span> * <span class=3D"hljs-keyword">a=
+s</span> counterActionCreators <span class=3D"hljs-keyword">from</span> <sp=
+an class=3D"hljs-string">'./counterActionCreators'</span>
+<span class=3D"hljs-keyword">import</span> { bindActionCreators } <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'redux'</span>
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s">state</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos }
+}
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapDispatchToProps</span>(<span class=3D"hljs-pa=
+rams">dispatch</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> {
+    <span class=3D"hljs-attr">actions</span>: bindActionCreators(
+      { ...todoActionCreators, ...counterActionCreators },
+      dispatch
+    )
+  }
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>todos</code>, and all <code>todoActionCreators</code> and =
+<code>counterActionCreators</code> directly as props</li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> * <span class=3D"hljs-keyword">as</span> todoActionCreators <span=
+ class=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'./todoActi=
+onCreators'</span>
+<span class=3D"hljs-keyword">import</span> * <span class=3D"hljs-keyword">a=
+s</span> counterActionCreators <span class=3D"hljs-keyword">from</span> <sp=
+an class=3D"hljs-string">'./counterActionCreators'</span>
+<span class=3D"hljs-keyword">import</span> { bindActionCreators } <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'redux'</span>
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s">state</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos }
+}
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapDispatchToProps</span>(<span class=3D"hljs-pa=
+rams">dispatch</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> bindActionCreators(
+    { ...todoActionCreators, ...counterActionCreators },
+    dispatch
+  )
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>todos</code> of a specific user depending on props</li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> * <span class=3D"hljs-keyword">as</span> actionCreators <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'./actionCreato=
+rs'</span>
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s">state, ownProps</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos[ownProps.userId] }
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(mapStateToProps)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<ul>
+<li>Inject <code>todos</code> of a specific user depending on props, and in=
+ject <code>props.userId</code> into the action</li>
+</ul>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">impo=
+rt</span> * <span class=3D"hljs-keyword">as</span> actionCreators <span cla=
+ss=3D"hljs-keyword">from</span> <span class=3D"hljs-string">'./actionCreato=
+rs'</span>
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s">state</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> { <span class=3D"hljs-attr">to=
+dos</span>: state.todos }
+}
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mergeProps</span>(<span class=3D"hljs-params">st=
+ateProps, dispatchProps, ownProps</span>) </span>{
+  <span class=3D"hljs-keyword">return</span> <span class=3D"hljs-built_in">=
+Object</span>.assign({}, ownProps, {
+    <span class=3D"hljs-attr">todos</span>: stateProps.todos[ownProps.userI=
+d],
+    <span class=3D"hljs-attr">addTodo</span>: <span class=3D"hljs-function"=
+><span class=3D"hljs-params">text</span> =3D&gt;</span> dispatchProps.addTo=
+do(ownProps.userId, text)
+  })
+}
+
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(
+  mapStateToProps,
+  actionCreators,
+  mergeProps
+)(TodoApp)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<h2><a class=3D"anchor" aria-hidden=3D"true" id=3D"notes"></a><a href=3D"ht=
+tps://react-redux.js.org/api/connect#notes" aria-hidden=3D"true" class=3D"h=
+ash-link"><svg class=3D"hash-link-icon" aria-hidden=3D"true" height=3D"16" =
+version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path fill-rule=3D"eveno=
+dd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 =
+1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0=
+-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-=
+2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 =
+13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Notes</h2>
+<h3><a class=3D"anchor" aria-hidden=3D"true" id=3D"the-arity-of-maptoprops-=
+functions"></a><a href=3D"https://react-redux.js.org/api/connect#the-arity-=
+of-maptoprops-functions" aria-hidden=3D"true" class=3D"hash-link"><svg clas=
+s=3D"hash-link-icon" aria-hidden=3D"true" height=3D"16" version=3D"1.1" vie=
+wBox=3D"0 0 16 16" width=3D"16"><path fill-rule=3D"evenodd" d=3D"M4 9h1v1H4=
+c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.2=
+5V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4=
+ 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.=
+42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-=
+1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Arity of <code>mapToProps</co=
+de> Functions</h3>
+<p>The number of declared function parameters of <code>mapStateToProps</cod=
+e> and <code>mapDispatchToProps</code> determines whether they receive <cod=
+e>ownProps</code></p>
+<blockquote>
+<p>Note: <code>ownProps</code> is not passed to <code>mapStateToProps</code=
+> and <code>mapDispatchToProps</code> if the formal definition of the funct=
+ion contains one mandatory parameter (function has length 1). For example, =
+functions defined like below won't receive <code>ownProps</code> as the sec=
+ond argument</p>
+</blockquote>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-function"><sp=
+an class=3D"hljs-keyword">function</span> <span class=3D"hljs-title">mapSta=
+teToProps</span>(<span class=3D"hljs-params">state</span>) </span>{
+  <span class=3D"hljs-built_in">console</span>.log(state) <span class=3D"hl=
+js-comment">// state</span>
+  <span class=3D"hljs-built_in">console</span>.log(<span class=3D"hljs-buil=
+t_in">arguments</span>[<span class=3D"hljs-number">1</span>]) <span class=
+=3D"hljs-comment">// undefined</span>
+}
+
+<span class=3D"hljs-keyword">const</span> mapStateToProps =3D <span class=
+=3D"hljs-function">(<span class=3D"hljs-params">state, ownProps =3D {}</spa=
+n>) =3D&gt;</span> {
+  <span class=3D"hljs-built_in">console</span>.log(state) <span class=3D"hl=
+js-comment">// state</span>
+  <span class=3D"hljs-built_in">console</span>.log(ownProps) <span class=3D=
+"hljs-comment">// {}</span>
+}
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<p>Functions with no mandatory parameters or two parameters*will receive <c=
+ode>ownProps</code>.</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">cons=
+t</span> mapStateToProps =3D <span class=3D"hljs-function">(<span class=3D"=
+hljs-params">state, ownProps</span>) =3D&gt;</span> {
+  <span class=3D"hljs-built_in">console</span>.log(state) <span class=3D"hl=
+js-comment">// state</span>
+  <span class=3D"hljs-built_in">console</span>.log(ownProps) <span class=3D=
+"hljs-comment">// ownProps</span>
+}
+
+<span class=3D"hljs-function"><span class=3D"hljs-keyword">function</span> =
+<span class=3D"hljs-title">mapStateToProps</span>(<span class=3D"hljs-param=
+s"></span>) </span>{
+  <span class=3D"hljs-built_in">console</span>.log(<span class=3D"hljs-buil=
+t_in">arguments</span>[<span class=3D"hljs-number">0</span>]) <span class=
+=3D"hljs-comment">// state</span>
+  <span class=3D"hljs-built_in">console</span>.log(<span class=3D"hljs-buil=
+t_in">arguments</span>[<span class=3D"hljs-number">1</span>]) <span class=
+=3D"hljs-comment">// ownProps</span>
+}
+
+<span class=3D"hljs-keyword">const</span> mapStateToProps =3D <span class=
+=3D"hljs-function">(<span class=3D"hljs-params">...args</span>) =3D&gt;</sp=
+an> {
+  <span class=3D"hljs-built_in">console</span>.log(args[<span class=3D"hljs=
+-number">0</span>]) <span class=3D"hljs-comment">// state</span>
+  <span class=3D"hljs-built_in">console</span>.log(args[<span class=3D"hljs=
+-number">1</span>]) <span class=3D"hljs-comment">// ownProps</span>
+}
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+<h3><a class=3D"anchor" aria-hidden=3D"true" id=3D"factory-functions"></a><=
+a href=3D"https://react-redux.js.org/api/connect#factory-functions" aria-hi=
+dden=3D"true" class=3D"hash-link"><svg class=3D"hash-link-icon" aria-hidden=
+=3D"true" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16">=
+<path fill-rule=3D"evenodd" d=3D"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h=
+4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 =
+5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S=
+13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1=
+.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>=
+</svg></a>Factory Functions</h3>
+<p>If your <code>mapStateToProps</code> or <code>mapDispatchToProps</code> =
+functions return a function, they will be called once when the component in=
+stantiates, and their returns will be used as the actual <code>mapStateToPr=
+ops</code>, <code>mapDispatchToProps</code>, functions respectively, in the=
+ir subsequent calls.</p>
+<p>The factory functions are commonly used with memoized selectors. This gi=
+ves you the ability to create component-instance-specific selectors inside =
+the closure:</p>
+<pre><code class=3D"hljs css language-js"><span class=3D"hljs-keyword">cons=
+t</span> makeUniqueSelectorInstance =3D <span class=3D"hljs-function"><span=
+ class=3D"hljs-params">()</span> =3D&gt;</span>
+  createSelector(
+    [selectItems, selectItemId],
+    (items, itemId) =3D&gt; items[itemId]
+  )
+<span class=3D"hljs-keyword">const</span> makeMapState =3D <span class=3D"h=
+ljs-function"><span class=3D"hljs-params">state</span> =3D&gt;</span> {
+  <span class=3D"hljs-keyword">const</span> selectItemForThisComponent =3D =
+makeUniqueSelectorInstance()
+  <span class=3D"hljs-keyword">return</span> <span class=3D"hljs-function">=
+<span class=3D"hljs-keyword">function</span> <span class=3D"hljs-title">rea=
+lMapState</span>(<span class=3D"hljs-params">state, ownProps</span>) </span=
+>{
+    <span class=3D"hljs-keyword">const</span> item =3D selectItemForThisCom=
+ponent(state, ownProps.itemId)
+    <span class=3D"hljs-keyword">return</span> { item }
+  }
+}
+<span class=3D"hljs-keyword">export</span> <span class=3D"hljs-keyword">def=
+ault</span> connect(makeMapState)(SomeComponent)
+</code><button class=3D"btnIcon btnClipboard" type=3D"button" aria-label=3D=
+"Copy code to clipboard"><div class=3D"btnIcon__body"><svg width=3D"12" hei=
+ght=3D"12" viewBox=3D"340 364 14 15" xmlns=3D"http://www.w3.org/2000/svg"><=
+path fill=3D"currentColor" d=3D"M342 375.974h4v.998h-4v-.998zm5-5.987h-5v.9=
+98h5v-.998zm2 2.994v-1.995l-3 2.993 3 2.994v-1.996h5v-1.995h-5zm-4.5-.997H3=
+42v.998h2.5v-.997zm-2.5 2.993h2.5v-.998H342v.998zm9 .998h1v1.996c-.016.28-.=
+11.514-.297.702-.187.187-.422.28-.703.296h-10c-.547 0-1-.452-1-.998v-10.976=
+c0-.546.453-.998 1-.998h3c0-1.107.89-1.996 2-1.996 1.11 0 2 .89 2 1.996h3c.=
+547 0 1 .452 1 .998v4.99h-1v-2.995h-10v8.98h10v-1.996zm-9-7.983h8c0-.544-.4=
+53-.996-1-.996h-1c-.547 0-1-.453-1-.998 0-.546-.453-.998-1-.998-.547 0-1 .4=
+52-1 .998 0 .545-.453.998-1 .998h-1c-.547 0-1 .452-1 .997z" fill-rule=3D"ev=
+enodd"></path></svg><strong class=3D"btnIcon__label">Copy</strong></div></b=
+utton></pre>
+</span></div></article></div><div class=3D"docLastUpdate"><em>Last updated =
+on 2019-6-11</em></div><div class=3D"docs-prevnext"><a class=3D"docs-prev b=
+utton" href=3D"https://react-redux.js.org/using-react-redux/static-typing">=
+<span class=3D"arrow-prev">=E2=86=90 </span><span>Previous</span></a><a cla=
+ss=3D"docs-next button" href=3D"https://react-redux.js.org/api/provider"><s=
+pan>Provider</span><span class=3D"arrow-next"> =E2=86=92</span></a></div></=
+div></div><nav class=3D"onPageNav"><ul class=3D"toc-headings"><li><a href=
+=3D"https://react-redux.js.org/api/connect#overview">Overview</a></li><li><=
+a href=3D"https://react-redux.js.org/api/connect#connect-parameters"><code>=
+connect()</code> Parameters</a><ul class=3D"toc-headings"><li><a href=3D"ht=
+tps://react-redux.js.org/api/connect#mapstatetoprops-state-ownprops-object"=
+><code>mapStateToProps?: (state, ownProps?) =3D&gt; Object</code></a></li><=
+li><a href=3D"https://react-redux.js.org/api/connect#mapdispatchtoprops-obj=
+ect-dispatch-ownprops-object"><code>mapDispatchToProps?: Object | (dispatch=
+, ownProps?) =3D&gt; Object</code></a></li><li><a href=3D"https://react-red=
+ux.js.org/api/connect#mergeprops-stateprops-dispatchprops-ownprops-object">=
+<code>mergeProps?: (stateProps, dispatchProps, ownProps) =3D&gt; Object</co=
+de></a></li><li><a href=3D"https://react-redux.js.org/api/connect#options-o=
+bject"><code>options?: Object</code></a></li></ul></li><li><a href=3D"https=
+://react-redux.js.org/api/connect#connect-returns"><code>connect()</code> R=
+eturns</a></li><li><a href=3D"https://react-redux.js.org/api/connect#exampl=
+e-usage">Example Usage</a></li><li><a href=3D"https://react-redux.js.org/ap=
+i/connect#notes">Notes</a><ul class=3D"toc-headings"><li><a href=3D"https:/=
+/react-redux.js.org/api/connect#the-arity-of-maptoprops-functions">The Arit=
+y of <code>mapToProps</code> Functions</a></li><li><a href=3D"https://react=
+-redux.js.org/api/connect#factory-functions">Factory Functions</a></li></ul=
+></li></ul></nav></div><footer class=3D"nav-footer" id=3D"footer"><section =
+class=3D"sitemap"><a href=3D"https://react-redux.js.org/" class=3D"nav-home=
+"><img src=3D"https://react-redux.js.org/img/redux_white.svg" alt=3D"React =
+Redux" width=3D"66" height=3D"58"></a><div><h5>Docs</h5><a href=3D"https://=
+react-redux.js.org/introduction/quick-start">Introduction</a><a href=3D"htt=
+ps://react-redux.js.org/using-react-redux/connect-mapstate">Using React Red=
+ux</a><a href=3D"https://react-redux.js.org/api/connect">API Reference</a><=
+a href=3D"https://react-redux.js.org/troubleshooting">Guides</a></div><div>=
+<h5>Community</h5><a href=3D"http://stackoverflow.com/questions/tagged/reac=
+t-redux" target=3D"_blank" rel=3D"noreferrer noopener">Stack Overflow</a><a=
+ href=3D"https://discord.gg/0ZcbPKXt5bZ6au5t">Discord</a></div><div><h5>Mor=
+e</h5><a href=3D"https://github.com/reduxjs/react-redux/">GitHub</a><span><=
+template shadowmode=3D"closed"><div class=3D"widget"><a class=3D"btn" href=
+=3D"https://github.com/reduxjs/react-redux" target=3D"_blank" rel=3D"noopen=
+er" aria-label=3D"Star this project on GitHub"><svg viewBox=3D"0 0 14 16" c=
+lass=3D"octicon octicon-star" style=3D"width: 12.25px; height: 14px;" aria-=
+hidden=3D"true"><path fill-rule=3D"evenodd" d=3D"M14 6l-4.9-.64L7 1 4.9 5.3=
+6 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg> <spa=
+n>Star</span></a><a class=3D"social-count" href=3D"https://github.com/redux=
+js/react-redux/stargazers" target=3D"_blank" rel=3D"noopener" aria-label=3D=
+"18626 stargazers on GitHub">18,626</a></div></template></span><a href=3D"h=
+ttps://www.netlify.com/"><img src=3D"https://www.netlify.com/img/global/bad=
+ges/netlify-light.svg" alt=3D"Deploys by Netlify"></a></div></section><sect=
+ion class=3D"copyright">Copyright (c) 2015-present Dan Abramov and the Redu=
+x documentation authors.<br>Some icons copyright <a href=3D"https://fontawe=
+some.com/license/free" style=3D"color:white">Font Awesome</a> and <a href=
+=3D"https://thenounproject.com/" style=3D"color:white">Noun Project</a> (<a=
+ href=3D"https://thenounproject.com/term/certificate/1945625/" style=3D"col=
+or:white">prasong tadoungsorn</a>, <a href=3D"https://thenounproject.com/te=
+rm/box/1664404/" style=3D"color:white">Vladimir Belochkin</a>, <a href=3D"h=
+ttps://thenounproject.com/term/rocket/1245262/" style=3D"color:white">Atif =
+Arshad</a>)</section></footer></div></body></html>
+------MultipartBoundary--Nr2a9KVj8UPju18t6ws35kUxwaRjHGoWsSU0tDdEgx----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css
+
+@charset "utf-8";
+
+.aa-dropdown-menu { background-color: rgb(255, 255, 255); border: 1px solid=
+ rgb(51, 51, 51); border-radius: 4px; font-size: 16px; margin: 6px 0px 0px;=
+ padding: 4px; text-align: left; }
+
+.algolia-docsearch-suggestion { color: rgb(51, 51, 51); cursor: pointer; ov=
+erflow: hidden; }
+
+.algolia-docsearch-suggestion__secondary { border-top: 1px solid rgb(58, 58=
+, 58); }
+
+.algolia-docsearch-suggestion--category-header { display: none; background:=
+ rgb(60, 70, 88); color: rgb(255, 255, 255); font-weight: 600; padding: 5px=
+ 10px; text-align: left; }
+
+.algolia-docsearch-suggestion__main .algolia-docsearch-suggestion--category=
+-header { display: block; }
+
+.algolia-docsearch-suggestion--highlight { padding: 0px; color: rgb(0, 100,=
+ 225); background: none; font-weight: 600; }
+
+.algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestio=
+n--highlight { color: inherit; background: rgb(91, 106, 133); }
+
+.aa-cursor .algolia-docsearch-suggestion--content { color: rgb(0, 100, 225)=
+; }
+
+.aa-cursor .algolia-docsearch-suggestion { background: rgb(231, 237, 243); =
+}
+
+.algolia-docsearch-suggestion--subcategory-column { display: none; cursor: =
+default; }
+
+.algolia-docsearch-suggestion--text { display: none; }
+
+.algolia-docsearch-suggestion--content { padding: 3px 5px; width: 100%; bor=
+der-top: 1px solid rgb(211, 211, 211); }
+
+.algolia-docsearch-suggestion__main .algolia-docsearch-suggestion--content,=
+ .algolia-docsearch-suggestion__secondary .algolia-docsearch-suggestion--co=
+ntent { border-top: 0px; }
+
+.algolia-docsearch-suggestion--subcategory-inline { display: inline-block; =
+font-weight: 700; }
+
+.algolia-docsearch-suggestion--subcategory-inline::after { content: " =E2=
+=80=BA "; }
+
+.algolia-docsearch-suggestion--title { display: inline; }
+
+.algolia-docsearch-footer { border-top: 1px solid rgb(96, 96, 96); text-ali=
+gn: right; font-size: 12px; padding: 4px 2px 0px 0px; color: rgb(51, 51, 51=
+); }
+
+.algolia-docsearch-footer .algolia-docsearch-footer--logo { width: 111px; h=
+eight: 15px; text-indent: 101%; overflow: hidden; white-space: nowrap; back=
+ground-image: url("data:image/svg+xml;utf8,<svg viewBox=3D'0 0 130 18' xmln=
+s=3D'http://www.w3.org/2000/svg'><defs><linearGradient x1=3D'-36.868%' y1=
+=3D'134.936%' x2=3D'129.432%' y2=3D'-27.7%' id=3D'a'><stop stop-color=3D'%2=
+300AEFF' offset=3D'0%'/><stop stop-color=3D'%233369E7' offset=3D'100%'/></l=
+inearGradient></defs><g fill=3D'none' fill-rule=3D'evenodd'><path d=3D'M59.=
+399.022h13.299a2.372 2.372 0 0 1 2.377 2.364V15.62a2.372 2.372 0 0 1-2.377 =
+2.364H59.399a2.372 2.372 0 0 1-2.377-2.364V2.381A2.368 2.368 0 0 1 59.399.0=
+22z' fill=3D'url(%23a)'/><path d=3D'M66.257 4.56c-2.815 0-5.1 2.272-5.1 5.0=
+78 0 2.806 2.284 5.072 5.1 5.072 2.815 0 5.1-2.272 5.1-5.078 0-2.806-2.279-=
+5.072-5.1-5.072zm0 8.652c-1.983 0-3.593-1.602-3.593-3.574 0-1.972 1.61-3.57=
+4 3.593-3.574 1.983 0 3.593 1.602 3.593 3.574a3.582 3.582 0 0 1-3.593 3.574=
+zm0-6.418v2.664c0 .076.082.131.153.093l2.377-1.226c.055-.027.071-.093.044-.=
+147a2.96 2.96 0 0 0-2.465-1.487c-.055 0-.11.044-.11.104l.001-.001zm-3.33-1.=
+956l-.312-.311a.783.783 0 0 0-1.106 0l-.372.37a.773.773 0 0 0 0 1.101l.307.=
+305c.049.049.121.038.164-.011.181-.245.378-.479.597-.697.225-.223.455-.42.7=
+07-.599.055-.033.06-.109.016-.158h-.001zm5.001-.806v-.616a.781.781 0 0 0-.7=
+83-.779h-1.824a.78.78 0 0 0-.783.779v.632c0 .071.066.12.137.104a5.736 5.736=
+ 0 0 1 1.588-.223c.52 0 1.035.071 1.534.207a.106.106 0 0 0 .131-.104z' fill=
+=3D'%23FFF'/><path d=3D'M102.162 13.762c0 1.455-.372 2.517-1.123 3.193-.75.=
+676-1.895 1.013-3.44 1.013-.564 0-1.736-.109-2.673-.316l.345-1.689c.783.163=
+ 1.819.207 2.361.207.86 0 1.473-.174 1.84-.523.367-.349.548-.866.548-1.553v=
+-.349a6.374 6.374 0 0 1-.838.316 4.151 4.151 0 0 1-1.194.158 4.515 4.515 0 =
+0 1-1.616-.278 3.385 3.385 0 0 1-1.254-.817 3.744 3.744 0 0 1-.811-1.351c-.=
+192-.539-.29-1.504-.29-2.212 0-.665.104-1.498.307-2.054a3.925 3.925 0 0 1 .=
+904-1.433 4.124 4.124 0 0 1 1.441-.926 5.31 5.31 0 0 1 1.945-.365c.696 0 1.=
+337.087 1.961.191a15.86 15.86 0 0 1 1.588.332v8.456h-.001zm-5.954-4.206c0 .=
+893.197 1.885.592 2.299.394.414.904.621 1.528.621.34 0 .663-.049.964-.142a2=
+.75 2.75 0 0 0 .734-.332v-5.29a8.531 8.531 0 0 0-1.413-.18c-.778-.022-1.369=
+.294-1.786.801-.411.507-.619 1.395-.619 2.223zm16.12 0c0 .719-.104 1.264-.3=
+18 1.858a4.389 4.389 0 0 1-.904 1.52c-.389.42-.854.746-1.402.975-.548.229-1=
+.391.36-1.813.36-.422-.005-1.26-.125-1.802-.36a4.088 4.088 0 0 1-1.397-.975=
+ 4.486 4.486 0 0 1-.909-1.52 5.037 5.037 0 0 1-.329-1.858c0-.719.099-1.411.=
+318-1.999.219-.588.526-1.09.92-1.509.394-.42.865-.741 1.402-.97a4.547 4.547=
+ 0 0 1 1.786-.338 4.69 4.69 0 0 1 1.791.338c.548.229 1.019.55 1.402.97.389.=
+42.69.921.909 1.509.23.588.345 1.28.345 1.999h.001zm-2.191.005c0-.921-.203-=
+1.689-.597-2.223-.394-.539-.948-.806-1.654-.806-.707 0-1.26.267-1.654.806-.=
+394.539-.586 1.302-.586 2.223 0 .932.197 1.558.592 2.098.394.545.948.812 1.=
+654.812.707 0 1.26-.272 1.654-.812.394-.545.592-1.166.592-2.098h-.001zm6.96=
+2 4.707c-3.511.016-3.511-2.822-3.511-3.274L113.583.926l2.142-.338v10.003c0 =
+.256 0 1.88 1.375 1.885v1.792h-.001zm3.774 0h-2.153V5.072l2.153-.338v9.534z=
+m-1.079-10.542c.718 0 1.304-.578 1.304-1.291 0-.714-.581-1.291-1.304-1.291-=
+.723 0-1.304.578-1.304 1.291 0 .714.586 1.291 1.304 1.291zm6.431 1.013c.707=
+ 0 1.304.087 1.786.262.482.174.871.42 1.156.73.285.311.488.735.608 1.182.12=
+6.447.186.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.1=
+47-2.251.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.45=
+5 2.455 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-=
+1.215.208-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0=
+ 1 2.202-.103c.263.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.4=
+86 1.486 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915=
+-.163c-.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268=
+-.093.668-.185 1.183-.278a9.335 9.335 0 0 1 1.66-.142l-.001-.001zm.181 7.73=
+1c.657 0 1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.03=
+3-.46.098-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0=
+ .501.175.79.493.981.323.196.75.289 1.293.289h.001zM84.109 4.794c.707 0 1.3=
+04.087 1.786.262.482.174.871.42 1.156.73.29.316.487.735.608 1.182.126.447.1=
+86.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.147-2.25=
+1.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.455 2.455=
+ 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-1.215.2=
+08-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0 1 2.20=
+2-.103c.257.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.486 1.48=
+6 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915-.163c-=
+.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268-.093.6=
+68-.185 1.183-.278a8.89 8.89 0 0 1 1.66-.142l-.001-.001zm.186 7.736c.657 0 =
+1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.033-.46.098=
+-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0 .501.175=
+.79.493.981.318.191.75.289 1.293.289h.001zm8.682 1.738c-3.511.016-3.511-2.8=
+22-3.511-3.274L89.461.926l2.142-.338v10.003c0 .256 0 1.88 1.375 1.885v1.792=
+h-.001z' fill=3D'%23182359'/><path d=3D'M5.027 11.025c0 .698-.252 1.246-.75=
+7 1.644-.505.397-1.201.596-2.089.596-.888 0-1.615-.138-2.181-.414v-1.214c.3=
+58.168.739.301 1.141.397.403.097.778.145 1.125.145.508 0 .884-.097 1.125-.2=
+9a.945.945 0 0 0 .363-.779.978.978 0 0 0-.333-.747c-.222-.204-.68-.446-1.37=
+5-.725-.716-.29-1.221-.621-1.515-.994-.294-.372-.44-.82-.44-1.343 0-.655.23=
+3-1.171.698-1.547.466-.376 1.09-.564 1.875-.564.752 0 1.5.165 2.245.494l-.4=
+08 1.047c-.698-.294-1.321-.44-1.869-.44-.415 0-.73.09-.945.271a.89.89 0 0 0=
+-.322.717c0 .204.043.379.129.524.086.145.227.282.424.411.197.129.551.299 1.=
+063.51.577.24.999.464 1.268.671.269.208.466.442.591.704.125.261.188.569.188=
+.924l-.001.002zm3.98 2.24c-.924 0-1.646-.269-2.167-.808-.521-.539-.782-1.28=
+1-.782-2.226 0-.97.242-1.733.725-2.288.483-.555 1.148-.833 1.993-.833.784 0=
+ 1.404.238 1.858.714.455.476.682 1.132.682 1.966v.682H7.357c.018.577.174 1.=
+02.467 1.329.294.31.707.465 1.241.465.351 0 .678-.033.98-.099a5.1 5.1 0 0 0=
+ .975-.33v1.026a3.865 3.865 0 0 1-.935.312 5.723 5.723 0 0 1-1.08.091l.002-=
+.001zm-.231-5.199c-.401 0-.722.127-.964.381s-.386.625-.432 1.112h2.696c-.00=
+7-.491-.125-.862-.354-1.115-.229-.252-.544-.379-.945-.379l-.001.001zm7.692 =
+5.092l-.252-.827h-.043c-.286.362-.575.608-.865.739-.29.131-.662.196-1.117.1=
+96-.584 0-1.039-.158-1.367-.473-.328-.315-.491-.761-.491-1.337 0-.612.227-1=
+.074.682-1.386.455-.312 1.148-.482 2.079-.51l1.026-.032v-.317c0-.38-.089-.6=
+63-.266-.851-.177-.188-.452-.282-.824-.282-.304 0-.596.045-.876.134a6.68 6.=
+68 0 0 0-.806.317l-.408-.902a4.414 4.414 0 0 1 1.058-.384 4.856 4.856 0 0 1=
+ 1.085-.132c.756 0 1.326.165 1.711.494.385.329.577.847.577 1.552v4.002h-.90=
+2l-.001-.001zm-1.88-.859c.458 0 .826-.128 1.104-.384.278-.256.416-.615.416-=
+1.077v-.516l-.763.032c-.594.021-1.027.121-1.297.298s-.406.448-.406.814c0 .2=
+65.079.47.236.615.158.145.394.218.709.218h.001zm7.557-5.189c.254 0 .464.018=
+.628.054l-.124 1.176a2.383 2.383 0 0 0-.559-.064c-.505 0-.914.165-1.227.494=
+-.313.329-.47.757-.47 1.284v3.105h-1.262V7.218h.988l.167 1.047h.064c.197-.3=
+54.454-.636.771-.843a1.83 1.83 0 0 1 1.023-.312h.001zm4.125 6.155c-.899 0-1=
+.582-.262-2.049-.787-.467-.525-.701-1.277-.701-2.259 0-.999.244-1.767.733-2=
+.304.489-.537 1.195-.806 2.119-.806.627 0 1.191.116 1.692.349l-.381 1.015c-=
+.534-.208-.974-.312-1.321-.312-1.028 0-1.542.682-1.542 2.046 0 .666.128 1.1=
+66.384 1.501.256.335.631.502 1.125.502a3.23 3.23 0 0 0 1.595-.419v1.101a2.5=
+3 2.53 0 0 1-.722.285 4.356 4.356 0 0 1-.932.086v.002zm8.277-.107h-1.268V9.=
+506c0-.458-.092-.8-.277-1.026-.184-.226-.477-.338-.878-.338-.53 0-.919.158-=
+1.168.475-.249.317-.373.848-.373 1.593v2.949h-1.262V4.801h1.262v2.122c0 .34=
+-.021.704-.064 1.09h.081a1.76 1.76 0 0 1 .717-.666c.306-.158.663-.236 1.072=
+-.236 1.439 0 2.159.725 2.159 2.175v3.873l-.001-.001zm7.649-6.048c.741 0 1.=
+319.269 1.732.806.414.537.62 1.291.62 2.261 0 .974-.209 1.732-.628 2.275-.4=
+19.542-1.001.814-1.746.814-.752 0-1.336-.27-1.751-.811h-.086l-.231.704h-.94=
+5V4.801h1.262v1.987l-.021.655-.032.553h.054c.401-.591.992-.886 1.772-.886zm=
+-.328 1.031c-.508 0-.875.149-1.098.448-.224.299-.339.799-.346 1.501v.086c0 =
+.723.115 1.247.344 1.571.229.324.603.486 1.123.486.448 0 .787-.177 1.018-.5=
+32.231-.354.346-.867.346-1.536 0-1.35-.462-2.025-1.386-2.025l-.001.001zm3.2=
+44-.924h1.375l1.209 3.368c.183.48.304.931.365 1.354h.043c.032-.197.091-.436=
+.177-.717.086-.281.541-1.616 1.364-4.004h1.364l-2.541 6.73c-.462 1.235-1.23=
+2 1.853-2.31 1.853-.279 0-.551-.03-.816-.091v-.999c.19.043.406.064.65.064.6=
+09 0 1.037-.353 1.284-1.058l.22-.559-2.385-5.941h.001z' fill=3D'%231D3657'/=
+></g></svg>"); background-repeat: no-repeat; background-size: contain; vert=
+ical-align: middle; display: inline-block !important; padding: 0px !importa=
+nt; }
+
+@media (min-width: 568px) {
+  .aa-dropdown-menu { min-width: 400px; }
+  .algolia-docsearch-suggestion--text { display: block; font-size: 0.9em; p=
+adding: 2px 0px; }
+}
+
+@media (min-width: 768px) {
+  .aa-dropdown-menu { min-width: 600px; }
+  .algolia-docsearch-suggestion { display: table; width: 100%; }
+  .algolia-docsearch-suggestion__secondary { border-top: 1px solid rgb(96, =
+96, 96); }
+  .algolia-docsearch-suggestion--subcategory-column { border-right: 1px sol=
+id rgb(96, 96, 96); background: rgb(241, 243, 245); color: rgb(85, 85, 85);=
+ display: table-cell; overflow: hidden; padding: 5px 7px 5px 5px; text-alig=
+n: right; text-overflow: ellipsis; vertical-align: top; width: 135px; max-w=
+idth: 135px; min-width: 135px; }
+  .algolia-docsearch-suggestion--subcategory-column-text { display: none; }
+  .algolia-docsearch-suggestion__secondary .algolia-docsearch-suggestion--s=
+ubcategory-column-text { display: block; }
+  .algolia-docsearch-suggestion--content { display: table-cell; padding: 5p=
+x 10px; }
+  .algolia-docsearch-suggestion--subcategory-inline { display: none; }
+  .algolia-docsearch-suggestion--title { font-weight: 600; }
+  .algolia-docsearch-suggestion--text { display: block; font-weight: 400; p=
+adding: 2px; }
+}
+------MultipartBoundary--Nr2a9KVj8UPju18t6ws35kUxwaRjHGoWsSU0tDdEgx----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css
+
+@charset "utf-8";
+
+.hljs { display: block; overflow-x: auto; padding: 0.5em; background: rgb(3=
+9, 40, 34); color: rgb(221, 221, 221); }
+
+.hljs-tag, .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-strong, =
+.hljs-name { color: rgb(249, 38, 114); }
+
+.hljs-code { color: rgb(102, 217, 239); }
+
+.hljs-class .hljs-title { color: white; }
+
+.hljs-attribute, .hljs-symbol, .hljs-regexp, .hljs-link { color: rgb(191, 1=
+21, 219); }
+
+.hljs-string, .hljs-bullet, .hljs-subst, .hljs-title, .hljs-section, .hljs-=
+emphasis, .hljs-type, .hljs-built_in, .hljs-builtin-name, .hljs-selector-at=
+tr, .hljs-selector-pseudo, .hljs-addition, .hljs-variable, .hljs-template-t=
+ag, .hljs-template-variable { color: rgb(166, 226, 46); }
+
+.hljs-comment, .hljs-quote, .hljs-deletion, .hljs-meta { color: rgb(117, 11=
+3, 94); }
+
+.hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-doctag, .hljs-title=
+, .hljs-section, .hljs-type, .hljs-selector-id { font-weight: bold; }
+------MultipartBoundary--Nr2a9KVj8UPju18t6ws35kUxwaRjHGoWsSU0tDdEgx----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://react-redux.js.org/css/main.css
+
+@charset "utf-8";
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquot=
+e, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, d=
+l, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h=
+4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, l=
+i, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, =
+small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th=
+, thead, time, tr, tt, u, ul, var, video { border: 0px; font-style: inherit=
+; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-=
+height: inherit; font-family: inherit; font-size: 100%; margin: 0px; paddin=
+g: 0px; vertical-align: baseline; }
+
+body { color: rgb(36, 41, 46); font-family: -apple-system, BlinkMacSystemFo=
+nt, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; line-height:=
+ 1.5; text-size-adjust: 100%; overflow-wrap: break-word; }
+
+* { box-sizing: border-box; }
+
+b, strong { font-weight: 600; }
+
+em, i { font-style: italic; }
+
+[type=3D"checkbox"] { box-sizing: border-box; padding: 0px; }
+
+a, a:hover { color: rgb(118, 74, 188); text-decoration: none; }
+
+a:active, a:hover { outline-width: 0px; }
+
+a:not([href]) { color: inherit; text-decoration: none; }
+
+p { margin-bottom: 1em; margin-top: 0px; }
+
+h1, h2, h3, h4, h5, h6 { color: inherit; font-weight: 600; line-height: 1.2=
+5; margin-bottom: 16px; margin-top: 1.5em; }
+
+h1 { font-size: 32px; }
+
+h2 { font-size: 24px; }
+
+h3 { font-size: 20px; }
+
+h4 { font-size: 16px; }
+
+h5 { font-size: 14px; }
+
+h6 { font-size: 13.6px; }
+
+ol, ul { margin-bottom: 1em; margin-top: 0px; padding-left: 2em; }
+
+ol ol, ul ol { list-style-type: lower-roman; }
+
+ol ol, ol ul, ul ol, ul ul { margin-bottom: 0px; margin-top: 0px; }
+
+ol ol ol, ol ul ol, ul ol ol, ul ul ol { list-style-type: lower-alpha; }
+
+li { }
+
+li > p { margin-top: 1em; }
+
+li + li { margin-top: 0.25em; }
+
+img { border-style: none; box-sizing: content-box; max-width: 100%; }
+
+img[align=3D"right"] { padding-left: 1.25em; }
+
+img[align=3D"left"] { padding-right: 1.25em; }
+
+table { border-collapse: collapse; border-spacing: 0px; display: block; mar=
+gin-bottom: 16px; margin-top: 0px; overflow: auto; width: 100%; }
+
+table tr { background-color: transparent; border-top: 1px solid rgb(223, 22=
+6, 229); }
+
+table tr:nth-child(2n) { background-color: rgb(246, 248, 250); }
+
+table td, table th { border: 1px solid rgb(223, 226, 229); padding: 6px 13p=
+x; }
+
+table th { background-color: inherit; font-weight: 600; }
+
+table td, table th { color: inherit; }
+
+blockquote { color: rgb(106, 115, 125); font-size: 16px; margin: 0px 0px 16=
+px; padding: 0px 1em; }
+
+blockquote > :first-child { margin-top: 0px; }
+
+blockquote > :last-child { margin-bottom: 0px; }
+
+code { background-color: rgba(27, 31, 35, 0.05); border-radius: 3px; color:=
+ inherit; font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation=
+ Mono", "Courier New", monospace; font-size: 85%; margin: 0px; padding: 3.2=
+px 6.4px; }
+
+pre { margin-bottom: 16px; }
+
+pre code { background-color: transparent; border: 0px; display: inline; fon=
+t-size: 85%; line-height: inherit; margin: 0px; overflow: visible; padding:=
+ 0px; white-space: pre; word-break: normal; overflow-wrap: normal; }
+
+kbd { background-color: rgb(250, 251, 252); border-width: 1px; border-style=
+: solid; border-color: rgb(209, 213, 218) rgb(209, 213, 218) rgb(198, 203, =
+209); border-image: initial; border-radius: 3px; box-shadow: rgb(198, 203, =
+209) 0px -1px 0px inset; color: rgb(68, 77, 86); display: inline-block; fon=
+t-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Cour=
+ier New", monospace; font-size: 68.75%; line-height: 10px; padding: 3px 5px=
+; vertical-align: middle; }
+
+hr { border: 1px solid rgb(223, 226, 229); box-sizing: content-box; margin:=
+ 1.5em 0px; overflow: hidden; padding: 0px; }
+
+hr::after, hr::before { content: ""; display: table; }
+
+hr::after { clear: both; }
+
+body { min-height: 100vh; text-rendering: optimizelegibility; }
+
+@media only screen and (min-width: 736px) {
+  body { display: flex; flex-direction: column; }
+}
+
+article::after, article::before { content: ""; display: table; }
+
+article::after { clear: both; }
+
+article > :first-child { margin-top: 0px; }
+
+article > :last-child { margin-bottom: 0px; }
+
+article iframe, article p img { display: block; margin-left: auto; margin-r=
+ight: auto; max-width: 100%; }
+
+.anchor { display: block; position: relative; top: -80px; }
+
+.hash-link { line-height: 1; margin-left: -20px; opacity: 0; padding-right:=
+ 4px; transition: opacity 0.3s ease 0s; }
+
+.hash-link:hover { transition: none 0s ease 0s; opacity: 1 !important; }
+
+.hash-link .hash-link-icon { vertical-align: middle; }
+
+.button { border: 1px solid rgb(118, 74, 188); border-radius: 3px; color: r=
+gb(118, 74, 188); display: inline-block; font-size: 14px; font-weight: 400;=
+ line-height: 1.2em; padding: 10px; text-transform: uppercase; transition: =
+background 0.3s ease 0s, color 0.3s ease 0s; text-decoration: none !importa=
+nt; }
+
+.button:hover { background: rgb(118, 74, 188); color: rgb(255, 255, 255); }
+
+h1:hover .hash-link, h2:hover .hash-link, h3:hover .hash-link, h4:hover .ha=
+sh-link { opacity: 0.5; transition: none 0s ease 0s; }
+
+blockquote { background-color: rgba(255, 229, 100, 0.3); border-left: 8px s=
+olid rgb(255, 229, 100); padding: 15px 30px 15px 15px; }
+
+.wrapper { margin: 0px auto; max-width: 1100px; padding: 0px 20px; }
+
+.wrapper blockquote > p:first-child { padding-top: 0px; }
+
+.center { display: block; }
+
+.center, .homeContainer { text-align: center; }
+
+.homeContainer .homeWrapper { padding: 2em 10px; }
+
+.homeContainer .homeWrapper .wrapper { margin: 0px auto; max-width: 900px; =
+padding: 0px 20px; }
+
+.homeContainer .homeWrapper .projectLogo img { height: 100px; margin-bottom=
+: 0px; }
+
+.homeContainer .homeWrapper #project_title { font-size: 300%; letter-spacin=
+g: -0.08em; line-height: 1em; margin-bottom: 80px; }
+
+.homeContainer .homeWrapper #project_tagline { font-size: 200%; letter-spac=
+ing: -0.04em; line-height: 1em; }
+
+.projectLogo { display: none; pointer-events: none; }
+
+.projectLogo img { height: 100px; margin-bottom: 0px; }
+
+.projectIntro { margin: 40px 0px; }
+
+.projectTitle { color: rgb(118, 74, 188); font-size: 250%; line-height: 1em=
+; }
+
+.projectTitle > small { display: block; font-weight: 400; font-size: 50%; l=
+ine-height: 1em; margin: 0.7em 0px 1.3em; }
+
+@media only screen and (min-width: 480px) {
+  .projectTitle { font-size: 300%; margin: 0.3em 0px; }
+  .projectLogo img { height: 200px; margin-bottom: 10px; }
+  .homeContainer .homeWrapper { padding-left: 10px; padding-right: 10px; }
+}
+
+@media only screen and (min-width: 736px) {
+  .homeContainer .homeWrapper { position: relative; }
+  .homeContainer .homeWrapper #inner { max-width: 600px; padding-right: 40p=
+x; }
+}
+
+@media only screen and (min-width: 1200px) {
+  .homeContainer .homeWrapper #inner { max-width: 750px; }
+  .homeContainer .homeWrapper .projectLogo { align-items: center; bottom: 0=
+px; display: flex; justify-content: flex-end; left: 0px; padding: 2em 100px=
+ 4em; position: absolute; right: 0px; top: 0px; }
+  .homeContainer .homeWrapper .projectLogo img { height: 100%; max-height: =
+250px; }
+}
+
+@media only screen and (min-width: 1500px) {
+  .homeContainer .homeWrapper #inner { max-width: 1100px; padding-bottom: 4=
+0px; padding-top: 40px; }
+  .wrapper { max-width: 1400px; }
+}
+
+.mainContainer { flex: 1 1 auto; max-width: 100%; padding: 48px 0px; }
+
+.mainContainer .wrapper { text-align: left; }
+
+.mainContainer .wrapper .allShareBlock { padding: 10px 0px; }
+
+.mainContainer .wrapper .allShareBlock .pluginBlock { margin: 12px 0px; pad=
+ding: 0px; }
+
+.mainContainer .wrapper .post { position: relative; }
+
+.mainContainer .wrapper .post.basicPost { margin-top: 30px; }
+
+.mainContainer .wrapper .post .postHeader { margin-bottom: 16px; }
+
+.mainContainer .wrapper .post .postHeaderTitle { margin-top: 0px; padding: =
+0px; }
+
+.mainContainer .wrapper .post .postSocialPlugins { padding-top: 1em; }
+
+.mainContainer .wrapper .post .docPagination { background: rgb(118, 74, 188=
+); bottom: 0px; left: 0px; position: absolute; right: 0px; }
+
+.mainContainer .wrapper .post .docPagination .pager { display: inline-block=
+; width: 50%; }
+
+.mainContainer .wrapper .post .docPagination .pagingNext { float: right; te=
+xt-align: right; }
+
+.mainContainer .wrapper .post .docPagination a { border: none; color: rgb(2=
+55, 255, 255); display: block; padding: 4px 12px; }
+
+.mainContainer .wrapper .post .docPagination a:hover { background-color: rg=
+b(249, 249, 249); color: rgb(57, 57, 57); }
+
+.mainContainer .wrapper .post .docPagination a .pagerLabel { display: inlin=
+e; }
+
+.mainContainer .wrapper .post .docPagination a .pagerTitle { display: none;=
+ }
+
+@media only screen and (min-width: 480px) {
+  .mainContainer .wrapper .post .docPagination a .pagerLabel { display: non=
+e; }
+  .mainContainer .wrapper .post .docPagination a .pagerTitle { display: inl=
+ine; }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mainContainer .wrapper .post { display: block; }
+  .mainContainer .wrapper .posts .post { width: 100%; }
+}
+
+.fixedHeaderContainer { background: rgb(118, 74, 188); color: rgb(255, 255,=
+ 255); min-height: 50px; padding: 8px 0px; position: fixed; width: 100%; z-=
+index: 9999; }
+
+@media only screen and (min-width: 1024px) {
+  .fixedHeaderContainer { flex-shrink: 0; }
+}
+
+.fixedHeaderContainer a { align-items: center; border: 0px; color: rgb(255,=
+ 255, 255); display: flex; flex-flow: row nowrap; height: 34px; z-index: 10=
+000; }
+
+.fixedHeaderContainer header { display: flex; flex-flow: row nowrap; positi=
+on: relative; text-align: left; }
+
+.fixedHeaderContainer header img { height: 100%; margin-right: 10px; }
+
+.fixedHeaderContainer header .headerTitle { font-size: 1.25em; margin: 0px;=
+ }
+
+.fixedHeaderContainer header .headerTitleWithLogo { display: block; font-si=
+ze: 1.25em; line-height: 18px; margin: 0px; position: relative; z-index: 99=
+99; }
+
+.fixedHeaderContainer header h3 { color: rgb(255, 255, 255); font-size: 16p=
+x; margin: 0px 0px 0px 10px; text-decoration: underline; }
+
+@media (max-width: 480px) {
+  .headerTitle { font-size: 17px; }
+  .headerTitleWithLogo { display: none !important; }
+}
+
+.promoSection { display: flex; flex-flow: column wrap; font-size: 125%; lin=
+e-height: 1.6em; position: relative; z-index: 99; }
+
+.promoSection .promoRow { padding: 10px 0px; }
+
+.promoSection .promoRow .pluginWrapper { display: block; }
+
+.promoSection .promoRow .pluginWrapper.ghStarWrapper, .promoSection .promoR=
+ow .pluginWrapper.ghWatchWrapper { height: 28px; }
+
+.promoSection .promoRow .pluginRowBlock { display: flex; flex-wrap: wrap; j=
+ustify-content: center; margin: 0px -2px; }
+
+.promoSection .promoRow .pluginRowBlock .pluginWrapper { padding: 0px 2px; =
+}
+
+.promoSection .promoRow .pluginRowBlock iframe { margin-left: 2px; margin-t=
+op: 5px; }
+
+input[type=3D"search"] { -webkit-appearance: none; }
+
+.navSearchWrapper { align-items: center; align-self: center; display: flex;=
+ justify-content: center; padding-left: 10px; position: absolute; right: 10=
+px; top: 15px; }
+
+.navSearchWrapper::before { border: 3px solid rgb(229, 229, 229); border-ra=
+dius: 50%; content: " "; display: block; height: 6px; left: 15px; position:=
+ absolute; top: 50%; transform: translateY(-58%); width: 6px; z-index: 1; }
+
+.navSearchWrapper::after { background: rgb(229, 229, 229); content: " "; he=
+ight: 7px; left: 24px; position: absolute; top: 55%; transform: rotate(-45d=
+eg); width: 3px; z-index: 1; }
+
+.navSearchWrapper .aa-dropdown-menu { background: rgb(249, 249, 249); borde=
+r: 3px solid rgba(57, 57, 57, 0.25); color: rgb(57, 57, 57); font-size: 14p=
+x; line-height: 1.2em; left: auto !important; right: 0px !important; }
+
+.navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--category=
+-header { background: rgb(118, 74, 188); color: rgb(255, 255, 255); font-si=
+ze: 14px; font-weight: 400; }
+
+.navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--category=
+-header .algolia-docsearch-suggestion--highlight { background-color: rgb(11=
+8, 74, 188); color: rgb(255, 255, 255); }
+
+.navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--subcateg=
+ory-column .algolia-docsearch-suggestion--highlight, .navSearchWrapper .aa-=
+dropdown-menu .algolia-docsearch-suggestion--title .algolia-docsearch-sugge=
+stion--highlight { color: rgb(118, 74, 188); }
+
+.navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--subcateg=
+ory-column, .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggesti=
+on__secondary { border-color: rgba(57, 57, 57, 0.3); }
+
+input#search_input_react { background-color: rgba(0, 0, 0, 0.2); border: no=
+ne; border-radius: 20px; color: rgb(255, 255, 255); font-size: 14px; font-w=
+eight: 300; line-height: 20px; outline: none; padding-left: 25px; position:=
+ relative; transition: width 0.5s ease 0s; width: 170px; }
+
+input#search_input_react:active, input#search_input_react:focus { color: rg=
+b(255, 255, 255); width: 220px; }
+
+.navigationSlider .slidingNav .navSearchWrapper .algolia-docsearch-footer a=
+ { height: auto; }
+
+@media only screen and (max-width: 735px) {
+  .navSearchWrapper { width: 40%; }
+}
+
+input::-webkit-input-placeholder { color: rgb(229, 229, 229); }
+
+input::placeholder { color: rgb(229, 229, 229); }
+
+.hljs { padding: 1.25rem 1.5rem; }
+
+.gridBlock { padding: 0px; }
+
+.gridBlock > * { box-sizing: border-box; }
+
+.gridBlock .fourByGridBlock img, .gridBlock .threeByGridBlock img, .gridBlo=
+ck .twoByGridBlock img { max-width: 100%; }
+
+.gridBlock .gridClear { clear: both; }
+
+@media only screen and (max-width: 735px) {
+  .gridBlock .fourByGridBlock { flex: 1 0 26%; }
+}
+
+@media only screen and (min-width: 736px) {
+  .gridBlock { display: flex; flex-flow: row wrap; }
+  .gridBlock > * { margin: 0px 12px; }
+  .gridBlock > :first-child { margin-left: 0px; }
+  .gridBlock > :last-child { margin-right: 0px; }
+  .gridBlock .twoByGridBlock { flex: 1 0 40%; }
+  .gridBlock .threeByGridBlock { flex: 1 0 26%; }
+  .gridBlock .fourByGridBlock { flex: 1 0 20%; }
+  h2 + .gridBlock { padding-top: 20px; }
+}
+
+@media only screen and (min-width: 1400px) {
+  .gridBlock { display: flex; flex-flow: row wrap; }
+}
+
+.alignCenter { text-align: center; }
+
+.alignRight { text-align: right; }
+
+.imageAlignSide { display: flex; flex-flow: row wrap; }
+
+.blockImage { max-width: 730px; }
+
+.imageAlignSide .blockImage { flex: 0 1 500px; max-width: 500px; }
+
+@media only screen and (max-width: 735px) {
+  .imageAlignSide .blockImage { display: none; }
+}
+
+.imageAlignSide .blockContent { flex: 1 1 0%; }
+
+.imageAlignBottom .blockImage { margin: 0px auto 20px; max-width: 730px; }
+
+.imageAlignBottom.alignCenter .blockImage { margin-left: auto; margin-right=
+: auto; }
+
+.imageAlignTop .blockImage { margin-bottom: 20px; max-width: 80px; }
+
+.imageAlignTop.alignCenter .blockImage { margin-left: auto; margin-right: a=
+uto; }
+
+.imageAlignRight .blockImage { margin-left: 40px; }
+
+.imageAlignLeft .blockImage { margin-right: 40px; }
+
+.container .gridBlock .blockContent p { padding: 0px; }
+
+.container .wrapper .alignCenter h2 { text-align: center; }
+
+.container .wrapper .imageAlignSide h2 { text-align: left; }
+
+.container .wrapper .imageAlignSide p { margin: 0px 0px 40px; max-width: 56=
+0px; }
+
+.highlightBackground { background: rgba(153, 66, 79, 0.7); color: rgb(255, =
+255, 255); }
+
+.highlightBackground a { font-weight: 800; }
+
+.container.highlightBackground .wrapper h1, .container.highlightBackground =
+.wrapper h2, .container.highlightBackground .wrapper h3, .container.highlig=
+htBackground .wrapper h4, .container.highlightBackground .wrapper h5, .high=
+lightBackground a { border-color: rgb(255, 255, 255); color: rgb(255, 255, =
+255); }
+
+.lightBackground { background: rgb(247, 247, 247); }
+
+.darkBackground { background: gray; color: rgb(255, 255, 255); }
+
+.darkBackground a, .darkBackground code { color: rgb(214, 179, 184); }
+
+.container.darkBackground .wrapper h1, .container.darkBackground .wrapper h=
+2, .container.darkBackground .wrapper h3, .container.darkBackground .wrappe=
+r h4, .container.darkBackground .wrapper h5 { border-color: rgb(255, 255, 2=
+55); color: rgb(255, 255, 255); }
+
+.container.paddingAll { padding: 40px; }
+
+.container.paddingBottom { padding-bottom: 80px; }
+
+.container.paddingLeft { padding-left: 40px; }
+
+.container.paddingRight { padding-right: 40px; }
+
+.container.paddingTop { padding-top: 80px; }
+
+@media only screen and (max-width: 735px) {
+  .container.paddingBottom { padding-bottom: 40px; }
+  .container.paddingTop { padding-top: 20px; }
+}
+
+@media only screen and (max-width: 1023px) {
+  .responsiveList .blockContent { position: relative; }
+  .responsiveList .blockContent > div { padding-left: 20px; }
+  .responsiveList .blockContent::before { content: "=E2=80=A2"; position: a=
+bsolute; }
+}
+
+.navigationSlider .navSlideout { cursor: pointer; padding-top: 4px; positio=
+n: absolute; right: 10px; top: 0px; transition: top 0.3s ease 0s; z-index: =
+101; }
+
+.navigationSlider .slidingNav { bottom: auto; box-sizing: border-box; left:=
+ 0px; position: fixed; right: 0px; top: 0px; }
+
+.navigationSlider .slidingNav.slidingNavActive { height: auto; padding-top:=
+ 42px; width: 300px; }
+
+.navigationSlider .slidingNav ul { background: rgb(64, 33, 111); box-sizing=
+: border-box; color: rgb(255, 255, 255); display: flex; flex-wrap: nowrap; =
+list-style: none; margin-top: 50px; padding: 0px; width: 100%; }
+
+.navigationSlider .slidingNav.slidingNavActive ul { display: block; }
+
+.navigationSlider .slidingNav ul li { flex: 1 1 auto; margin: 0px; text-ali=
+gn: center; white-space: nowrap; }
+
+.navigationSlider .slidingNav ul li a { align-items: center; box-sizing: bo=
+rder-box; color: inherit; display: flex; font-size: 0.9em; height: 50px; ju=
+stify-content: center; margin: 0px; padding: 10px; transition: background-c=
+olor 0.3s ease 0s; }
+
+.navigationSlider .slidingNav ul li.siteNavGroupActive a, .navigationSlider=
+ .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li=
+ a:focus, .navigationSlider .slidingNav ul li a:hover { background: rgb(118=
+, 74, 188); }
+
+.languages-icon { width: 20px; }
+
+#languages-dropdown { pointer-events: none; position: absolute; width: 100%=
+; }
+
+#languages-dropdown.visible { display: flex; }
+
+#languages-dropdown.hide { display: none; }
+
+#languages-dropdown-items { background-color: rgb(118, 74, 188); display: f=
+lex; flex-direction: column; min-width: 120px; pointer-events: all; }
+
+#languages li { display: block; }
+
+.navPusher { left: 0px; min-height: 100%; padding-top: 100px; position: rel=
+ative; z-index: 99; }
+
+.navPusher::after { background: rgba(0, 0, 0, 0.4); content: ""; height: 0p=
+x; opacity: 0; position: absolute; right: 0px; top: 0px; transition: opacit=
+y 0.5s ease 0s, width 0.1s ease 0.5s, height 0.1s ease 0.5s; width: 0px; }
+
+@media screen and (min-width: 1024px) {
+  .navPusher { display: flex; flex-direction: column; min-height: calc(100v=
+h - 50px); padding-top: 50px; }
+  .navPusher, .navPusher > :first-child { flex-grow: 1; }
+}
+
+.sliderActive .navPusher::after { height: 100%; opacity: 1; transition: opa=
+city 0.5s ease 0s; width: 100%; z-index: 100; }
+
+@media only screen and (max-width: 1024px) {
+  .reactNavSearchWrapper input#search_input_react { background-color: rgba(=
+242, 195, 177, 0.25); border: none; border-radius: 20px; box-sizing: border=
+-box; color: rgb(57, 57, 57); font-size: 14px; line-height: 20px; outline: =
+none; padding-left: 25px; position: relative; transition: background-color =
+0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s, width 0.2s cubic-bezier(0.6=
+8, -0.55, 0.265, 1.55) 0s, color 0.2s ease 0s; width: 100%; }
+  .reactNavSearchWrapper input#search_input_react:active, .reactNavSearchWr=
+apper input#search_input_react:focus { background-color: rgb(118, 74, 188);=
+ color: rgb(255, 255, 255); }
+  .reactNavSearchWrapper .algolia-docsearch-suggestion--subcategory-inline =
+{ display: none; }
+  .reactNavSearchWrapper > span { width: 100%; }
+  .reactNavSearchWrapper .aa-dropdown-menu { font-size: 12px; line-height: =
+2em; padding: 0px; border-width: 1px; min-width: 500px; }
+  .reactNavSearchWrapper .algolia-docsearch-suggestion__secondary { border-=
+top: none; }
+  .aa-suggestions { min-height: 140px; max-height: 60vh; overflow-y: scroll=
+; }
+  #languages-dropdown { left: 0px; top: 50px; }
+  #languages-dropdown-items { background-color: rgb(118, 74, 188); display:=
+ flex; flex-direction: row; }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navSearchWrapper { padding-left: 10px; position: relative; right: auto; =
+top: auto; }
+  .navSearchWrapper .algolia-autocomplete { display: block; }
+  .navigationSlider { height: 34px; margin-left: auto; position: relative; =
+}
+  .navigationSlider .navSlideout { display: none; }
+  .navigationSlider nav.slidingNav { background: none; height: auto; positi=
+on: relative; right: auto; top: auto; width: auto; }
+  .navigationSlider .slidingNav ul { background: none; display: flex; flex-=
+flow: row nowrap; margin: 0px; padding: 0px; width: auto; }
+  .navigationSlider .slidingNav ul li a { border: 0px; color: rgba(255, 255=
+, 255, 0.8); display: flex; font-size: 1em; font-weight: 300; height: 32px;=
+ line-height: 1.2em; margin: 0px; padding: 6px 10px; }
+  .navigationSlider .slidingNav ul li.siteNavGroupActive a, .navigationSlid=
+er .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul =
+li a:hover { color: rgb(255, 255, 255); }
+}
+
+@media only screen and (max-width: 735px) {
+  .navigationSlider .slidingNav ul { overflow-x: auto; }
+  .navigationSlider .slidingNav ul::-webkit-scrollbar { display: none; }
+  .reactNavSearchWrapper .aa-dropdown-menu { min-width: 400px; }
+}
+
+@media only screen and (max-width: 475px) {
+  .reactNavSearchWrapper .aa-dropdown-menu { min-width: 300px; }
+}
+
+.docMainWrapper .wrapper { padding-left: 0px; padding-right: 0px; padding-t=
+op: 10px; }
+
+@media only screen and (min-width: 1024px) {
+  .docMainWrapper { width: 100%; }
+  .docMainWrapper > * { margin: 0px 24px; }
+  .docMainWrapper > :first-child { margin-left: 0px; }
+  .docMainWrapper > :last-child { margin-right: 0px; }
+  .docMainWrapper .mainContainer { min-width: 0px; }
+}
+
+.edit-page-link { float: right; font-size: 10px; font-weight: 400; margin-t=
+op: 3px; text-decoration: none; }
+
+@media only screen and (max-width: 1023px) {
+  .edit-page-link { display: none; }
+}
+
+.docLastUpdate { font-size: 13px; font-style: italic; margin: 20px 0px; tex=
+t-align: right; }
+
+.docs-prevnext { margin: 20px 0px; }
+
+.docs-prevnext::after { clear: both; content: " "; display: table; }
+
+.docs-next { float: right; }
+
+.docs-prev { float: left; }
+
+@media only screen and (max-width: 735px) {
+  .docs-next { clear: both; float: left; }
+  .docs-next, .docs-prev { margin: 10px 0px; }
+  .arrow-next { float: right; margin-left: 10px; }
+  .arrow-prev { float: left; margin-right: 10px; }
+  .function-name-prevnext { width: 200px; display: inline-block; white-spac=
+e: nowrap; overflow: hidden; text-overflow: ellipsis; }
+}
+
+@media only screen and (max-width: 1023px) {
+  .docsNavContainer { background: rgb(255, 255, 255); left: 0px; position: =
+fixed; width: 100%; z-index: 100; }
+}
+
+@media only screen and (min-width: 1024px) {
+  .docsNavContainer { flex: 0 0 240px; height: calc(100vh - 50px); position=
+: sticky; overflow-y: auto; top: 50px; }
+}
+
+.docsSliderActive.docsNavContainer { box-sizing: border-box; height: 100%; =
+overflow-y: auto; overscroll-behavior: contain; padding-bottom: 50px; }
+
+.docsNavContainer .toc .navBreadcrumb { background-color: rgb(241, 241, 241=
+); box-sizing: border-box; display: flex; flex-flow: row nowrap; font-size:=
+ 12px; height: 48px; overflow: hidden; padding: 8px 20px; }
+
+.docsNavContainer .toc .navWrapper { padding: 0px; }
+
+@media only screen and (min-width: 1024px) {
+  .docsNavContainer .toc .navBreadcrumb { display: none; }
+  .navBreadcrumb h2 { padding: 0px 10px; }
+  .separateOnPageNav .docsNavContainer { flex: 0 0 240px; }
+}
+
+.navBreadcrumb a, .navBreadcrumb span { border: 0px; color: rgb(57, 57, 57)=
+; }
+
+@media only screen and (max-width: 735px) {
+  .anchor { top: -144px; }
+}
+
+@media only screen and (min-width: 1024px) {
+  .toc { padding: 40px 0px; }
+}
+
+.toc section { padding: 0px; position: relative; }
+
+.toc section .navGroups { display: none; padding: 48px 20px 60px; }
+
+.toc .toggleNav { color: rgb(57, 57, 57); position: relative; }
+
+.toc .toggleNav .navToggle { cursor: pointer; height: 32px; margin-right: 1=
+0px; position: relative; text-align: left; width: 18px; }
+
+.toc .toggleNav .navToggle::after, .toc .toggleNav .navToggle::before { bor=
+der-style: solid; border-color: rgb(57, 57, 57); border-image: initial; bor=
+der-width: 5px 0px; content: ""; height: 6px; left: 8px; margin-top: -8px; =
+position: absolute; top: 50%; transform: rotate(45deg); width: 3px; z-index=
+: 1; }
+
+.toc .toggleNav .navToggle::after { transform: rotate(-45deg); }
+
+.toc .toggleNav .navToggle i::after, .toc .toggleNav .navToggle i::before {=
+ background: transparent; border-color: transparent rgb(57, 57, 57); border=
+-style: solid; border-width: 0px 5px 5px; content: ""; height: 0px; left: 2=
+px; margin-top: -7px; opacity: 1; position: absolute; top: 50%; width: 5px;=
+ z-index: 10; }
+
+.toggleNav h2 i { padding: 0px 4px; }
+
+.toc .toggleNav .navToggle i::after { border-width: 5px 5px 0px; margin-top=
+: 2px; }
+
+.docsSliderActive .toc .toggleNav .navToggle::after, .docsSliderActive .toc=
+ .toggleNav .navToggle::before { border-width: 8px 0px; height: 0px; margin=
+-top: -8px; }
+
+.docsSliderActive .toc .toggleNav .navToggle i { opacity: 0; }
+
+.docsSliderActive .tocToggler { visibility: hidden; }
+
+.toc .toggleNav .navGroup { margin-bottom: 16px; }
+
+.toc .toggleNav .subNavGroup { margin-bottom: 0px; }
+
+.toc .toggleNav .navGroup .navGroupCategoryTitle { color: rgb(57, 57, 57); =
+font-size: 18px; font-weight: 500; line-height: 1.2em; margin-bottom: 8px; =
+margin-top: 0px; }
+
+.toc .toggleNav .navGroup .navGroupSubcategoryTitle { color: rgb(57, 57, 57=
+); font-size: 14px; font-weight: 500; line-height: 1.5; margin-bottom: 0px;=
+ margin-top: 0px; padding: 4px 0px; }
+
+.toc .toggleNav .navGroup .navListItem { margin: 0px; }
+
+.toc .toggleNav .navGroup h3 i:not(:empty) { box-sizing: border-box; color:=
+ rgba(57, 57, 57, 0.5); display: inline-block; height: 16px; margin-right: =
+10px; text-align: center; transition: color 0.2s ease 0s; width: 16px; }
+
+.toc .toggleNav ul { padding: 0px 8px; }
+
+.docsSliderActive .toc .toggleNav ul { padding-left: 0px; }
+
+.toc .toggleNav ul li { list-style-type: none; padding: 0px; }
+
+.toc .toggleNav ul li a { border: none; color: rgb(113, 113, 113); display:=
+ block; font-size: 14px; padding: 4px 0px; transition: color 0.3s ease 0s; =
+}
+
+.toc .toggleNav ul li.navListItemActive a, .toc .toggleNav ul li a:focus, .=
+toc .toggleNav ul li a:hover { color: rgb(118, 74, 188); }
+
+.docsSliderActive .toc .navBreadcrumb, .tocActive .navBreadcrumb { border-b=
+ottom: 1px solid rgb(204, 204, 204); margin-bottom: 20px; position: fixed; =
+width: 100%; }
+
+.toc .toggleNav .navBreadcrumb h2 { border: 0px; flex-grow: 1; font-size: 1=
+6px; font-weight: 600; line-height: 32px; margin: 0px; padding: 0px; }
+
+.docsSliderActive .toc section .navGroups { display: block; padding-top: 60=
+px; }
+
+.tocToggler { cursor: pointer; height: 32px; line-height: 32px; margin-righ=
+t: -10px; padding: 0px 10px; }
+
+.icon-toc { box-sizing: border-box; display: inline-block; line-height: nor=
+mal; position: relative; top: -1px; vertical-align: middle; }
+
+.icon-toc, .icon-toc::after, .icon-toc::before { background-color: currentc=
+olor; border: 1px solid currentcolor; border-radius: 50%; box-sizing: borde=
+r-box; height: 4px; width: 4px; }
+
+.icon-toc::after, .icon-toc::before { content: ""; position: absolute; }
+
+.icon-toc::before { left: -1px; top: -7px; }
+
+.icon-toc::after { left: -1px; top: 5px; }
+
+.tocActive .icon-toc { border-radius: 0px; height: 16px; transform: rotate(=
+45deg); width: 3px; }
+
+.tocActive .icon-toc::before { border-radius: 0px; height: 3px; left: 50%; =
+top: 50%; transform: translate(-50%, -50%); width: 16px; }
+
+.tocActive .icon-toc::after { content: ""; }
+
+@media only screen and (min-width: 1024px) {
+  .docMainWrapper { display: flex; flex-flow: row nowrap; }
+  .docMainWrapper .wrapper { padding-top: 0px; padding-left: 0px; padding-r=
+ight: 0px; }
+}
+
+.onPageNav { display: none; }
+
+.onPageNav::-webkit-scrollbar { display: none; }
+
+.onPageNav a { color: rgb(113, 113, 113); }
+
+.onPageNav ul { list-style: none; }
+
+.onPageNav ul li { font-size: 12px; line-height: 16px; padding-bottom: 8px;=
+ }
+
+.onPageNav ul ul { padding: 8px 0px 0px 20px; }
+
+.onPageNav ul ul li { padding-bottom: 5px; }
+
+@media only screen and (min-width: 1024px) {
+  .toc section .navGroups { display: block; padding: 8px 0px 0px; }
+  .navBreadcrumb h2 { padding: 0px 10px; }
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  @media only screen and (max-width: 1023px) {
+  .tocActive .onPageNav { background: rgb(255, 255, 255); bottom: 0px; disp=
+lay: block; left: 0px; overflow-y: auto; overscroll-behavior: contain; padd=
+ing: 0px 20px; position: fixed; right: 0px; top: 148px; z-index: 10; }
+  .tocActive .navBreadcrumb h2, .tocActive .navToggle { visibility: hidden;=
+ }
+  .tocActive .onPageNav > .toc-headings { padding: 12px 0px; }
+}
+  @media only screen and (min-width: 1024px) {
+  .separateOnPageNav .headerWrapper.wrapper, .separateOnPageNav .wrapper { =
+max-width: 1400px; }
+  .separateOnPageNav .toc { width: auto; }
+  .separateOnPageNav.sideNavVisible .navPusher .mainContainer { flex: 1 1 a=
+uto; max-width: 100%; min-width: 0px; }
+  .onPageNav { align-self: flex-start; display: block; flex: 0 0 240px; max=
+-height: calc(100vh - 90px); overflow-y: auto; position: sticky; top: 90px;=
+ }
+  .onPageNav > .toc-headings { border-left: 1px solid rgb(224, 224, 224); p=
+adding: 10px 0px 2px 15px; }
+  .tocToggler { display: none; }
+}
+}
+
+.blog .wrapper { max-width: 1100px; }
+
+.blogContainer .posts .post { border-bottom: 1px solid rgb(224, 224, 224); =
+border-radius: 3px; margin-bottom: 20px; padding-bottom: 20px; }
+
+.blogContainer .postHeader { margin-bottom: 10px; }
+
+.blogContainer .postHeaderTitle { margin-top: 0px; }
+
+.blogContainer .postHeader p.post-meta { margin-bottom: 10px; padding: 0px;=
+ }
+
+.blogContainer .postHeader .authorBlock { display: flex; }
+
+.blogContainer .postHeader .post-authorName { color: rgba(57, 57, 57, 0.7);=
+ display: flex; flex-direction: column; font-size: 14px; font-weight: 400; =
+justify-content: center; margin-right: 10px; margin-top: 0px; padding: 0px;=
+ }
+
+.blogContainer .postHeader .authorPhoto { border-radius: 50%; height: 30px;=
+ overflow: hidden; width: 30px; }
+
+.blogContainer .postHeader .authorPhoto.authorPhotoBig { height: 50px; widt=
+h: 50px; }
+
+.blog-recent { margin: 20px 0px; }
+
+.blog-recent > a { float: left; }
+
+@media only screen and (max-width: 735px) {
+  .blog-recent { height: 40px; }
+}
+
+.blogSocialSection { display: block; padding: 36px 0px; }
+
+.blogSocialSection .blogSocialSectionItem { padding-bottom: 5px; }
+
+.fb-like { display: block; margin-bottom: 20px; width: 100%; }
+
+.more-users { margin: 0px auto; max-width: 560px; text-align: center; }
+
+.productShowcaseSection { padding: 0px 20px; text-align: center; }
+
+.productShowcaseSection.paddingTop { padding-top: 20px; }
+
+.productShowcaseSection.paddingBottom { padding-bottom: 80px; }
+
+.productShowcaseSection h2 { color: rgb(118, 74, 188); font-size: 30px; lin=
+e-height: 1em; margin-top: 20px; padding: 10px 0px; text-align: center; }
+
+.productShowcaseSection p { margin: 0px auto; max-width: 560px; padding: 0.=
+8em 0px; }
+
+.productShowcaseSection .logos { align-items: center; display: flex; flex-f=
+low: row wrap; justify-content: center; padding: 20px; }
+
+.productShowcaseSection .logos img { max-height: 110px; padding: 20px; widt=
+h: 110px; }
+
+@media only screen and (max-width: 735px) {
+  .productShowcaseSection .logos img { max-height: 64px; padding: 20px; wid=
+th: 64px; }
+}
+
+.showcaseSection { margin: 0px auto; max-width: 900px; }
+
+.showcaseSection, .showcaseSection .prose h1 { text-align: center; }
+
+.showcaseSection .prose { margin: 0px auto; max-width: 560px; text-align: c=
+enter; }
+
+.showcaseSection .logos { align-items: center; display: flex; flex-flow: ro=
+w wrap; justify-content: center; }
+
+.showcaseSection .logos img { max-height: 128px; padding: 20px; width: 128p=
+x; }
+
+@media only screen and (max-width: 735px) {
+  .showcaseSection .logos img { max-height: 64px; padding: 20px; width: 64p=
+x; }
+}
+
+.nav-footer { background: rgb(32, 35, 42); border: none; color: rgb(32, 32,=
+ 32); font-size: 15px; -webkit-font-smoothing: antialiased; font-weight: 40=
+0; line-height: 24px; padding-bottom: 2em; padding-top: 2em; position: rela=
+tive; }
+
+@media only screen and (min-width: 1024px) {
+  .nav-footer { flex-shrink: 0; }
+}
+
+.nav-footer .sitemap { display: flex; justify-content: space-between; margi=
+n: 0px auto 3em; max-width: 1080px; }
+
+.nav-footer .sitemap div { flex: 1 1 0%; }
+
+.nav-footer .sitemap .nav-home { display: table; height: 72px; margin: -12p=
+x 20px 0px 0px; opacity: 0.4; padding: 10px; transition: opacity 0.15s ease=
+-in-out 0s; width: 72px; }
+
+.nav-footer .sitemap .nav-home:focus, .nav-footer .sitemap .nav-home:hover =
+{ opacity: 1; }
+
+@media only screen and (max-width: 735px) {
+  .nav-footer .sitemap { display: flex; flex-direction: column; margin: 0px=
+ 2em 3em; width: calc(100% - 4em); }
+  .nav-footer .sitemap > div { margin-bottom: 18px; }
+}
+
+.nav-footer .sitemap a { color: rgba(255, 255, 255, 0.6); display: block; m=
+argin: 2px -10px; padding: 3px 10px; }
+
+.nav-footer .sitemap a:focus, .nav-footer .sitemap a:hover, .nav-footer .si=
+temap h5 > a:focus, .nav-footer .sitemap h5 > a:hover { color: rgb(255, 255=
+, 255); text-decoration: none; }
+
+.nav-footer .sitemap h5, .nav-footer .sitemap h6 { margin: 0px 0px 10px; }
+
+.nav-footer .sitemap h5, .nav-footer .sitemap h5 > a, .nav-footer .sitemap =
+h6, .nav-footer .sitemap h6 > a { color: rgb(255, 255, 255); }
+
+.nav-footer .sitemap h5 > a, .nav-footer .sitemap h6 > a { margin: 0px -10p=
+x; }
+
+.nav-footer .fbOpenSource { display: block; margin: 1em auto; opacity: 0.4;=
+ transition: opacity 0.15s ease-in-out 0s; width: 170px; }
+
+.nav-footer .fbOpenSource:hover { opacity: 1; }
+
+.nav-footer .copyright { color: rgba(255, 255, 255, 0.4); text-align: cente=
+r; }
+
+.nav-footer .social { padding: 5px 0px; }
+
+.error-page .error-message-container { margin-left: auto; margin-right: aut=
+o; padding-top: 40px; max-width: 1400px; width: 87%; }
+
+.error-page .error-message { min-height: 90vh; background: rgb(255, 255, 25=
+5); }
+
+.error-page .error-message span { color: rgb(118, 74, 188); font-size: 8.8e=
+m; font-weight: 700; margin-top: 10vh; text-align: center; display: block; =
+}
+
+.error-page .error-message p { color: rgb(0, 0, 0); margin-top: 50px; font-=
+size: 1.6em; text-align: center; }
+
+.error-page .error-message a { margin-bottom: 50px; font-size: 1.6em; text-=
+align: center; display: block; text-decoration: underline; }
+
+pre { position: relative; }
+
+pre .btnIcon { position: absolute; top: 4px; z-index: 2; cursor: pointer; b=
+order: 1px solid transparent; padding: 0px; color: rgb(255, 255, 255); back=
+ground-color: transparent; height: 30px; transition: all 0.25s ease-out 0s;=
+ }
+
+pre .btnIcon:hover { text-decoration: none; }
+
+.btnIcon__body { align-items: center; display: flex; }
+
+.btnIcon svg { fill: currentcolor; margin-right: 0.4em; }
+
+.btnIcon__label { font-size: 11px; }
+
+.btnClipboard { right: 10px; }
+
+header.postHeader:empty { display: none; }
+
+header.postHeader:empty + article h1 { margin-top: 0px; }
+
+.post article a { color: rgb(118, 74, 188); }
+
+.post article a, .post article a:active, .post article a:focus, .post artic=
+le a:hover { text-decoration: underline; overflow: hidden; position: relati=
+ve; transition: outline-offset 0.2s ease-in-out 0s; }
+
+.post article a:active, .post article a:focus, .post article a:hover { back=
+ground-color: rgb(64, 33, 111); color: rgb(255, 255, 255); box-shadow: rgb(=
+64, 33, 111) 0px 0px 0px 2px; outline: none; }
+
+.post article blockquote { color: rgb(0, 0, 0); background-color: rgb(236, =
+244, 249); border-left: 8px solid rgb(203, 221, 234); }
+
+.post article blockquote a { color: rgb(0, 0, 0); text-decoration: underlin=
+e; overflow: hidden; position: relative; transition: outline-offset 0.2s ea=
+se-in-out 0s; }
+
+.post article blockquote a:active, .post article blockquote a:focus, .post =
+article blockquote a:hover { background-color: rgb(47, 87, 115); color: rgb=
+(255, 255, 255); box-shadow: rgb(47, 87, 115) 0px 0px 0px 2px; outline: non=
+e; text-decoration: underline; }
+
+.post article .hash-link { color: rgb(113, 113, 113); transition: outline-o=
+ffset 0.2s ease-in-out 0s; opacity: 1; }
+
+.post article .hash-link:active, .post article .hash-link:focus, .post arti=
+cle .hash-link:hover { color: rgb(64, 33, 111); background-color: rgb(255, =
+255, 255); box-shadow: rgb(47, 87, 115) 0px 0px 0px 0px; transition: outlin=
+e-offset 0.2s ease-in-out 0s; }
+
+.hash-link .hash-link-icon { fill: currentcolor; }
+
+.fixedHeaderContainer header .headerTitleWithLogo { color: rgb(255, 255, 25=
+5); display: block !important; }
+
+.navigationSlider .slidingNav ul.nav-site a { color: rgb(255, 255, 255); fo=
+nt-weight: 400; }
+
+.navigationSlider .slidingNav ul.nav-site a:active, .navigationSlider .slid=
+ingNav ul.nav-site a:focus, .navigationSlider .slidingNav ul.nav-site a:hov=
+er { color: rgb(255, 255, 255); font-weight: 400; text-decoration: underlin=
+e; }
+
+.navigationSlider .slidingNav ul a[href*=3D"github"] { font-size: 0px; }
+
+.navigationSlider .slidingNav ul a[href*=3D"github"]::before { content: "";=
+ width: 32px; height: 32px; background: url("/img/github-brands.svg"); }
+
+.nav-footer .copyright, .nav-footer .sitemap a { color: rgb(255, 255, 255);=
+ }
+
+.button.hero { font-size: 30px; padding: 0.5em 1.25em; font-weight: 700; }
+
+.button.hero, .button.hero:visited { background: rgb(118, 74, 188); color: =
+rgb(255, 255, 255); }
+
+.button.hero:hover { background: rgb(255, 255, 255); color: rgb(118, 74, 18=
+8); }
+
+.homeContainer .homeWrapper { padding-bottom: 0px; }
+
+.productShowcaseSection .featureBlock { padding: 40px 0px; }
+
+.productShowcaseSection .featureBlock img { width: 60px; height: 60px; max-=
+width: 60px; max-height: 60px; }
+
+.featureBlock .blockContent > div p { text-align: left; }
+
+.libBlock > div p { text-align: center; }
+
+.libBlock h2 a, .libBlock h2 a:visited { color: rgb(0, 0, 0); display: flex=
+; justify-content: center; align-items: center; }
+
+.libBlock img { margin-left: 5px; max-width: 16px !important; max-height: 1=
+6px !important; }
+
+.container .wrapper .alignLeft h2 { margin-top: 10px; margin-bottom: 5px; }
+
+@media only screen and (max-device-width: 480px) {
+  .productShowcaseSection .featureBlock { padding-top: 30px; padding-bottom=
+: 5px; }
+  .featureBlock .imageAlignTop .blockImage { margin-bottom: 0px; }
+  .featureBlock .blockContent h2 { margin-top: 0px; margin-bottom: 5px; }
+  .featureBlock .blockContent { margin-bottom: 25px; }
+  .homeSplashFade img { width: 60px; height: 60px; }
+  .homeSplashFade h1 { margin-top: 0px; margin-bottom: 0px; }
+}
+
+@media only screen and (min-width: 1024px) {
+  .reactNavSearchWrapper input#search_input_react { height: 100%; padding-t=
+op: 8px; padding-bottom: 8px; padding-left: 38px; }
+  .navSearchWrapper::before { left: 24px; }
+  .navSearchWrapper::after { left: 35px; }
+}
+
+@media only screen and (max-width: 1023px) {
+  .reactNavSearchWrapper input#search_input_react { padding-left: 38px; }
+  .navSearchWrapper::before { left: 24px; }
+  .navSearchWrapper::after { left: 35px; }
+}
+------MultipartBoundary--Nr2a9KVj8UPju18t6ws35kUxwaRjHGoWsSU0tDdEgx----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://react-redux.js.org/img/github-brands.svg
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" aria-hidden=3D"true" class=3D"svg=
+-inline--fa fa-github fa-w-16" data-icon=3D"github" data-prefix=3D"fab" vie=
+wBox=3D"0 0 496 496"><path fill=3D"#fff" d=3D"M165.9 397.4c0 2-2.3 3.6-5.2 =
+3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4=
+.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6=
+.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 =
+4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 20=
+5.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15=
+-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 2=
+5.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14=
+.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.=
+5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-2=
+7 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2=
+-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 =
+17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352=
+.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-=
+2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-=
+2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6=
+ 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3=
+.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z=
+"/></svg>
+------MultipartBoundary--Nr2a9KVj8UPju18t6ws35kUxwaRjHGoWsSU0tDdEgx----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://react-redux.js.org/img/redux_white.svg
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 100 100"><g fill=
+=3D"#fff"><path d=3D"M65.6 65.4c2.9-.3 5.1-2.8 5-5.8-.1-3-2.6-5.4-5.6-5.4h-=
+.2c-3.1.1-5.5 2.7-5.4 5.8.1 1.5.7 2.8 1.6 3.7-3.4 6.7-8.6 11.6-16.4 15.7-5.=
+3 2.8-10.8 3.8-16.3 3.1-4.5-.6-8-2.6-10.2-5.9-3.2-4.9-3.5-10.2-.8-15.5 1.9-=
+3.8 4.9-6.6 6.8-8-.4-1.3-1-3.5-1.3-5.1-14.5 10.5-13 24.7-8.6 31.4 3.3 5 10 =
+8.1 17.4 8.1 2 0 4-.2 6-.7 12.8-2.5 22.5-10.1 28-21.4z"/><path d=3D"M83.2 5=
+3c-7.6-8.9-18.8-13.8-31.6-13.8H50c-.9-1.8-2.8-3-4.9-3h-.2c-3.1.1-5.5 2.7-5.=
+4 5.8.1 3 2.6 5.4 5.6 5.4h.2c2.2-.1 4.1-1.5 4.9-3.4H52c7.6 0 14.8 2.2 21.3 =
+6.5 5 3.3 8.6 7.6 10.6 12.8 1.7 4.2 1.6 8.3-.2 11.8-2.8 5.3-7.5 8.2-13.7 8.=
+2-4 0-7.8-1.2-9.8-2.1-1.1 1-3.1 2.6-4.5 3.6 4.3 2 8.7 3.1 12.9 3.1 9.6 0 16=
+.7-5.3 19.4-10.6 2.9-5.8 2.7-15.8-4.8-24.3z"/><path d=3D"M32.4 67.1c.1 3 2.=
+6 5.4 5.6 5.4h.2c3.1-.1 5.5-2.7 5.4-5.8-.1-3-2.6-5.4-5.6-5.4h-.2c-.2 0-.5 0=
+-.7.1-4.1-6.8-5.8-14.2-5.2-22.2.4-6 2.4-11.2 5.9-15.5 2.9-3.7 8.5-5.5 12.3-=
+5.6 10.6-.2 15.1 13 15.4 18.3 1.3.3 3.5 1 5 1.5-1.2-16.2-11.2-24.6-20.8-24.=
+6-9 0-17.3 6.5-20.6 16.1-4.6 12.8-1.6 25.1 4 34.8-.5.7-.8 1.8-.7 2.9z"/></g=
+></svg>
+------MultipartBoundary--Nr2a9KVj8UPju18t6ws35kUxwaRjHGoWsSU0tDdEgx----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.netlify.com/img/global/badges/netlify-light.svg
+
+<?xml version=3D"1.0" encoding=3D"UTF-8"?>
+<svg width=3D"114px" height=3D"51px" viewBox=3D"0 0 114 51" version=3D"1.1"=
+ xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999=
+/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/ske=
+tch -->
+    <title>netlify-callout-vertical-light</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id=3D"path-1" x=3D"0" y=3D"0" width=3D"114" height=3D"51" rx=
+=3D"4"></rect>
+        <mask id=3D"mask-2" maskContentUnits=3D"userSpaceOnUse" maskUnits=
+=3D"objectBoundingBox" x=3D"0" y=3D"0" width=3D"114" height=3D"51" fill=3D"=
+white">
+            <use xlink:href=3D"#path-1"></use>
+        </mask>
+    </defs>
+    <g id=3D"Page-1" stroke=3D"none" stroke-width=3D"1" fill=3D"none" fill-=
+rule=3D"evenodd">
+        <g id=3D"netlify-callout-vertical-light">
+            <use id=3D"Background" stroke=3D"#F7F8F8" mask=3D"url(#mask-2)"=
+ stroke-width=3D"2" fill=3D"#FFFFFF" xlink:href=3D"#path-1"></use>
+            <g id=3D"Group" transform=3D"translate(8.000000, 8.000000)" fil=
+l=3D"#313D3E">
+                <path d=3D"M23.6161838,12.0243902 C23.7871091,12.1101766 23=
+.9295469,12.2245585 24.0434971,12.353238 C24.0577409,12.3675357 24.0577409,=
+12.3675357 24.0719847,12.3675357 L24.0862285,12.3675357 L27.3622974,10.9520=
+606 C27.3765412,10.9377628 27.3907849,10.9234651 27.3907849,10.9091674 C27.=
+3907849,10.8948696 27.3907849,10.8805719 27.3765412,10.8662742 L24.3141289,=
+7.79226241 C24.2998851,7.77796468 24.2856414,7.77796468 24.2856414,7.777964=
+68 L24.2713976,7.77796468 C24.2571538,7.77796468 24.24291,7.79226241 24.242=
+91,7.82085786 L23.5734525,11.9814971 C23.5876962,11.9957948 23.60194,12.024=
+3902 23.6161838,12.0243902 Z M16.8219017,9.23633305 C16.9785833,9.47939445 =
+17.0782897,9.76534903 17.1067773,10.0513036 C17.1067773,10.0656013 17.12102=
+11,10.0798991 17.1352648,10.0941968 L22.0066369,12.195963 L22.0208807,12.19=
+5963 C22.0351244,12.195963 22.0493682,12.195963 22.0493682,12.1816653 C22.1=
+91806,12.0672834 22.3627313,11.9814971 22.5479004,11.9243061 C22.5621442,11=
+.9243061 22.576388,11.9100084 22.576388,11.881413 L23.3740396,6.86291001 C2=
+3.3740396,6.84861228 23.3740396,6.83431455 23.3597958,6.82001682 L20.311627=
+3,3.74600505 C20.2973835,3.73170732 20.2973835,3.73170732 20.2831398,3.7317=
+0732 C20.268896,3.73170732 20.2546522,3.74600505 20.2546522,3.76030278 L16.=
+8219017,9.16484441 C16.8076579,9.19343987 16.8076579,9.22203532 16.8219017,=
+9.23633305 Z M33.4586343,16.9714045 L28.2311678,11.7098402 C28.2169241,11.6=
+955425 28.2026803,11.6955425 28.2026803,11.6955425 L28.1884365,11.6955425 L=
+24.6417358,13.2253995 C24.627492,13.2396972 24.6132482,13.253995 24.6132482=
+,13.2682927 C24.6132482,13.2825904 24.627492,13.3111859 24.6417358,13.31118=
+59 L33.3874154,17.0714886 L33.4016592,17.0714886 C33.415903,17.0714886 33.4=
+301468,17.0714886 33.4301468,17.0571909 L33.4586343,17.0285955 C33.4871219,=
+17.0285955 33.4871219,16.9857023 33.4586343,16.9714045 Z M32.5897639,17.829=
+2683 L24.2001787,14.2262405 L24.1859349,14.2262405 C24.1716911,14.2262405 2=
+4.1574474,14.2262405 24.1432036,14.2405383 C23.9153031,14.5550883 23.573452=
+5,14.7552565 23.1746267,14.8124474 C23.1603829,14.8124474 23.1318953,14.826=
+7452 23.1318953,14.8553406 L22.2345373,20.4457527 C22.2345373,20.4600505 22=
+.2345373,20.4743482 22.2487811,20.4886459 C22.5621442,20.7317073 22.7473133=
+,21.0891505 22.7900447,21.489487 C22.7900447,21.5180824 22.8042884,21.53238=
+02 22.832776,21.5323802 L27.9035609,22.6047098 L27.9178047,22.6047098 C27.9=
+320485,22.6047098 27.9462923,22.6047098 27.9462923,22.5904121 L32.5897639,1=
+7.9150547 C32.6040077,17.9007569 32.6040077,17.8864592 32.6040077,17.872161=
+5 C32.6040077,17.8578638 32.6040077,17.843566 32.5897639,17.8292683 Z M21.4=
+796171,13.0538267 L16.8931206,11.0807401 L16.8788768,11.0807401 C16.8646331=
+,11.0807401 16.8503893,11.0950378 16.8361455,11.1093356 C16.5227824,11.5954=
+584 15.9957626,11.881413 15.4260115,11.881413 C15.3405488,11.881413 15.2550=
+862,11.8671152 15.1553797,11.8528175 L15.1411359,11.8528175 C15.1268922,11.=
+8528175 15.1126484,11.8671152 15.0984046,11.881413 L11.3238034,17.8149706 C=
+11.3095597,17.8292683 11.3095597,17.8578638 11.3238034,17.8721615 C11.33804=
+72,17.8864592 11.352291,17.8864592 11.3665348,17.8864592 L11.3807786,17.886=
+4592 L21.4511295,13.5256518 C21.4653733,13.5113541 21.4796171,13.4970563 21=
+.4796171,13.4827586 L21.4796171,13.4255677 L21.4796171,13.3540791 C21.47961=
+71,13.2682927 21.4938609,13.1825063 21.5081047,13.1110177 C21.5081047,13.08=
+24222 21.4938609,13.0681245 21.4796171,13.0538267 Z M27.0062029,23.4339781 =
+L22.5479004,22.5046257 L22.5336567,22.5046257 C22.5194129,22.5046257 22.505=
+1691,22.5189235 22.4909253,22.5189235 C22.32,22.7333894 22.1063433,22.90496=
+22 21.8499553,23.0050463 C21.8357116,23.0050463 21.8214678,23.0336417 21.82=
+14678,23.0479394 L20.7531844,29.7106812 C20.7531844,29.7392767 20.7674282,2=
+9.7535744 20.781672,29.7678722 L20.8101595,29.7678722 C20.8244033,29.767872=
+2 20.8386471,29.7678722 20.8386471,29.7535744 L27.0204467,23.5340622 C27.03=
+46905,23.5197645 27.0346905,23.5054668 27.0346905,23.491169 C27.0346905,23.=
+4482759 27.0204467,23.4339781 27.0062029,23.4339781 Z M20.781672,22.9764508=
+ C20.3543586,22.804878 20.0409955,22.4188394 19.9270453,21.9756098 C19.9270=
+453,21.961312 19.9128015,21.9470143 19.884314,21.9327166 L11.6229228,20.202=
+6913 C11.6229228,20.2026913 11.6229228,20.2026913 11.608679,20.2026913 C11.=
+5944352,20.2026913 11.5801914,20.2169891 11.5659477,20.2312868 C11.5232163,=
+20.3027754 11.4947288,20.3599664 11.4519974,20.4171573 C11.4377537,20.43145=
+5 11.4377537,20.4600505 11.4519974,20.4743482 L18.9727122,31.5121951 C18.98=
+6956,31.5264929 18.986956,31.5264929 19.0011997,31.5264929 C19.0154435,31.5=
+264929 19.0296873,31.5264929 19.0296873,31.5121951 L19.4854882,31.0546678 C=
+19.4854882,31.0403701 19.499732,31.0403701 19.499732,31.0260723 L20.781672,=
+23.019344 C20.8101595,23.019344 20.8101595,22.9907485 20.781672,22.9764508 =
+Z M11.7938481,19.1875526 C11.7938481,19.216148 11.8080919,19.2304458 11.836=
+5795,19.2304458 L20.0267518,20.9461733 L20.0409955,20.9461733 C20.0552393,2=
+0.9461733 20.0694831,20.9318755 20.0837269,20.9175778 C20.3258711,20.488645=
+9 20.7531844,20.2026913 21.2374729,20.1740959 C21.2659604,20.1740959 21.280=
+2042,20.1597981 21.2802042,20.1312027 L22.1633184,14.626577 C22.1633184,14.=
+6122792 22.1633184,14.5836838 22.1348309,14.5836838 C22.0778558,14.5407906 =
+22.0208807,14.4978974 21.9496618,14.4264087 C21.935418,14.412111 21.9211742=
+,14.412111 21.9211742,14.412111 L21.9069304,14.412111 L11.7796043,18.801513=
+9 C11.7511168,18.8158116 11.7511168,18.8301093 11.7511168,18.8587048 C11.76=
+53606,18.9730866 11.7938481,19.0731707 11.7938481,19.1875526 Z M8.36109764,=
+20.5744323 C8.31836631,20.5172414 8.27563497,20.4600505 8.23290364,20.38856=
+18 C8.21865986,20.3742641 8.20441608,20.3599664 8.1901723,20.3599664 L8.175=
+92853,20.3599664 L4.6434716,21.8898234 C4.62922782,21.8898234 4.61498405,21=
+.9041211 4.61498405,21.9184188 C4.61498405,21.9327166 4.61498405,21.9470143=
+ 4.62922782,21.961312 L6.35272495,23.6913373 C6.36696873,23.705635 6.381212=
+51,23.705635 6.38121251,23.705635 C6.39545629,23.705635 6.40970006,23.69133=
+73 6.42394384,23.6770395 L8.37534142,20.6030278 C8.37534142,20.6030278 8.37=
+534142,20.58873 8.36109764,20.5744323 Z M10.6970772,21.1320437 C10.6828334,=
+21.117746 10.6685897,21.1034483 10.6543459,21.1034483 L10.6401021,21.103448=
+3 C10.3837141,21.2178301 10.1273261,21.275021 9.85669432,21.275021 C9.64303=
+765,21.275021 9.44362476,21.2464256 9.22996809,21.1749369 L9.21572431,21.17=
+49369 C9.20148054,21.1749369 9.18723676,21.1892347 9.17299298,21.2035324 L7=
+.12188896,24.4348192 L7.10764518,24.4491169 C7.0934014,24.4634146 7.0934014=
+,24.4920101 7.10764518,24.5063078 L16.5370262,33.9857023 C16.5512699,34 16.=
+5655137,34 16.5655137,34 C16.5797575,34 16.5940013,34 16.5940013,33.9857023=
+ L18.2462795,32.312868 C18.2605233,32.2985702 18.2605233,32.2699748 18.2462=
+795,32.255677 L10.6970772,21.1320437 Z M9.37240587,17.4003364 C9.38664965,1=
+7.4146341 9.40089343,17.4289319 9.4151372,17.4289319 L9.42938098,17.4289319=
+ C9.57181876,17.4003364 9.72850032,17.371741 9.8709381,17.371741 C10.027619=
+7,17.371741 10.198545,17.4003364 10.3552265,17.4432296 L10.3694703,17.44322=
+96 C10.3837141,17.4432296 10.3979579,17.4289319 10.4122017,17.4146341 L14.2=
+295341,11.4095879 C14.2437779,11.3952902 14.2437779,11.3666947 14.2295341,1=
+1.352397 C13.9304148,11.0378469 13.7594895,10.6232128 13.7594895,10.1799832=
+ C13.7594895,10.0513036 13.7737332,9.92262405 13.8022208,9.79394449 C13.802=
+2208,9.76534903 13.787977,9.7510513 13.7737332,9.73675357 C13.2894448,9.522=
+28764 9.00206765,7.6921783 9.00206765,7.67788057 L8.98782387,7.67788057 C8.=
+97358009,7.67788057 8.95933631,7.67788057 8.95933631,7.6921783 L5.32717294,=
+11.352397 C5.31292916,11.3666947 5.31292916,11.3952902 5.32717294,11.409587=
+9 L9.37240587,17.4003364 Z M9.78547543,6.93439865 C9.78547543,6.93439865 14=
+.1155839,8.79310345 14.300753,8.87888982 L14.3149968,8.87888982 C14.3292406=
+,8.87888982 14.3292406,8.87888982 14.3434844,8.86459209 C14.6426037,8.62153=
+07 15.0271857,8.47855341 15.4117677,8.47855341 C15.5969368,8.47855341 15.78=
+21059,8.50714886 15.967275,8.56433978 L15.9815188,8.56433978 C15.9957626,8.=
+56433978 16.0100064,8.55004205 16.0242502,8.53574432 L19.5424633,3.00252313=
+ C19.5567071,2.9882254 19.5567071,2.95962994 19.5424633,2.94533221 L16.6224=
+888,0.0142977292 C16.6082451,0 16.6082451,0 16.5940013,0 C16.5797575,0 16.5=
+655137,0 16.5655137,0.0142977292 L9.78547543,6.84861228 C9.77123165,6.86291=
+001 9.77123165,6.87720774 9.77123165,6.89150547 C9.75698787,6.92010093 9.77=
+123165,6.92010093 9.78547543,6.93439865 Z M8.10470964,18.4440706 C8.1189534=
+1,18.4440706 8.13319719,18.4297729 8.14744097,18.4154752 C8.23290364,18.243=
+9024 8.36109764,18.0866274 8.48929164,17.9436501 C8.50353542,17.9293524 8.5=
+0353542,17.9007569 8.48929164,17.8864592 C8.44656031,17.8292683 4.58649649,=
+12.1673675 4.58649649,12.1530698 C4.57225271,12.1387721 4.57225271,12.13877=
+21 4.54376516,12.1244743 C4.52952138,12.1244743 4.5152776,12.1244743 4.5152=
+776,12.1387721 L0.0142437779,16.6568545 C0,16.6711522 0,16.68545 0,16.69974=
+77 C0,16.7140454 0.0142437779,16.7283431 0.0427313338,16.7283431 L8.1047096=
+4,18.4440706 C8.09046586,18.4440706 8.09046586,18.4440706 8.10470964,18.444=
+0706 Z M7.73437141,19.430614 C7.73437141,19.4020185 7.72012763,19.3877208 7=
+.69164008,19.3877208 L0.697945118,17.9150547 C0.697945118,17.9150547 0.6979=
+45118,17.9150547 0.68370134,17.9150547 C0.669457562,17.9150547 0.655213784,=
+17.9293524 0.640970006,17.9436501 C0.626726228,17.9579479 0.640970006,17.98=
+65433 0.655213784,18.000841 L3.77460115,21.1463415 C3.78884493,21.1606392 3=
+.8030887,21.1606392 3.8030887,21.1606392 L3.81733248,21.1606392 L7.69164008=
+,19.4878049 C7.72012763,19.4592094 7.73437141,19.4449117 7.73437141,19.4306=
+14 Z" id=3D"Combined-Shape-Copy"></path>
+                <path d=3D"M67.5018666,14.7649667 L69.7772159,14.7649667 L6=
+9.7772159,29.3120637 L67.5018666,29.3120637 L67.5018666,14.7649667 Z M44.22=
+21988,18.869426 C42.9991985,18.869426 42.0179541,19.3301306 41.2642447,20.2=
+37579 L41.19314,19.0509157 L39.06,19.0509157 L39.06,29.298103 L41.3353493,2=
+9.298103 L41.3353493,22.0105937 C41.7904192,21.172949 42.473024,20.7541266 =
+43.3831637,20.7541266 C44.0088848,20.7541266 44.4639547,20.9076948 44.74837=
+33,21.228792 C45.032792,21.5359284 45.1607804,22.0245545 45.1607804,22.6667=
+488 L45.1607804,29.298103 L47.4361297,29.298103 L47.4361297,22.5271413 C47.=
+4076878,20.0979716 46.3411178,18.869426 44.2221988,18.869426 Z M54.0488637,=
+18.869426 C53.1813868,18.869426 52.3992354,19.0927979 51.6881888,19.5395418=
+ C50.9771421,19.9862856 50.4367466,20.6145192 50.0385605,21.4242424 C49.654=
+5953,22.2339657 49.4555022,23.1414141 49.4555022,24.1605486 L49.4555022,24.=
+4397635 C49.4555022,25.9614848 49.9105721,27.1900304 50.8064909,28.1114396 =
+C51.7024097,29.0328488 52.8685262,29.4935534 54.3190614,29.4935534 C55.1580=
+965,29.4935534 55.9260269,29.3260245 56.6086317,28.9909666 C57.2912365,28.6=
+559087 57.831632,28.1812433 58.2298181,27.5669705 L57.0068178,26.3803071 C5=
+6.3526549,27.2319126 55.4993989,27.6646957 54.4612708,27.6646957 C53.721782=
+2,27.6646957 53.0960612,27.4134023 52.6125494,26.9247762 C52.1148168,26.436=
+1501 51.844619,25.7660343 51.7735144,24.9144288 L58.4004693,24.9144288 L58.=
+4004693,23.9930196 C58.4004693,22.3596124 58.0165041,21.1031453 57.2770156,=
+20.2096576 C56.4948642,19.3161698 55.4282942,18.869426 54.0488637,18.869426=
+ Z M56.12512,23.2251786 L51.7877353,23.2251786 C51.8872818,22.4294161 52.14=
+32586,21.8151433 52.5272238,21.3823602 C52.911189,20.9356163 53.4231426,20.=
+7262051 54.0488637,20.7262051 C54.6745848,20.7262051 55.1723174,20.9216556 =
+55.5278408,21.3125565 C55.8833641,21.7034573 56.0824572,22.2898087 56.13934=
+09,23.0576497 L56.1393409,23.2251786 L56.12512,23.2251786 Z M63.5200053,27.=
+3296378 C63.363575,27.1621089 63.2924703,26.8689332 63.2924703,26.4780324 L=
+63.2924703,20.7541266 L65.0843079,20.7541266 L65.0843079,19.0509157 L63.292=
+4703,19.0509157 L63.2924703,16.5659029 L61.017121,16.5659029 L61.017121,19.=
+0509157 L59.3532718,19.0509157 L59.3532718,20.7541266 L61.017121,20.7541266=
+ L61.017121,26.5617968 C61.017121,28.5163012 61.8988189,29.4935534 63.64799=
+37,29.4935534 C64.1315054,29.4935534 64.6292381,29.4237497 65.1554126,29.27=
+01815 L65.1554126,27.483206 C64.8852149,27.5530098 64.6150171,27.5809313 64=
+.3590403,27.5809313 C63.9466333,27.594892 63.6764355,27.5111275 63.5200053,=
+27.3296378 Z M73.3040074,19.0648764 L75.5793567,19.0648764 L75.5793567,29.3=
+120637 L73.3040074,29.3120637 L73.3040074,19.0648764 Z M88.4919641,26.01732=
+77 L86.3446032,19.0648764 L83.8843818,19.0648764 L87.453836,29.2562207 L87.=
+1267545,30.1357477 C86.9561033,30.6383346 86.7285684,30.9873532 86.4299288,=
+31.1967644 C86.1455102,31.4061756 85.7046612,31.5178615 85.1358239,31.51786=
+15 L84.7091959,31.4899401 L84.7091959,33.2769155 C85.107382,33.3886015 85.4=
+771263,33.4444444 85.8042078,33.4444444 C87.2831848,33.4444444 88.3355339,3=
+2.5788782 88.9612549,30.8617065 L93,19.0648764 L90.5682204,19.0648764 L88.4=
+919641,26.0173277 Z M80.0447298,15.4909255 C79.4190087,16.1051983 79.106148=
+2,16.9847253 79.1061482,18.1295064 L79.1061482,19.0648764 L77.5560664,19.06=
+48764 L77.5560664,20.7680874 L79.1061482,20.7680874 L79.1061482,29.3120637 =
+L81.3814975,29.3120637 L81.3814975,20.7680874 L83.4435328,20.7680874 L83.44=
+35328,19.0648764 L81.3814975,19.0648764 L81.3814975,18.1574279 C81.3814975,=
+17.0266075 81.921893,16.4681777 83.0169048,16.4681777 C83.3439863,16.468177=
+7 83.6426259,16.4960992 83.8843818,16.5379814 L83.9412655,14.7370452 C83.48=
+61956,14.6253593 83.0737886,14.5695163 82.6613815,14.5695163 C81.5521487,14=
+.5555556 80.6704508,14.8766527 80.0447298,15.4909255 Z M75.5793567,14.55555=
+56 L75.5793567,16.5659029 L73.3040074,16.5659029 L73.3040074,14.5555556 L75=
+.5793567,14.5555556 Z" id=3D"Combined-Shape"></path>
+            </g>
+            <path d=3D"M47,18.7088317 L47,13.0811682 L48.9325768,13.0811682=
+ C49.6205775,13.0811682 50.187461,13.3008356 50.6332443,13.7401769 C51.0790=
+276,14.1795182 51.3019159,14.7431808 51.3019159,15.4311816 L51.3019159,16.3=
+626836 C51.3019159,17.0532611 51.0790276,17.6169237 50.6332443,18.0536882 C=
+50.187461,18.4904527 49.6205775,18.7088317 48.9325768,18.7088317 L47,18.708=
+8317 Z M48.1286248,13.9508278 L48.1286248,17.8430374 L48.8745995,17.8430374=
+ C49.2791542,17.8430374 49.5960936,17.70647 49.8254272,17.4333311 C50.05476=
+08,17.1601922 50.1694259,16.8033133 50.1694259,16.3626836 L50.1694259,15.42=
+34513 C50.1694259,14.9879751 50.0547608,14.6336729 49.8254272,14.360534 C49=
+.5960936,14.0873952 49.2791542,13.9508278 48.8745995,13.9508278 L48.1286248=
+,13.9508278 Z M56.6358277,16.2351335 L54.3051401,16.2351335 L54.3051401,17.=
+8430374 L57.0300734,17.8430374 L57.0300734,18.7088317 L53.1765153,18.708831=
+7 L53.1765153,13.0811682 L57.0223431,13.0811682 L57.0223431,13.9508278 L54.=
+3051401,13.9508278 L54.3051401,15.3654739 L56.6358277,15.3654739 L56.635827=
+7,16.2351335 Z M59.84004,16.6680307 L59.84004,18.7088317 L58.7114151,18.708=
+8317 L58.7114151,13.0811682 L60.9532042,13.0811682 C61.5999764,13.0811682 6=
+2.1088832,13.2460798 62.4799398,13.5759079 C62.8509964,13.905736 63.0365219=
+,14.3399172 63.0365219,14.8784646 C63.0365219,15.417012 62.8509964,15.84990=
+49 62.4799398,16.1771562 C62.1088832,16.5044075 61.5999764,16.6680307 60.95=
+32042,16.6680307 L59.84004,16.6680307 Z M59.84004,15.7983711 L60.9532042,15=
+.7983711 C61.2675716,15.7983711 61.5059203,15.7126944 61.6682576,15.5413384=
+ C61.8305948,15.3699824 61.9117623,15.1516034 61.9117623,14.8861949 C61.911=
+7623,14.6156328 61.831239,14.3921003 61.6701902,14.2155908 C61.5091413,14.0=
+390812 61.2701484,13.9508278 60.9532042,13.9508278 L59.84004,13.9508278 L59=
+.84004,15.7983711 Z M65.9856341,17.8430374 L68.4902535,17.8430374 L68.49025=
+35,18.7088317 L64.8570092,18.7088317 L64.8570092,13.0811682 L65.9856341,13.=
+0811682 L65.9856341,17.8430374 Z M74.4271293,16.4013351 C74.4271293,17.0919=
+126 74.2087503,17.6626613 73.7719858,18.1135981 C73.3352213,18.5645349 72.7=
+676936,18.79 72.0693857,18.79 C71.3762314,18.79 70.813213,18.5645349 70.380=
+3136,18.1135981 C69.9474142,17.6626613 69.7309678,17.0919126 69.7309678,16.=
+4013351 L69.7309678,15.3886649 C69.7309678,14.7006641 69.9467701,14.1305597=
+ 70.378381,13.6783344 C70.809992,13.2261092 71.3723662,13 72.0655205,13 C72=
+.7638284,13 73.3320003,13.2261092 73.7700532,13.6783344 C74.2081061,14.1305=
+597 74.4271293,14.7006641 74.4271293,15.3886649 L74.4271293,16.4013351 Z M7=
+3.2985045,15.3809346 C73.2985045,14.9428816 73.1889929,14.583426 72.9699665=
+,14.3025567 C72.75094,14.0216875 72.449461,13.881255 72.0655205,13.881255 C=
+71.68158,13.881255 71.3839662,14.0210433 71.1726701,14.3006242 C70.961374,1=
+4.580205 70.8557275,14.9403049 70.8557275,15.3809346 L70.8557275,16.4013351=
+ C70.8557275,16.8471184 70.9626623,17.2104392 71.1765352,17.4913084 C71.390=
+4081,17.7721776 71.688022,17.9126101 72.0693857,17.9126101 C72.455903,17.91=
+26101 72.7573819,17.7721776 72.9738316,17.4913084 C73.1902813,17.2104392 73=
+.2985045,16.8471184 73.2985045,16.4013351 L73.2985045,15.3809346 Z M78.0642=
+388,15.6746862 L78.0874297,15.6746862 L79.3165485,13.0811682 L80.5533976,13=
+.0811682 L78.6208209,16.7298731 L78.6208209,18.7088317 L77.4960612,18.70883=
+17 L77.4960612,16.6718958 L75.5982708,13.0811682 L76.83512,13.0811682 L78.0=
+642388,15.6746862 Z M85.0524363,17.2400734 C85.0524363,17.0236237 84.975778=
+2,16.8496936 84.8224597,16.7182777 C84.6691412,16.5868618 84.4005157,16.463=
+1781 84.0165752,16.3472229 C83.3466119,16.1539643 82.8402819,15.9246342 82.=
+4975699,15.6592256 C82.1548579,15.3938171 81.9835044,15.0304963 81.9835044,=
+14.5692523 C81.9835044,14.1080084 82.1799811,13.7311597 82.5729404,13.43869=
+49 C82.9658996,13.1462302 83.4677203,13 84.0784176,13 C84.6968453,13 85.200=
+5986,13.1642674 85.5896927,13.4928071 C85.9787867,13.8213468 86.166889,14.2=
+265396 86.1540051,14.7083979 L86.1462748,14.7315888 L85.0524363,14.7315888 =
+C85.0524363,14.4713338 84.9654712,14.260685 84.7915385,14.0996362 C84.61760=
+57,13.9385873 84.3734593,13.8580641 84.0590919,13.8580641 C83.7576084,13.85=
+80641 83.5244131,13.9250594 83.3594991,14.0590521 C83.1945851,14.1930447 83=
+.1121293,14.3643981 83.1121293,14.5731175 C83.1121293,14.7637993 83.2003827=
+,14.9203365 83.3768923,15.0427336 C83.5534018,15.1651308 83.8581017,15.2946=
+121 84.2910011,15.4311816 C84.9120055,15.6038259 85.3822612,15.8318677 85.7=
+017821,16.1153137 C86.0213031,16.3987597 86.1810612,16.7710991 86.1810612,1=
+7.2323431 C86.1810612,17.7142013 85.9910263,18.0942709 85.610951,18.3725634=
+ C85.2308757,18.6508558 84.7290549,18.79 84.1054737,18.79 C83.4921996,18.79=
+ 82.9575254,18.6321744 82.501435,18.3165187 C82.0453446,18.0008629 81.82374=
+47,17.5583072 81.8366286,16.9888384 L81.8443589,16.9656475 L82.9420625,16.9=
+656475 C82.9420625,17.3006291 83.0444881,17.5460639 83.2493422,17.7019592 C=
+83.4541964,17.8578546 83.7395707,17.935801 84.1054737,17.935801 C84.4121108=
+,17.935801 84.6465944,17.8726708 84.8089317,17.7464085 C84.9712689,17.62014=
+62 85.0524363,17.4513695 85.0524363,17.2400734 Z M90.985447,18.7088317 L90.=
+985447,13.0811682 L92.8871025,13.0811682 C93.5493354,13.0811682 94.0659725,=
+13.2100054 94.4370291,13.4676836 C94.8080857,13.7253618 94.9936112,14.11058=
+49 94.9936112,14.6233645 C94.9936112,14.8836194 94.9246833,15.1161705 94.78=
+68255,15.3210247 C94.6489676,15.5258788 94.4486258,15.6798393 94.1857941,15=
+.7829105 C94.5233525,15.8550604 94.7765175,16.009665 94.9452967,16.246729 C=
+95.114076,16.4837929 95.1984643,16.758216 95.1984643,17.0700066 C95.1984643=
+,17.6085541 95.020669,18.0163237 94.6650731,18.2933277 C94.3094772,18.57033=
+18 93.8057239,18.7088317 93.1537981,18.7088317 L90.985447,18.7088317 Z M92.=
+1140718,16.2196729 L92.1140718,17.8430374 L93.1537981,17.8430374 C93.452704=
+8,17.8430374 93.6807466,17.7779746 93.8379303,17.6478471 C93.995114,17.5177=
+196 94.0737046,17.3251081 94.0737046,17.0700066 C94.0737046,16.794291 94.00=
+67093,16.5836422 93.8727166,16.438054 C93.738724,16.2924659 93.527431,16.21=
+96729 93.2388315,16.2196729 L92.1140718,16.2196729 Z M92.1140718,15.4389119=
+ L92.925754,15.4389119 C93.2272375,15.4389119 93.4591444,15.37707 93.621481=
+7,15.2533845 C93.7838189,15.129699 93.8649863,14.9493269 93.8649863,14.7122=
+63 C93.8649863,14.452008 93.7831747,14.2600407 93.6195491,14.1363551 C93.45=
+59234,14.0126696 93.211777,13.9508278 92.8871025,13.9508278 L92.1140718,13.=
+9508278 L92.1140718,15.4389119 Z M98.5109009,15.6746862 L98.5340918,15.6746=
+862 L99.7632106,13.0811682 L101.00006,13.0811682 L99.067483,16.7298731 L99.=
+067483,18.7088317 L97.9427233,18.7088317 L97.9427233,16.6718958 L96.0449329=
+,13.0811682 L97.281782,13.0811682 L98.5109009,15.6746862 Z" id=3D"DEPLOYS-B=
+Y" fill=3D"#BCBCBC"></path>
+        </g>
+    </g>
+</svg>
+------MultipartBoundary--Nr2a9KVj8UPju18t6ws35kUxwaRjHGoWsSU0tDdEgx------

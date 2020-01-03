@@ -30,17 +30,17 @@ export default class ShowProductsPage extends React.Component{
                 Show Products
 
                 <table border="1">
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Price</th>
-                    </tr>
-                </thead>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
 
-                <tbody>
-                    {tbodyContent}
-                </tbody>
+                    <tbody>
+                        {tbodyContent}
+                    </tbody>
 
                 </table>            
             </div>
