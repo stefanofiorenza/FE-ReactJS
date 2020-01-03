@@ -3,7 +3,7 @@ import { Link, Route,Switch } from 'react-router-dom';
 
 import PrivateRoute from './PrivateRoute.jsx';
 import LoginPage from './LoginPage.jsx';
-
+import ProtectedPage from './ProtectedPage.jsx';
 
 const DefaultPage = (props) =>{
   return ( <div> <h3>Default page</h3> </div>)
@@ -11,13 +11,6 @@ const DefaultPage = (props) =>{
 const PublicPage = (props) =>{
   return ( <div> <h3>Public. You can always access this page</h3> </div>)
 }
-
-const ProtectedPage = (props) =>{
-  return ( <div>
-     <h3>Protected. You have to be logged in to see this page</h3>    
-    </div>);
-} 
-
 
 function MasterPage() {
   return (
