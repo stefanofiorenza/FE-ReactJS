@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, Route,Switch } from 'react-router-dom';
 
+import PrivateRoute from './PrivateRoute.jsx';
+import LoginPage from './LoginPage.jsx';
 
 
 const DefaultPage = (props) =>{
@@ -11,17 +13,10 @@ const PublicPage = (props) =>{
 }
 
 const ProtectedPage = (props) =>{
-  return ( <div><h3>Protected. You have to be logged in to see this page</h3></div>);
+  return ( <div>
+     <h3>Protected. You have to be logged in to see this page</h3>    
+    </div>);
 } 
-
-
-const LoginPage =(props)=> {  
-    return (
-      <div>
-        Login
-      </div>
-    ) 
-}
 
 
 function MasterPage() {
@@ -39,7 +34,7 @@ function MasterPage() {
           <Route exact path="/" component={DefaultPage}/>
           <Route path="/login" component={LoginPage}/>
           <Route path="/public" component={PublicPage}/>         
-          <Route path="/protected" component={ProtectedPage}/> 
+          <PrivateRoute path="/protected" component={ProtectedPage}/> 
         </Switch>
       </div>
   );
