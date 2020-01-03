@@ -20,8 +20,17 @@ CREATE REACT:
 
 
 REACT ROUTER:
+	
+	BASIC:
 	https://www.freecodecamp.org/news/hitchhikers-guide-to-react-router-v4-4b12e369d10/
 
+	AUTHORIZATION:
+	https://tylermcginnis.com/react-router-protected-routes-authentication/
+	https://www.youtube.com/watch?time_continue=474&v=ojYbcon588A&feature=emb_logo
+
+
+	ADVANCED:
+	
 	Role based authorization (Jwt and backend)
 	https://jasonwatmore.com/post/2019/02/01/react-role-based-authorization-tutorial-with-example
 	
