@@ -1,4 +1,5 @@
 
+BASIC
 
 	React Tic Tac Toe Tutorial (Intro to React tutorial)
 	https://reactjs.org/tutorial/tutorial.html
@@ -14,10 +15,17 @@
 
 CREATE REACT:
 
-https://github.com/stefanofiorenza/create-react-app-facebook-documentation/blob/master/README.md
+	https://github.com/stefanofiorenza/create-react-app-facebook-documentation/blob/master/README.md
+
+
 
 REACT ROUTER:
 	https://www.freecodecamp.org/news/hitchhikers-guide-to-react-router-v4-4b12e369d10/
+
+	Role based authorization (Jwt and backend)
+	https://jasonwatmore.com/post/2019/02/01/react-role-based-authorization-tutorial-with-example
+	
+	
 
 
 REDUX:
