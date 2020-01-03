@@ -6,11 +6,12 @@ import BasicRouting from './demo/D01BasicRouting.jsx';
 import NestedRouting from './demo/D02NestingRoutes.jsx';
 import NestingRoutesWithParams from './demo/D03NestingRoutesWithParams.jsx';
 import NestingRoutesInComponents from'./demo/D04NestingRoutesInComponents.jsx';
+import RouteRenderFunction from'./demo/D05RouteRenderFunction.jsx';
+import RedirectDemo from'./demo/D06RedirectDemo.jsx';
+import RegistrationDemo from'./demo/D07ProgrammaticRouting.jsx';
+
+
 import MasterPage from './app/MasterPage.jsx';
-
-
-
-
 
 
 
@@ -26,17 +27,6 @@ import MasterPage from './app/MasterPage.jsx';
 	
 			ReactDOM.render(
 				<BrowserRouter>
-					  <MasterPage />
+					  <RegistrationDemo />
 				</BrowserRouter>
 			, document.getElementById('root'));
-	
-
-
-//2) To use with authentication/authorization demo in /app
-
-	
-	/*
-			ReactDOM.render(
-			<App />
-			, document.getElementById('root'));
-	*/

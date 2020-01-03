@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
-import { Link, Route,Switch } from 'react-router-dom';
+import { Link, Route,Switch ,Redirect} from 'react-router-dom';
 
-export default class NestingRoutesInComponentsAdv extends Component {
+/**
+ * Test from browser url bar 
+ * 
+ *  http://localhost:3000/authenticate/stefano -> Welcome
+ *  http://localhost:3000/authenticate -> Redirect
+ * 
+ * 
+ */
+export default class RedirectDemo extends Component {
 
     render() {
     
@@ -19,7 +27,17 @@ export default class NestingRoutesInComponentsAdv extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/products" component={Products}/>          
           <Route path="/category" component={Category}/> 
-          <Route path="/*" component={NotFound}/> 
+          <Route path="/authenticate/:username" render={(props) => { 
+
+                if(!props.match.params.username){
+                    return <Redirect to='/' />
+                }
+
+                return (
+                  <div>Welcome {props.match.params.username} </div>
+                );
+              }
+          }/> 
         </Switch>
         
         </div>
@@ -39,40 +57,26 @@ const Home = (props) => (
   )
   
   /*Product component */
-  const Products = (props) => (
+  const Products = () => (
     <div>
        <ul>
-          <li><Link to={`${props.match.url}/create`}>Create Product</Link></li>
-          <li><Link to={`${props.match.url}/query`}>Query Products</Link></li>
-          <li><Link to={`${props.match.url}/edit/1`}>Edit Product</Link></li>
+          <li><Link to="/products/create">Create Product</Link></li>
+          <li><Link to="/products/query">Query Products</Link></li>
+          <li><Link to="/products/edit/1">Edit Product</Link></li>
         </ul>
 
-        {/* --Replaced by one Route with a function that route to appropriate Component
         <Switch>
           <Route path="/products/create" component={NewProduct}/>
           <Route path="/products/query" component={QueryProduct}/>
           <Route path="/products/edit/:pid" component={EditProduct}/>
         </Switch>
-        */}
-
-       {/* Route.render = function that render destination Component*/}
-      <Route path={`${props.match.path}/:action`} 
-             render={ (props) =>{ 
-        
-        console.log(props.match);
-
-         switch (props.match.params.action){
-          case 'create': return <NewProduct />
-          case 'edit': return <EditProduct match={{params:{'pid':1}}} />
-          case 'query': return <QueryProduct />
-          default: return <Home/>
-         }
-
-      }}/>
-
-
     </div>
   )
+
+
+
+
+  
   
     /*New Product component */
     const NewProduct = () => (
