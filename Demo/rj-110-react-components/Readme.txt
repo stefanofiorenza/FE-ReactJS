@@ -1,4 +1,3 @@
-
 Tutorial: Template into React 
 
 	1) create react app steps:
@@ -8,7 +7,7 @@ Tutorial: Template into React
 		1.2) install npx 
 			> sudo npm install -g npx
 			
-		1.3) npx create-react-app <my-app>   rj-110-admin-plus-ui
+		1.3) npx create-react-app <my-app>   
 			> npx create-react-app rj-110-admin-plus-ui
 			
 	2) Inspect Files:
@@ -58,61 +57,3 @@ Tutorial: Template into React
 		1) login
 		2) registration
 		(children props)
-	
-	
-Admin Plus Lab
-	
-	1)) Merge AdminPlus min template(.zip) in react app: (Starter)
-	
-		4.1) copy assets under /public
-		4.2) Create MasterPage with all layout code:
-			(class, in line style)			
-	
-		
-	
-	
-Labs: Html pages into React Components
-	Starter: AdminPlus demos in html (starter project)
-	
-	Pages:
-		1) MasterLayout
-		2) Menus
-			TopMenu(settings) , SideMenu, MenuItem, MenuGroup
-		
-		3) Login (no MasterLayout)
-		
-		4) Details
-			PanelHead PanelBody (WidgetPanel (head,body))
-			style for Panel (size)
-			
-		5) UI Components (
-	
-			Widgets: (style by props)
-			TextBox
-			MessageBox
-			Button
-			
-			Lists (only to sketch)
-			CheckBoxList
-			RadioList
-			List
-	
-	
-MENU:
-
-	TopMenu (props: {appName,username})
-	SideMenu (props: children)
-	MenuItemGroup
-	MenuItem
-
-TROUBLE SHOOTING:
-
-1) Check path between components
-2) Verify in browser for more detailed info
-
-
-RESOURCES:
-
-Create React App:
-	https://blog.logrocket.com/getting-started-with-create-react-app-d93147444a27/
-	https://github.com/kakaly/rate-restaurants

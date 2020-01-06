@@ -9,6 +9,12 @@
 	Git:
 	
 
+INTRO:
+https://www.w3schools.com/REACT/default.asp
+
+
+INTRO + INTERMEDIATE
+https://www.javatpoint.com/react-jsx
 
 
 
@@ -16,7 +22,8 @@ CREATE REACT:
 
 https://github.com/stefanofiorenza/create-react-app-facebook-documentation/blob/master/README.md
 
-
+JSX:
+https://www.codecademy.com/articles/bwa-react-reference
 
 
 
