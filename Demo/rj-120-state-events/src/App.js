@@ -22,14 +22,16 @@ function App() {
     <div>
      {/*
       <Clock />      
-      <EuroConverter />
+      
       <ConditionalRendering />      
          <LoginControl />
           <Mailbox unreadMessages={messages} />
           <ButtonStyle label="Send Alert" style="danger" />
+          <NumberList  numbers={numbers} />
+           <Clock />
       */} 
-
-       <NumberList  numbers={numbers} />
+<EuroConverter />
+           
     </div>
   );
 }

@@ -3,9 +3,16 @@
 
 
 
+INTRODUCTION TO React
+	https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS
 
 
+REDUX@Academind:
+	https://www.youtube.com/watch?v=qrsle5quS7A&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_
 
+	Basic to Advanced concepts: Code With Tim
+	https://www.youtube.com/playlist?list=PLoAsubXIl8uKWBxNNZL_-OuXtcu82-aFN
+	https://github.com/codewithtim/Redux
 
 
 IMMUTABILITY AND PERFORMANCES:

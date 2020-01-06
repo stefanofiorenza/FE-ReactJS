@@ -1,0 +1,38 @@
+REDUX MAX SWARTZMULLER:
+
+Redux;
+
+Videos
+
+1) Introduction of the Problem and demo code
+2) Introduction of Redux design elements (Action, Reducer, Store, subscribers)
+3) Pratica:
+	Redux senxa React (basic actions on state (number)
+	
+	Tutto in un file
+	
+	
+
+My Impl:
+
+QuizApp
+https://github.com/stefanofiorenza/ReduxQuiz
+
+
+
+Max:
+https://www.youtube.com/watch?v=AgO7YcJeBh4&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_&index=6
+https://github.com/mschwarzmueller/reactjs-redux-basics/blob/02-objects-arrays/src/app/index.js
+
+
+
+Architecture with code:
+https://medium.com/netscape/component-state-vs-redux-store-1eb0c929277
+
+
+Articoli teorici
+https://medium.com/@learnreact/container-components-c0e67432e005
+https://spin.atomicobject.com/2017/06/07/react-state-vs-redux-state/
+
+Video:
+https://www.youtube.com/watch?v=KYzlpRvWZ6c&t=1351
