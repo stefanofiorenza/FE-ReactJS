@@ -17,7 +17,7 @@ import fakeAuth  from './AuthenticationService.js';
 
 
   /** 
-   * destrucruting props:
+   * destructuring props:
    *    
    *    put wrapper component into Component var
    *    copy all other props with spread operator (...rest)

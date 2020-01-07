@@ -27,6 +27,6 @@ import MasterPage from './app/MasterPage.jsx';
 	
 			ReactDOM.render(
 				<BrowserRouter>
-					  <RegistrationDemo />
+					  <MasterPage />
 				</BrowserRouter>
 			, document.getElementById('root'));
