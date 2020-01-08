@@ -1,123 +1,66 @@
 import React from 'react';
+import {createStore} from "redux";
+
 import './App.css';
 import {importedData} from './app/data/products.js';
 
+import * as Actions from './app/actions/Actions.js';
 import CreateProductPage from './app/components/pages/CreateProductPage.jsx';
 import DeleteProductPage from './app/components/pages/DeleteProductPage.jsx';
 import EditProductPage from './app/components/pages/EditProductPage.jsx';
 import ShowProductsPage from './app/components/pages/ShowProductsPage.jsx';
 
 
+const initialState = {
+   products: importedData
+};
+
+
+function productReducer (state = initialState, action){
+    switch (action.type) {
+
+      case Actions.CREATE_PRODUCT:
+          let newState = {...state};
+          let newProductList = {...state.products};
+          newProductList[0]=action.payload;
+          newState.products= newProductList;
+          return newState;
+
+      case Actions.EDIT_PRODUCT:
+        return state;
+
+      case Actions.DELETE_PRODUCT:
+        return state;
+
+      default: return state;
+    }
+}
+
+
+const store = createStore(productReducer);
+
+store.subscribe(() => {
+    console.log("Store updated!", store.getState()); // every time getState is called, its data will be different
+});
+
+
 class App extends React.Component {
 
     constructor() {
       super();
-      this.state = {
-          pages:{
-            createProduct:false,
-            editProduct:false,
-            deleteProduct:false,
-            listProducts:true
-          },
-          products: importedData,
-          currentProduct:importedData[0],
-          newProduct:{id:'',name:'',price:0.0}
-      };
+      this.state={
+        pages:{
+          createProduct:false,
+          editProduct:false,
+          deleteProduct:false,
+          listProducts:true
+        }
+      }
 
       this.renderCurrentPage=this.renderCurrentPage.bind(this);
       this.updatePage=this.updatePage.bind(this);
       this.hideAllPages=this.hideAllPages.bind(this);
-
-      // all methods of each UI
-      this.changeNewProductId= this.changeNewProductId.bind(this);
-      this.changeNewProductName=  this.changeNewProductName.bind(this);
-      this.changeNewProductPrice= this.changeNewProductPrice.bind(this);
-      this.changeCurrentProductId= this.changeCurrentProductId.bind(this);
-      this.changeCurrentProductName=  this.changeCurrentProductName.bind(this);
-      this.changeCurrentProductPrice=this.changeCurrentProductPrice.bind(this);
-      this.updatePropertyInCurrentProduct=this.updatePropertyInCurrentProduct.bind(this);
-      this.updatePropertyInNewProduct= this.updatePropertyInNewProduct.bind(this);
-
-      this.updatePropertyInCurrentProduct= this.updatePropertyInCurrentProduct.bind(this);
-      this.updatePropertyInNewProduct= this.updatePropertyInNewProduct.bind(this);
-
-
-      //Operations from Pages
-      this.createProduct=this.createProduct.bind(this);
-      this.updateProduct=this.updateProduct.bind(this);
-      this.deleteProduct=this.deleteProduct.bind(this);
-
   }
-
-
-
-// ***********functionality methods are delegated to parent component****************
-      createProduct() {
-        let newProduct= {...this.state.newProduct};
-        let newProductArray = [...this.state.products];
-        newProductArray[0]=newProduct;
-        this.setState({products:newProductArray, currentProduct:newProductArray[0], newProduct:newProductArray[0]});
-      }
-
-      updateProduct() {
-        let newProductArray = [...this.state.products];
-        let updatedCurrentProduct= {...this.state.currentProduct};
-        newProductArray[0]=updatedCurrentProduct;       
-        this.setState({products:newProductArray});
-       
-      }
-
-      deleteProduct() {
-        let newProductArray = [...this.state.products];
-        newProductArray.shift();
-        this.setState({products:newProductArray});
-      }
-
-
-  //***********all tiny event handlers from every component in UI are delegated to parent component**************
-
-
-      changeNewProductId(e) {
-        this.updatePropertyInNewProduct("id",e.target.value);
-      }
-
-      changeNewProductName(e) {
-        this.updatePropertyInNewProduct("name",e.target.value);
-      }
-
-
-      changeNewProductPrice(e) {
-        this.updatePropertyInNewProduct("price",e.target.value);
-      }
-
-
-      changeCurrentProductId(e) {
-        this.updatePropertyInCurrentProduct("id",e.target.value);
-      }
-
-
-      changeCurrentProductName(e) {
-        this.updatePropertyInCurrentProduct("name",e.target.value);
-      }
-
-      changeCurrentProductPrice(e) {
-        this.updatePropertyInCurrentProduct("price",e.target.value);
-      }
-
-      
-      updatePropertyInCurrentProduct(propName, propValue){
-        let {currentProduct} = this.state; 
-        let updatedCurrentProduct={...currentProduct};
-        updatedCurrentProduct[propName]=propValue;
-        this.setState({currentProduct:updatedCurrentProduct});
-      }
-
-      updatePropertyInNewProduct(propName, propValue){
-        let {newProduct} = this.state; 
-        let updatedProduct={...newProduct};
-        updatedProduct[propName]=propValue;
-        this.setState({newProduct:updatedProduct});
-      }
 
 
 
@@ -125,33 +68,19 @@ class App extends React.Component {
     
     {/* All methods and state are passed to children components as props*/}
     if (this.state.pages.createProduct){
-      return <CreateProductPage 
-        product={this.state.newProduct} 
-        onCreate={this.createProduct} 
-        onChangeId={this.changeNewProductId}
-        onChangeName={this.changeNewProductName}
-        onChangePrice={this.changeNewProductPrice}        
-        />
+      return <CreateProductPage  />
     }
 
     if(this.state.pages.editProduct){
-      return <EditProductPage 
-        product={this.state.currentProduct}  
-        onSave={this.updateProduct}
-        onChangeId={this.changeCurrentProductId}
-        onChangeName={this.changeCurrentProductName}
-        onChangePrice={this.changeCurrentProductPrice}           
-        />
+      return <EditProductPage  product ={initialState.products[0]}/>
     }
 
     if(this.state.pages.deleteProduct){
-      return <DeleteProductPage 
-        product={this.state.currentProduct}  
-        onDelete={this.deleteProduct}/>
+      return <DeleteProductPage product ={initialState.products[0]}/>
     }
 
     if(this.state.pages.listProducts){
-      return <ShowProductsPage products={this.state.products} />
+      return <ShowProductsPage products ={initialState.products} />
     }
 
   }

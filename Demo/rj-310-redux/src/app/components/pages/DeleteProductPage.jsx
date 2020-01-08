@@ -15,7 +15,7 @@ export default class EditProductPage extends React.Component{
                 Id: <input readOnly={true}  value={this.props.product.id} /><br/>
                 Name: <input readOnly={true}   value={this.props.product.name} /><br/>
                 Price: <input readOnly={true}  value={this.props.product.price} /><br/>
-                <button onClick={this.ptopd.onDelete}>Delete</button>
+                <button >Delete</button>
             </div>
         );
     }

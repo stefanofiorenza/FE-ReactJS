@@ -5,17 +5,22 @@ import './pages.css';
 export default class CreateProductPage extends React.Component{
     
     constructor(props) {
-        super(props);    
+        super(props);   
+        this.state={
+            id:"",
+            name:"",
+            price: 0.0
+        } 
     }
 
     render() {
         return (
             <div className="default-text" >
                 Create New Product <br/>
-                Id: <input   value={this.props.product.id} onChange={this.props.onChangeId} /><br/>
-                Name: <input value={this.props.product.name} onChange={this.props.onChangeName} /><br/>
-                Price: <input value={this.props.product.price} onChange={this.props.onChangePrice} /><br/>
-                <button onClick={this.props.onCreate}>Save</button>
+                Id: <input   value={this.state.id}  /><br/>
+                Name: <input value={this.state.name} /><br/>
+                Price: <input value={this.state.price}  /><br/>
+                <button >Save</button>
             </div>
         );
     }

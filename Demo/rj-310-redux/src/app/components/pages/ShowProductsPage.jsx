@@ -23,7 +23,15 @@ export default class ShowProductsPage extends React.Component{
 
     render() {
 
-        const tbodyContent =this.props.products.map(this.renderProduct); 
+        const tbodyContent =this.props.products.map(  (product)=>{
+            return (
+                <tr>
+                    <td>{product.id}</td>
+                    <td>{product.name}</td>
+                    <td>{product.price}</td>
+                </tr>
+                )
+        }); 
 
         return (
             <div className="default-text" >
