@@ -1,0 +1,33 @@
+
+
+
+JWT:
+https://github.com/joshgeller/react-redux-jwt-auth-example
+https://jasonwatmore.com/post/2019/04/06/react-jwt-authentication-tutorial-example
+
+
+
+High Order Components
+
+
+Protected Routes
+https://blog.strapi.io/protected-routes-and-authentication-with-react-and-node-js/
+https://tylermcginnis.com/react-router-protected-routes-authentication/
+https://dzone.com/articles/add-user-authentication-to-your-react-app
+
+
+
+
+https://www.codementor.io/@sahilmittal/using-higher-order-components-for-authenticated-routing-i1hcp6pc6
+https://dev.to/ogwurujohnson/introduction-to-higher-order-components-hocs-in-react-273f
+
+
+
+
+
+
+
+Auth Wrapper:
+https://github.com/mjrussell/redux-auth-wrapper/blob/master/docs/Getting-Started/Overview.md
+https://github.com/mjrussell/redux-auth-wrapper
+https://www.npmjs.com/package/redux-auth-wrapper-any

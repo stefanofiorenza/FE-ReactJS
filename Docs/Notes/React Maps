@@ -1,0 +1,47 @@
+REact Maps:
+
+
+Google Map costs:
+
+
+	https://nordicapis.com/5-powerful-alternatives-to-google-maps-api/
+	https://geoawesomeness.com/google-maps-api-alternatives-best-cheap-affordable/
+	https://alternativeto.net/software/google-maps/?license=free
+
+
+Google Map and React:
+https://github.com/google-map-react/google-map-react
+
+
+
+MapBOx: (+++)
+	https://www.mapbox.com/
+	https://docs.mapbox.com/help/tutorials/optimization-api/#getting-started
+	https://docs.mapbox.com/mapbox-gl-js/api/
+	https://blog.mapbox.com/introducing-gl-js-v1-6-0-with-rich-text-labels-96f87830c58f
+
+	https://yalantis.com/blog/mapbox-maps-ready-mobile-apps/
+
+
+	https://docs.mapbox.com/help/tutorials/optimization-api/
+
+
+	With React:
+		https://alex3165.github.io/react-mapbox-gl/
+		https://alex3165.github.io/react-mapbox-gl/demos
+		https://blog.logrocket.com/how-to-use-mapbox-gl/
+
+		https://dev.to/leighhalliday/mapbox-interactive-maps-in-react-video-4pj2
+		https://hackernoon.com/react-redux-with-mapbox-78fa3767211e
+		
+		
+
+	LEAFLET:
+	https://leafletjs.com/reference-1.3.0.html
+	https://react-leaflet.js.org/
+	https://cherniavskii.com/using-leaflet-in-react-apps/
+	https://codesandbox.io/s/m4k3x1ynl8?from-embed
+
+
+Supercluster:
+https://github.com/stefanofiorenza/supercluster

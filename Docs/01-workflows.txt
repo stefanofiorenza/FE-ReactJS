@@ -1,0 +1,16 @@
+
+
+1) Setup React App:
+
+
+
+2) Clone React app:
+
+	- Clone project.
+
+		Should not contain any -lock file (delete if any)
+		Should not contain node_modules
+		
+	- npm install
+	
+	- npm start

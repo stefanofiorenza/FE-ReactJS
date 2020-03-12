@@ -40,7 +40,7 @@ function productReducer (state = initialState, action){
 const store = createStore(productReducer);
 
 store.subscribe(() => {
-    console.log("Store updated!", store.getState()); // every time getState is called, its data will be different
+    console.log("[App.js]: Store updated!", store.getState()); // every time getState is called, its data will be different
 });
 
 
@@ -68,15 +68,15 @@ class App extends React.Component {
     
     {/* All methods and state are passed to children components as props*/}
     if (this.state.pages.createProduct){
-      return <CreateProductPage  />
+      return <CreateProductPage  store={store} />
     }
 
     if(this.state.pages.editProduct){
-      return <EditProductPage  product ={initialState.products[0]}/>
+      return <EditProductPage  product ={initialState.products[0]} store={store} />
     }
 
     if(this.state.pages.deleteProduct){
-      return <DeleteProductPage product ={initialState.products[0]}/>
+      return <DeleteProductPage product ={initialState.products[0]} store={store} />
     }
 
     if(this.state.pages.listProducts){
@@ -90,8 +90,8 @@ class App extends React.Component {
     const { pages } = { ...this.state };
     const currentPages = pages;
 
-    console.log(currentPages);
-    console.log(event)
+   // console.log(currentPages);
+   // console.log(event)
     const { id } = event.target;
 
     this.hideAllPages(currentPages);

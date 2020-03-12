@@ -1,5 +1,6 @@
 import React from 'react';
 import './pages.css';
+import * as Actions from '../../actions/Actions.js';
 
 /**stateful component */
 export default class EditProductPage extends React.Component{
@@ -9,6 +10,16 @@ export default class EditProductPage extends React.Component{
     }
 
 
+    onReduxStateChanged(){
+        // How do I merge Redux state (Global) with component (Page) state?     
+        //  NOT A SOLUTION: Copy global state to state.
+        //  This will lead to unpredictable refresh because I will end up with 2 sources of truth
+        console.log("[EditProductPage]: New Product List: ", this.props.store.getState().products); 
+    }
+
+    onSave(){
+        this.props.store.dispatch({type:Actions.EDIT_PRODUCT})
+    }
 
     render() {
         return (

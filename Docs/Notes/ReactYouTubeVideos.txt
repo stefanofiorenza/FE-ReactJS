@@ -1,0 +1,13 @@
+
+
+Video
+https://www.npmjs.com/package/react-youtube
+
+
+https://productioncoder.com/build-youtube-in-react-part-2/ (whole tutorial)
+https://productioncoder.com/build-youtube-in-react-part-7/
+https://productioncoder.com/build-youtube-in-react-part-12/
+
+
+
+

@@ -10,12 +10,6 @@ BASIC
 	Git:
 	
 
-INTRO:
-https://www.w3schools.com/REACT/default.asp
-
-
-INTRO + INTERMEDIATE
-https://www.javatpoint.com/react-jsx
 
 
 
@@ -50,8 +44,11 @@ REDUX:
 	
 	https://www.toptal.com/javascript/immutability-in-javascript-using-redux
 
-JSX:
-https://www.codecademy.com/articles/bwa-react-reference
+
+REDUX COURSE:
+
+	https://blog.isquaredsoftware.com/series/practical-redux/
+	https://github.com/markerikson/project-minimek
 
 
 DEPLOY:

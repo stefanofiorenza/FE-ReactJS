@@ -1,15 +1,38 @@
 REDUX MAX SWARTZMULLER:
 
-Redux;
+	Redux;
 
-Videos
+	Videos
 
-1) Introduction of the Problem and demo code
-2) Introduction of Redux design elements (Action, Reducer, Store, subscribers)
-3) Pratica:
-	Redux senxa React (basic actions on state (number)
+	1) Introduction of the Problem and demo code
+	2) Introduction of Redux design elements (Action, Reducer, Store, subscribers)
+	3) Pratica:
+		Redux senxa React (basic actions on state (number)
+		
+		Tutto in un file
+	Max:
+	https://www.youtube.com/watch?v=AgO7YcJeBh4&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_&index=6
+	https://github.com/mschwarzmueller/reactjs-redux-basics/blob/02-objects-arrays/src/app/index.js
 	
-	Tutto in un file
+	
+	
+	
+My Tutorial:
+
+/Demo on Core components
+
+/App (tutorial)
+- Problema e 2 soluzioni sbagliate:
+00 - Setup (navigazione e problema)
+01 - copy props in state
+02 - delegate all to parent
+03 - Introduction Redux (store, reducer, initialState)
+04 - Passing store to Pages
+
+
+
+
+
 	
 	
 
@@ -20,9 +43,7 @@ https://github.com/stefanofiorenza/ReduxQuiz
 
 
 
-Max:
-https://www.youtube.com/watch?v=AgO7YcJeBh4&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_&index=6
-https://github.com/mschwarzmueller/reactjs-redux-basics/blob/02-objects-arrays/src/app/index.js
+
 
 
 

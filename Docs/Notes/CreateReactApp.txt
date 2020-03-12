@@ -1,0 +1,18 @@
+
+Updates!! create-react-app should be not installed globally anymore
+
+
+Even if you ran npm uninstall -g create-react-app create-react-app may still be installed. 
+You can check by running which create-react-app. If a path is returned create-react-app is still installed. 
+You can delete the module with rm -r ${returned path}. 
+After that running npx create-react-app app-ui --template typescript should work without errors or warnings.
+
+
+> npm remove create-react-app
+> npx create-react-app rj-110-dashboard
+
+
+npm list -g | grep create-react-app
+
+
+sudo rm -r ${/usr/local/bin/create-react-app}

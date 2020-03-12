@@ -21,6 +21,15 @@ export default class ShowProductsPage extends React.Component{
 
     }
 
+
+    onReduxStateChanged(){ 
+        // How do I merge Redux state (Global) with component (Page) state?     
+        // NOT A SOLUTION: Copy global state to state.
+        //  This will lead to unpredictable refresh because I will end up with 2 sources of truth
+        console.log("[ShowProductsPage]: New Product List: ", this.props.store.getState().products); 
+    }
+
+
     render() {
 
         const tbodyContent =this.props.products.map(  (product)=>{

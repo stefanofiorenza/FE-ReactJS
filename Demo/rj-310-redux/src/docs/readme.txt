@@ -42,5 +42,53 @@ working app sharing data in store between container components.
             (3) is implemented in components called Reducers.
 
 
+        3.1) Setup:
+            InitialState: default state
+            reducer: all updates in state managed in one pure function per entity
+            store: create store connected with reducer
+            actions: constants for all possible events
 
+        
+        3.2) Redux in children component (Pages)
+
+            How to trigger events?
+            Need dispatcher from store. (store.dispatch)
+
+        
+            How to receive notification on state changes and update accordingly?
+            subscribe to store events. (store.subscribe(listener))
+            
+            Solution:
+            Need to access store in Pages.
+            Pass it as props in children. 
+            
+        3.3) How to synch Redux state with component's state?
+
+        https://react-redux.js.org/api/connect
+
+         <Provider> wrapper component (provides store to all its children)
+         connect HOF (function that connects Component to store through standard functions):
+           
+        function connect(mapStateToProps?, mapDispatchToProps?, mergeProps?, options?) (MyComponent)
+
+        - connect function call will return a wrapper component
+        - wrapperComponent will be called passing myComponent 
+        - Though that 2 basic functions implemented by developer will be added to myComponent:
+
+            mapStateToProps?: (state, ownProps?) => Object
+
+                This function will take the whole Redux state and (through selectors) map the relevant data 
+                from Redux state to local component props.
+            
+
+            mapDispatchToProps(dispatch):
+
+                If not passed (is optional) dispatch method from Redux store will be passed in props.
+
+                If implemented will map localEventHandler to action to dispatch.
     
+            Create a HOC that
+
+            1) keeps in local variables (Context) current redux state
+            2) use those variables to pass those data to children components as props.
+        
