@@ -1,0 +1,54 @@
+INTRO ON UNIT TEST ON JS (optional)
+	Watch it until time 11:05 slide on test frameworks, after it goes in a long unnecessary test on Nodejs
+	https://www.youtube.com/watch?v=4Fl5GH4eYZ8
+
+ 
+
+ 
+
+JEST:
+
+	Introduction video with live coding:
+
+	Video:  https://www.youtube.com/watch?v=VruEWq0t8pI  
+	Code:   https://github.com/hidjou/classsed-jest
+
+Features with examples
+
+	https://flaviocopes.com/jest/#introduction-to-jest
+
+ 
+And then you will be ready for full documentation
+
+	https://jestjs.io/docs/en/tutorial-react
+
+
+ 
+
+ENZYME:
+
+
+	Basic Jest + Enzime to check rendered elements too
+	https://www.youtube.com/watch?v=XUlGzJLZe2Q
+
+	Enzyme Shallow and DOM rendering
+	https://scotch.io/tutorials/testing-react-components-with-enzyme-and-jest
+
+	wrapper.find from Enzime is using JQuery selectors:
+	https://www.w3schools.com/jquery/jquery_ref_selectors.asp
+
+ 
+	Full course (JEst + Enzime) as playlist:
+	https://www.youtube.com/playlist?list=PLGDf0elkI13EfDa45q-q1YpAIMBl5mjab
+
+	There is no code on Counter example to test but you can get one here:
+	https://github.com/minichka/react-counter
+
+ 
+
+From same author (if you prefer to read)
+	https://www.sitepoint.com/test-react-components-jest/
+	Git: https://github.com/sitepoint-editors/testing-react-with-jest
+	
+	
+App Calculator:

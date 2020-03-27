@@ -30,7 +30,7 @@
 
 //1) Solution One: Pass callback functions as biggerProcess arguments :
 
-        /*
+        
         function biggerProcess(input, loadSomeData,preProcessing, saveResult){
 
 
@@ -71,7 +71,7 @@
     //test:
 
     biggerProcess(100,loadSomeData,preProcessing,saveResult );
-*/
+
 
 
  //2) Solution 2: High order functions
