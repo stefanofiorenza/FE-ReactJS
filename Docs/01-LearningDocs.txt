@@ -59,6 +59,8 @@ PERFORMANCES:
 
 	React and JWT (cookie)
 	https://reactgraphql.academy/react/secure-react-apps-using-JWT-and-react-router/
+	Git: 
+	
 
 	Official at Facebook
 	https://reactjs.org/docs/optimizing-performance.html#examples

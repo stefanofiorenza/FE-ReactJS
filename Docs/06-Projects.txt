@@ -28,3 +28,6 @@ Finished: 	https://github.com/john-smilga/react-beach-resort-project
 
 update video: 	https://www.youtube.com/watch?v=l0JbuMVXaTs&list=PLnHJACx3NwAe5XQDk9xLgym7FF8Q4FYW7&index=7
 
+
+TODO Template Redux and Scss
+https://github.com/Luiggi370z/react-todo
