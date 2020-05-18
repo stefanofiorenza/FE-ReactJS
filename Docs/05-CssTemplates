@@ -9,9 +9,6 @@ https://demos.creative-tim.com/black-dashboard-react/#/documentation/tutorial
 Git: 	https://github.com/roweldeguzman/react-admin-dashboard
 Demo:	https://react.roweldev.com/user-interface/button
 
-Git: 	https://github.com/DesignRevision/shards-dashboard-react
-Demo:	https://designrevision.com/demo/shards-dashboard-lite-react/components-overview
-
 Git: 	https://github.com/Neuethemes/OpenAdmin-client-React
 Demo:	http://openadmin.neuethemes.net/client/react-app/
 
@@ -20,8 +17,30 @@ Git: 	https://neuethemes.net/preview/html/openadmin/tables.html
 
 React Templates
 
+MATURE:
 
-Material
+	Material UI
+
+
+	Evergreen:
+	Git:	https://github.com/segmentio/evergreen
+	Demo: 	https://evergreen.segment.com/?ref=devias-io
+
+	Palantir:
+	Git:	https://github.com/palantir/blueprint
+	Docs: 		https://blueprintjs.com/
+	BlogPost:	https://medium.com/palantir/scaling-product-design-with-blueprint-25492827bb4a
+
+	Antd:	https://github.com/ant-design
+	Docs:	https://ant.design/docs/react/introduce?ref=devias-io
+
+	
+
+React Reduction:
+Git:	https://github.com/reduction-admin/react-reduction
+Demo: 	https://reduction-admin.github.io/react-reduction/
+
+Devias  (Built with Material UI)
 Git: https://github.com/devias-io/react-material-dashboard
 
 Shards
@@ -31,20 +50,3 @@ Demo: https://designrevision.com/demo/shards-dashboard-lite-react/blog-posts
 Datta Able:
 Git:	https://github.com/codedthemes/datta-able-bootstrap-dashboard
 Demo:	http://lite.codedthemes.com/datta-able/react/default/forms/form-basic
-
-Evergreen:
-Git:	https://github.com/segmentio/evergreen
-Demo: 	https://evergreen.segment.com/?ref=devias-io
-
-Palantir:
-Git:	https://github.com/palantir/blueprint
-Docs: 		https://blueprintjs.com/
-BlogPost:	https://medium.com/palantir/scaling-product-design-with-blueprint-25492827bb4a
-
-React Reduction:
-Git:	https://github.com/reduction-admin/react-reduction
-Demo: 	https://reduction-admin.github.io/react-reduction/
-
-
-Antd:	https://github.com/ant-design
-Docs:	https://ant.design/docs/react/introduce?ref=devias-io
