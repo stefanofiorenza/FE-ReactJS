@@ -16,6 +16,10 @@ REDUX@Academind:
 	https://www.youtube.com/playlist?list=PLoAsubXIl8uKWBxNNZL_-OuXtcu82-aFN
 	https://github.com/codewithtim/Redux
 
+	Redux Mosh
+	https://www.youtube.com/watch?v=poQXNp9ItL4
+	
+
 
 IMMUTABILITY AND PERFORMANCES:
 

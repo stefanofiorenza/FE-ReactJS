@@ -17,6 +17,8 @@ CREATE REACT:
 
 	https://github.com/stefanofiorenza/create-react-app-facebook-documentation/blob/master/README.md
 
+	WebPack
+	https://medium.com/javascript-in-plain-english/webpack-and-babel-setup-with-react-from-scratch-bef0fe2ae3e7
 
 
 REACT ROUTER:
@@ -43,6 +45,8 @@ REDUX:
 	http://codewithtim.thinkific.com/courses/redux-made-easy
 	
 	https://www.toptal.com/javascript/immutability-in-javascript-using-redux
+	
+	https://www.youtube.com/watch?v=YeCbmOI_pVs
 
 
 REDUX COURSE:
@@ -51,8 +55,18 @@ REDUX COURSE:
 	https://github.com/markerikson/project-minimek
 
 
+
+Login and Authentication:
+
+
+
+
 DEPLOY:
 	https://create-react-app.dev/docs/adding-custom-environment-variables
+
+
+	MERN in AWS 
+	https://jasonwatmore.com/post/2019/11/18/react-nodejs-on-aws-how-to-deploy-a-mern-stack-app-to-amazon-ec2
 
 
 PERFORMANCES:
