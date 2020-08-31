@@ -15,7 +15,7 @@ React + Redux JWT Authentication - Hook up with a Node.js API
 https://www.youtube.com/watch?v=mfCxYohKUpI
 
 Doc:
-https://jasonwatmore.com/post/2017/12/07/react-redux-jwt-authentication-tutorial-example#user-actions-js
+https://jasonwatmore.com/post/2017/12/07/react-redux-jwt-authentication-tutorial-example
 
 Git
 https://github.com/cornflourblue/react-jwt-authentication-example
