@@ -1,20 +1,45 @@
 
 
+REACT@ NetNinja
+
+	React And Redux@NetNinja
+		Playlist:		https://www.youtube.com/watch?v=OxIDLw0M-m0&list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG
+		Git:			https://github.com/iamshaunjp/react-redux-complete-playlist (see branches)
 
 
+	React Context Api and Hooks@NetNinja
+		Playlist:		https://www.youtube.com/watch?v=6RhOzQciVwI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI
+		Git:			https://github.com/iamshaunjp/react-context-hooks
+		
+		
+CODE WITH MOSH:
+	Playlist: 		https://www.youtube.com/watch?v=Ke90Tje7VS0
+	Playlist: 		https://www.youtube.com/watch?v=poQXNp9ItL4
 
-INTRODUCTION TO React
-	https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS
+	Git:			https://github.com/fishstick22/mastering-react-mosh (UNOFFICIAL)
 
 
-REDUX@Academind:
-	https://www.youtube.com/watch?v=qrsle5quS7A&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_
+ACADEMIND: (Webpack)
+
+	React@Academind:
+		Playlist: 	https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS
+		Git:		https://github.com/mschwarzmueller/reactjs-basics
+
+	REDUX@Academind:
+		Playlist: 	https://www.youtube.com/watch?v=qrsle5quS7A&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_
+		Git:		
+
+
+REDUX:
 
 	https://egghead.io/lessons/react-redux-the-single-immutable-state-tree
 
 	Basic to Advanced concepts: Code With Tim
 	https://www.youtube.com/playlist?list=PLoAsubXIl8uKWBxNNZL_-OuXtcu82-aFN
 	https://github.com/codewithtim/Redux
+
+
+	
 
 
 IMMUTABILITY AND PERFORMANCES:
