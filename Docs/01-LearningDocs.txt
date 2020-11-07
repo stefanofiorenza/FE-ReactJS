@@ -18,6 +18,11 @@ CREATE REACT:
 	https://github.com/stefanofiorenza/create-react-app-facebook-documentation/blob/master/README.md
 
 
+FILE STRUCTURE>
+
+Optimal file structure
+https://medium.com/@Charles_Stover/optimal-file-structure-for-react-applications-f3e35ad0a145
+
 
 REACT ROUTER:
 	
