@@ -11,8 +11,6 @@ BASIC
 	
 
 
-
-
 CREATE REACT:
 
 	https://github.com/stefanofiorenza/create-react-app-facebook-documentation/blob/master/README.md
@@ -49,10 +47,13 @@ REDUX:
 	https://www.youtube.com/watch?v=YeCbmOI_pVs
 
 
+
 REDUX COURSE:
 
 	https://blog.isquaredsoftware.com/series/practical-redux/
 	https://github.com/markerikson/project-minimek
+
+
 
 
 

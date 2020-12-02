@@ -9,7 +9,18 @@ Tutorial: Template into React
 			
 		1.3) npx create-react-app <my-app>   
 			> npx create-react-app rj-110-admin-plus-ui
+		
+		1.4) test with
+			> cd rj-110-admin-plus-ui
+			> yarn start
 			
+			
+		Troubleshoot:
+
+		1) Error: spawn cmd ENOENT
+		export PATH="$PATH:/mnt/c/Windows/System32"
+
+
 	2) Inspect Files:
 		
 		/public/index.html

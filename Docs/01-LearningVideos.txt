@@ -29,8 +29,11 @@ ACADEMIND: (Webpack)
 		Playlist: 	https://www.youtube.com/watch?v=qrsle5quS7A&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_
 		Git:		
 
+John Smilga@CodingAddict: (React, Hooks, Router)
+	https://www.youtube.com/watch?v=iZhV0bILFb0&t=2923s&ab_channel=CodingAddict
+	Git:
 
-REDUX:
+REDUX advanced:
 
 	https://egghead.io/lessons/react-redux-the-single-immutable-state-tree
 
@@ -38,7 +41,8 @@ REDUX:
 	https://www.youtube.com/playlist?list=PLoAsubXIl8uKWBxNNZL_-OuXtcu82-aFN
 	https://github.com/codewithtim/Redux
 
-
+	React Context vs Redux - Who wins?
+	https://www.youtube.com/watch?v=OvM4hIxrqAw&t=1s&ab_channel=Academind
 	
 
 
