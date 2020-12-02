@@ -10,14 +10,38 @@ BASIC
 	Git:
 	
 
-
 CREATE REACT:
 
+
 	https://github.com/stefanofiorenza/create-react-app-facebook-documentation/blob/master/README.md
+
+	Meaning of files and dirs
+	https://www.pluralsight.com/guides/file-structure-react-applications-created-create-react-app
+
 
 	WebPack
 	https://medium.com/javascript-in-plain-english/webpack-and-babel-setup-with-react-from-scratch-bef0fe2ae3e7
 
+FILE STRUCTURE>
+
+	Optimal file structure
+	Blog: https://medium.com/@Charles_Stover/optimal-file-structure-for-react-applications-f3e35ad0a145
+	Git:	https://github.com/stefanofiorenza/optimal-react-file-structure
+
+
+	Compared approach:
+	https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase
+	
+	https://survivejs.com/react/advanced-techniques/structuring-react-projects/
+
+	https://maxrozen.com/guidelines-improve-react-app-folder-structure/
+
+	https://blog.bitsrc.io/structuring-a-react-project-a-definitive-guide-ac9a754df5eb
+
+	components, views, service, 
+	https://www.devaradise.com/react-project-folder-structure
+	
+	https://dev.to/chrisachard/tips-for-organizing-react-projects-191
 
 REACT ROUTER:
 	
@@ -60,6 +84,9 @@ REDUX COURSE:
 Login and Authentication:
 
 
+
+TEST:
+https://medium.com/@Charles_Stover/writing-testable-react-components-with-hooks-23441ee582d5
 
 
 DEPLOY:

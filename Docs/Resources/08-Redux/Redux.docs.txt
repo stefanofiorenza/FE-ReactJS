@@ -1,0 +1,79 @@
+
+
+
+DOCS:
+	Redux Thunk
+	https://www.freecodecamp.org/news/redux-thunk-explained-with-examples/
+	https://www.digitalocean.com/community/tutorials/redux-redux-thunk#:~:text=Redux%20Thunk%20is%20a%20middleware,asynchronous%20operations%20have%20been%20completed.
+	https://daveceddia.com/what-is-a-thunk/
+
+	https://medium.com/@User3141592/understanding-the-redux-thunk-source-code-b3f8b930faf6
+
+	Middleware that runs function as actions in redux
+	https://daveceddia.com/what-is-a-thunk/
+
+
+	https://www.freecodecamp.org/news/how-to-implement-data-polling-with-react-redux-and-thunk-33cd1e47f89c/	
+
+	Redux-Saga-Suspence Hooks
+	https://www.freecodecamp.org/news/loading-data-in-react-redux-thunk-redux-saga-suspense-hooks-666b21da1569/
+	
+	
+
+VIDEO:
+
+	Redux@Mosh
+	https://www.youtube.com/watch?v=poQXNp9ItL4
+	
+	Dan Abramov
+	https://egghead.io/courses/getting-started-with-redux
+		
+	
+	Redux Thunk:
+	https://www.youtube.com/watch?v=1QI-UE3-0PU&ab_channel=StephenGrider
+
+GIT:
+
+	connected-react-router:
+	https://github.com/supasate/connected-react-router
+
+	redux-auth-wrapper
+	https://github.com/mjrussell/redux-auth-wrapper
+	
+	
+	DEPRECATED:
+	https://github.com/reactjs/react-router-redux
+
+PROJECTS:
+	https://github.com/gothinkster/react-redux-realworld-example-app
+
+
+
+Code with Basir: (SHopping Cart, Amazon Ecommerce)
+	
+	Video:	https://www.youtube.com/watch?v=nKyrXWH5XLM&ab_channel=CodingwithBasir
+	Git:	https://github.com/basir/react-shopping-cart
+			https://github.com/basir/node-react-ecommerce
+			https://github.com/basir/ecommerce-shopping-cart
+			App: https://github.com/basir/amazona
+			
+
+John Smilga: React Shopping Cart
+	Video:	https://www.youtube.com/watch?v=731Ur2HGRBY&ab_channel=CodingAddict
+	Git:	https://github.com/john-smilga/react-projects/tree/master/14-cart/final
+	
+	
+
+React Shopping Cart:
+	Video:	
+	Git:	https://github.com/jeffersonRibeiro/react-shopping-cart.git
+	
+	
+	JWT, Auth, Redux:
+	Git:	https://github.com/stefanofiorenza/redux-auth
+	Demo:	http://redux-auth.herokuapp.com/
+	
+	BOilerplate 2016
+	Git:	https://github.com/buckyroberts/React-Redux-Boilerplate
+	
+	https://github.com/xgrommx/awesome-redux/tree/master/examples
