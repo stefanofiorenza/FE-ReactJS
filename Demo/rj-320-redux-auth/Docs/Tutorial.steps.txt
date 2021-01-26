@@ -1,0 +1,35 @@
+REACT REDUX
+
+
+FE:
+
+1) React Redux Starter:
+
+	React Router:
+	- Menu all visible
+	- Links to Admin, User, Manager
+	
+	
+2) Add Protected Links (Router)
+	
+	HOC check On protected links
+	Login
+	Registration
+	Logout
+
+
+3) Add Redux:
+
+
+	WHAT
+	- InitialState:	
+	- how to dispatch - dispatch, action
+	- how to process - Reducer
+	- how to update - connect api
+	
+	HOW 
+
+	- <Provider>
+	- store
+	- middleware (logger)
+	- connect api

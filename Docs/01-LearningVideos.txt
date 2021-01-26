@@ -1,6 +1,6 @@
+REACT VIDEO RESOURCES
 
-
-REACT@ NetNinja
+REACT@ NetNinja (Complete, fast, live coding)
 
 	React And Redux@NetNinja
 		Playlist:		https://www.youtube.com/watch?v=OxIDLw0M-m0&list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG
@@ -12,26 +12,33 @@ REACT@ NetNinja
 		Git:			https://github.com/iamshaunjp/react-context-hooks
 		
 		
-CODE WITH MOSH:
+CODE WITH MOSH: (No git)
+					
+	React Tutorial for Beginners [React js]
 	Playlist: 		https://www.youtube.com/watch?v=Ke90Tje7VS0
+	
+	Redux Tutorial - Learn Redux from Scratch
 	Playlist: 		https://www.youtube.com/watch?v=poQXNp9ItL4
 
 	Git:			https://github.com/fishstick22/mastering-react-mosh (UNOFFICIAL)
 
 
-ACADEMIND: (Webpack)
+ACADEMIND: (Slightly outdated)
 
-	React@Academind:
+	React@Academind: (Webpack)
 		Playlist: 	https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS
 		Git:		https://github.com/mschwarzmueller/reactjs-basics
 
 	REDUX@Academind:
 		Playlist: 	https://www.youtube.com/watch?v=qrsle5quS7A&list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_
-		Git:		
+		Git:		https://github.com/mschwarzmueller/reactjs-redux-basics
 
-John Smilga@CodingAddict: (React, Hooks, Router)
-	https://www.youtube.com/watch?v=iZhV0bILFb0&t=2923s&ab_channel=CodingAddict
-	Git:
+
+John Smilga@CodingAddict: (Many React Projects, small size)
+
+	John Smilga@CodingAddict: (React, Hooks, Router)
+		Playlist:	https://www.youtube.com/watch?v=iZhV0bILFb0&t=2923s&ab_channel=CodingAddict
+		Git: 		https://github.com/john-smilga/react-advanced-2020
 
 REDUX advanced:
 
@@ -49,9 +56,6 @@ REDUX advanced:
 IMMUTABILITY AND PERFORMANCES:
 
 	https://www.youtube.com/watch?v=L_aKvdZd84o
-
-
-
 
 VIRTUAL DOM:
 
