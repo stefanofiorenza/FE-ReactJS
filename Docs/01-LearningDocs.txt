@@ -24,6 +24,9 @@ CREATE REACT:
 
 FILE STRUCTURE>
 
+	Blog:	https://saurabhshah23.medium.com/react-js-architecture-features-folder-structure-design-pattern-70b7b9103f22
+	Git:	https://gitlab.com/saurabhshah231/reactjs-myapp
+
 	Optimal file structure
 	Blog: https://medium.com/@Charles_Stover/optimal-file-structure-for-react-applications-f3e35ad0a145
 	Git:	https://github.com/stefanofiorenza/optimal-react-file-structure
