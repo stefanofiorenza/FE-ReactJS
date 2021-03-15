@@ -1,0 +1,84 @@
+
+
+React Plan:
+
+
+- JS
+- 
+
+- FE Dev
+- WebMaster
+- Advanced
+
+
+Session1: DOM and Template Setup: (how many)
+
+	1) Navigate DOM
+	
+	2) Modify DOM: 
+		attrs
+		contents
+	3)(innerHTML, DOM)
+	
+	4) Labs with template:
+		1) DOM Manipulation Form
+		2) DOM Manipulation Select (Autocomplete)
+		3) DOM Manipulation on Table
+
+Session2: React primer: Core components
+
+	In Browser:
+	- Core components
+	- JSX
+
+	Tool chain:
+	- Create React App
+	- Add library	
+	- Add Components
+	- Import
+	- Nesting components
+	- List of Components
+	- UI components
+		Page
+		Panel
+		Button
+		
+Session3: React primer: Template Setup
+
+	- Html to JSX
+	- Styles
+	- Menu
+	- Pages
+
+Session4: Navigation and LifecycleBasicBasic UI
+
+	- Add navigation between pages
+	- Reserved Pages (redirect Login)
+	- Lifecycle
+	- State
+	- UI components:
+		- Modal win: https://nodlik.github.io/started
+		- Import Select Autocomplete
+	
+	
+Session5: Forms And Events 
+
+	- Basic Form and events management
+	- Immutability	
+	- Pages
+
+Session6: Tables
+
+	- Basic
+	- Customization
+	- Selectable
+	- Sorting
+	- Search
+	- Paging
+
+Session7: Ajax Calls
+
+
+
+
+Session8: Unit Test
