@@ -12,7 +12,7 @@
 - Step 4 : Install Visual Studio Code (Javascript IDE)
 - Step 5 : Install Git (Share your code)
 - Step 6 : Install GitKraken (Git Client Application)
-- Step 7: Windows Subsystem Linux (Beneficial, but recommended) 
+- Step 7 : Windows Subsystem Linux (Beneficial, but recommended) 
 - Step 8 : Create React App
 
 
@@ -32,6 +32,7 @@ Install Yarn from command line with npm [See here](https://classic.yarnpkg.com/e
 
 - **Visual Studio Code:** 
 Install Visual Studio Code [download here](https://code.visualstudio.com/download)
+
 When asked, in page with checkbox, don't forget to add it to win context menu.
 
 ![Screenshot Visual Studio Code installation](https://github.com/stefanofiorenza/FE-ReactJS/blob/master/Docs/Setup/addToContextMenu.png?raw=true)
