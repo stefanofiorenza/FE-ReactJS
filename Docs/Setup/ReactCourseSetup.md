@@ -33,7 +33,8 @@ Install Yarn from command line with npm [See here](https://classic.yarnpkg.com/e
 - **Visual Studio Code:** 
 Install Visual Studio Code [download here](https://code.visualstudio.com/download)
 When asked, in page with checkbox, don't forget to add it to win context menu.
-![enter image description here](https://github.com/stefanofiorenza/FE-ReactJS/blob/master/Docs/Setup/addToContextMenu.png?raw=true)
+
+![Screenshot Visual Studio Code installation](https://github.com/stefanofiorenza/FE-ReactJS/blob/master/Docs/Setup/addToContextMenu.png?raw=true)
 
 - **Git:** 
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
