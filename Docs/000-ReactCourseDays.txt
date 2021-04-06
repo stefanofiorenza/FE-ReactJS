@@ -11,14 +11,14 @@ React Plan:
 - Advanced
 
 
-Session1: DOM and Template Setup: (how many)
+Session1: JS DOM and UI Template: 
 
-	1) Navigate DOM
-	
-	2) Modify DOM: 
-		attrs
+	1) Traversing DOM in JS	
+	2) Edit DOM nodes: 
+		attributes
 		contents
-	3)(innerHTML, DOM)
+	3) JS DOM manipulation api
+	4) DHTML and innerHTML
 	
 	4) Labs with template:
 		1) DOM Manipulation Form

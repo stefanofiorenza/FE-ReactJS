@@ -66,6 +66,9 @@ REACT ROUTER:
 
 REDUX:
 
+	Essential & Concise tutorial
+	https://dev.to/ibrahima92/7-steps-to-understand-react-redux-121j
+	
 	Redux@Code With Tim:
 	http://codewithtim.thinkific.com/courses/redux-made-easy
 	
