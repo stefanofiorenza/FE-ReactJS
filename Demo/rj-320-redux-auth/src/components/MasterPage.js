@@ -7,19 +7,42 @@ const HomePage = (props) =>{
 }
 
 const AdminPage = (props) =>{
-  return ( <div> <h3>Welcome to Admin Page</h3> </div>)
+  return ( 
+    <div>
+    {
+      (props.role==='admin') ?  
+      <h3>Welcome to Admin Page</h3> : 
+      <h3>Access denied</h3>
+    }
+    </div>)
 }
 
 const UserPage = (props) =>{
-  return ( <div> <h3>Welcome to User Page</h3> </div>)
+  return ( 
+    <div>
+    {
+      (props.role==='user') ?  
+      <h3>Welcome to User Page</h3> : 
+      <h3>Access denied</h3>
+    }
+    </div>)
 }
 
 const ManagerPage = (props) =>{
-  return ( <div> <h3>Welcome to Manager Page</h3> </div>)
+  return ( 
+    <div>
+    {
+      (props.role==='manager') ?  
+      <h3>Welcome to Manager Page</h3> : 
+      <h3>Access denied</h3>
+    }
+    </div>)
 }
 
 const RegistrationPage = (props) =>{
-  return ( <div> <h3>Welcome to Manager Page</h3> </div>)
+  return ( <div> 
+        Registration Page
+    </div>)
 }
 function MasterPage() {
   return (

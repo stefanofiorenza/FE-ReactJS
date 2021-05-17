@@ -1,9 +1,25 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 //import fakeAuth  from './AuthenticationService.js';
+import login  from '../service/AuthService.js';
+
 
 export default class Login extends React.Component {
 
+
+      constructor(props) {
+        super(props);
+        this.state={
+          username:'',
+          passwrod:''
+        };
+
+      }
+
+    componentDidMount(){
+      let auth =login();
+      console.log(auth);
+    }  
 
     render() {
 
